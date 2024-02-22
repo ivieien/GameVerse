@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+}
+
+.topbar {
+  background-color: #06066c;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.logo {
+  font-size: 30px;
+}
+
+.botones {
+    display: flex;
+    align-items: center;
+}
+
+.botones button {
+  background-color: #1762e5;
+  border: none;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+.botones button:hover {
+    text-decoration: underline;
+}
