@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent {
-
+links: string[] = ['Inicio','Juegos','Noticias','Videos','Reseñas'];
 }
