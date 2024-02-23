@@ -1,0 +1,59 @@
+.topbar {
+  background-color: #06066c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0px;
+}
+
+.logo {
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.playfair-display {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 750;
+  font-style: normal;
+}
+
+.logo a {
+  color: white;
+  text-decoration: none;
+}
+
+
+.botones {
+  display: flex;
+  align-items: center;
+  margin: 10px 0px 20px;
+  padding: 0px 15px 3px;
+}
+
+.botones button {
+  background-color: #1762e5;
+  border: none;
+  color: white;
+  font-size: 25px;
+  cursor: pointer;
+  margin-left: 15px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.botones button:hover {
+  background-color: #FFB744;
+}
+
+.boton-desplegable {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  cursor: pointer;
+}
