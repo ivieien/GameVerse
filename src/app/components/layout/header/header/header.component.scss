@@ -15,18 +15,14 @@
   border-radius: 5px;
 }
 
-.playfair-display {
+.logo a {
+  color: white;
+  text-decoration: none;
   font-family: "Playfair Display", serif;
   font-optical-sizing: auto;
   font-weight: 750;
   font-style: normal;
 }
-
-.logo a {
-  color: white;
-  text-decoration: none;
-}
-
 
 .botones {
   display: flex;
