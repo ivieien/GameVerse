@@ -2,17 +2,17 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
-import { HeaderComponent } from './components/layout/header/header/header.component';
+import { LayoutModule } from './modules/layout.module';
 
 @NgModule({
     declarations: [
         AppComponent,
-        HeaderComponent
     ],
     providers: [],
     bootstrap: [AppComponent],
     imports: [
-        BrowserModule
+        BrowserModule,
+        LayoutModule
     ]
 })
 export class AppModule { }
