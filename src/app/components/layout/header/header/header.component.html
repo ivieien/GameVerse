@@ -1,2 +1,11 @@
-<p>header works!</p>
-<button>Menu lateral</button>
+<div class="topbar">
+    <div class="logo">
+        <a href="#">GameVerse</a>
+    </div>    
+    <div *ngFor="let link of links" class="botones">
+        <button><a href="#"></a>{{link}}</button>
+    </div>
+    <div class="boton-desplegable">
+        <ul><li><i class="fa-solid fa-bars"></i></li></ul>
+    </div>
+</div>
