@@ -1,7 +1,28 @@
 <div class="topbar">
-    <div class="logo">
-        <a href="#">GameVerse</a>
+
+    <div class="headerContainer">
+        <div class="sidebar col-md-4" (click)="MostrarMenuDesplegable()">
+            <i class="fa fa-bars"></i>
+        </div>
+    
+        <h1 class="title col-md-4">GameVerse</h1>
+    
+        <div class="col-md-4 rightDiv">
+            <div class="search-container text-right">
+                <span class="search-icon" (click)="toggleSearch()">
+                  <i class="fas fa-search"></i>
+                </span>
+                <input class="search-input" [ngClass]="{'search-input-expanded': searchExpanded}" type="text" placeholder="Buscar...">
+            </div>
+        
+            <div class="login text-right">
+                    <span><i class="fa fa-user"></i></span>
+            </div>
+        </div>
+       
     </div>
+    
+
 
     <div class="botones-container">
         <div class="botones">
@@ -11,28 +32,7 @@
         </div>
     </div>
 
-    <div class="search-bar">
-        <form>
-            <input type="text" placeholder="Search" />
-            <button type="submit"><i class="fa fa-search"></i></button>
-        </form>
-    </div>
 
+ 
 
-    <div class="identificacion">
-        <a href="#">
-            <i class="fa fa-user"></i>
-            <p>Sign in / Create account</p>
-        </a>
-    </div>
-
-
-    <div class="boton-desplegable" (click)="MostrarMenuDesplegable()">
-        <i class="fa fa-bars"></i>
-        <ul *ngIf="menuAbierto">
-            <li><a href="#">PS5</a></li>
-            <li><a href="#">PC</a></li>
-            <li><a href="#">XBOX</a></li>
-        </ul>
-    </div>
 </div>
