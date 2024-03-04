@@ -1,32 +1,78 @@
 .topbar {
   background-color: #041b37;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 20px 0px;
 }
 
-.logo {
+.headerContainer{
+  display: flex;
+  width: 100%;
+  padding: 1%;
+}
+
+.sidebar {
+  padding-left: 2%;
+  align-self: center;
+  cursor: pointer;
+  color: white;
+  font-size: 30px;
+}
+
+.title {
   text-transform: uppercase;
   font-size: 40px;
-  font-weight: bold;
   color: white;
-  padding: 20px;
-  border-radius: 5px;
   text-align: center;
+  align-self: center;
+  font-family: "Playfair Display", serif;
+  font-weight: 750;
 }
 
-.logo a {
+.rightDiv {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 2%;
+}
+
+.login span,
+.search-icon {
+  cursor: pointer;
+  height: 50px;
+  border-radius: 5px;
   color: white;
-  text-decoration: none;
-  font-family: "Playfair Display", serif;
-  font-optical-sizing: auto;
-  font-weight: 750;
-  font-style: normal;
+  font-size: 24px;
+}
+.login span:hover,
+.search-icon:hover {
+  color: orange;
+}
+
+.login span {
+  padding-left: 100%;
+}
+
+/* PRUEBA BUSCADOR IVAN*/
+.search-input {
+  border: none;
+  padding: 0 5px;
+  border-radius: 5px;
+  outline: none;
+  max-width: 0;
+  overflow: hidden;
+  opacity: 0;
+  background-color: transparent; 
+  transition: max-width 0.3s ease, padding 0.3s ease, opacity 0.3s ease;
+}
+
+.search-input-expanded {
+  max-width: 150px;
+  padding: 5px;
+  opacity: 1;
+  background-color: white;
 }
 
 .buttons-container {
   display: flex;
+  width: 100%;
   align-items: center;
   justify-content: center;
 }
@@ -88,61 +134,4 @@
 .search-bar button i {
   font-size: 24px;
   color: #777;
-}
-
-.identificacion {
-  background-color: #165883;
-  line-height: 40px;
-  position: absolute;
-  top: 47px;
-  right: 15%;
-  border-radius: 5px;
-}
-
-.identificacion a {
-  text-decoration: none;
-  color: white;
-  display: flex;
-  align-items: center;
-  padding: 3px;
-}
-
-.identificacion i {
-  font-size: 24px;
-  margin-right: 10px;
-}
-
-.identificacion p {
-  margin: 0px;
-  margin-right: 10px;
-}
-
-.identificacion a:hover {
-  background-color: #1969d1;
-  border-radius: 5px;
-}
-
-.sidebar {
-  position: absolute;
-  top: 30px;
-  left: 30px;
-  cursor: pointer;
-  color: white;
-}
-
-.sidebar i {
-  font-size: 30px;
-}
-
-.sidebar ul {
-  list-style-type: none;
-  top: 100%;
-  left: 0px;
-  padding: 0px;
-  margin: 0px;
-}
-
-.sidebar a {
-  color: white;
-  text-decoration: none;
 }
