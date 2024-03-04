@@ -25,20 +25,20 @@
   font-style: normal;
 }
 
-.botones-container {
+.buttons-container {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.botones {
+.buttons {
   display: flex;
   align-items: center;
   margin: 10px 0px 20px;
   padding: 0px 15px 3px;
 }
 
-.botones button {
+.buttons button {
   background-color: #1762e5;
   border: none;
   color: white;
@@ -53,12 +53,12 @@
   padding: 8px;
 }
 
-.botones button a {
+.buttons button a {
   color: white;
   text-decoration: none;
 }
 
-.botones button:hover {
+.buttons button:hover {
   background-color: #4595e6;
 }
 
@@ -122,7 +122,7 @@
   border-radius: 5px;
 }
 
-.boton-desplegable {
+.sidebar {
   position: absolute;
   top: 30px;
   left: 30px;
@@ -130,11 +130,11 @@
   color: white;
 }
 
-.boton-desplegable i {
+.sidebar i {
   font-size: 30px;
 }
 
-.boton-desplegable ul {
+.sidebar ul {
   list-style-type: none;
   top: 100%;
   left: 0px;
@@ -142,7 +142,7 @@
   margin: 0px;
 }
 
-.boton-desplegable a {
+.sidebar a {
   color: white;
   text-decoration: none;
 }

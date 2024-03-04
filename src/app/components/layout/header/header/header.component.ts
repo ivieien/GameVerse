@@ -8,9 +8,9 @@ import { Component } from '@angular/core';
 export class HeaderComponent {
   links: string[] = ['Inicio', 'Juegos', 'Noticias', 'Videos', 'Analisis y reseñas', 'Lo ultimo'];
 
-  menuAbierto: boolean = false;
+  SidebarAbierto: boolean = false;
 
-  MostrarMenuDesplegable() {
-    this.menuAbierto = !this.menuAbierto;
+  MostrarSidebar() {
+    this.SidebarAbierto = !this.SidebarAbierto;
   }
 }
