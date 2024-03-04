@@ -70,21 +70,21 @@
   background-color: white;
 }
 
-.botones-container {
+.buttons-container {
   display: flex;
   width: 100%;
   align-items: center;
   justify-content: center;
 }
 
-.botones {
+.buttons {
   display: flex;
   align-items: center;
   margin: 10px 0px 20px;
   padding: 0px 15px 3px;
 }
 
-.botones button {
+.buttons button {
   background-color: #1762e5;
   border: none;
   color: white;
@@ -99,12 +99,12 @@
   padding: 8px;
 }
 
-.botones button a {
+.buttons button a {
   color: white;
   text-decoration: none;
 }
 
-.botones button:hover {
+.buttons button:hover {
   background-color: #4595e6;
 }
 
@@ -135,5 +135,3 @@
   font-size: 24px;
   color: #777;
 }
-
-
