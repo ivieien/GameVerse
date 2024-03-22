@@ -15,16 +15,22 @@ import { Component } from '@angular/core';
   ]
 })
 export class HeaderComponent {
-  links: string[] = ['Inicio', 'Juegos', 'Noticias', 'Videos', 'Analisis y reseñas', 'Lo ultimo'];
   searchExpanded: boolean = false;
 
-  SidebarAbierto: boolean = false;
+  sidebarOpen: boolean = false;
 
-  MostrarSidebar() {
-    this.SidebarAbierto = !this.SidebarAbierto;
+  openSidebar() {
+    this.sidebarOpen = !this.sidebarOpen;
   }
 
   toggleSearch() {
     this.searchExpanded = !this.searchExpanded;
   }
+
+  home: string = 'inicio';
+  games: string = 'juegos';
+  news: string = 'noticias';
+  videos: string = 'videos';
+  reviews: string = 'analisis y reseñas';
+  theLatest: string = 'lo ultimo';
 }
