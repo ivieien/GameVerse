@@ -1,0 +1,27 @@
+[
+    {
+      "titulo": "DESTACADOS",
+      "imagen": "./assets/Juegos destacados.jpg",
+      "descripcion": "Videojuegos más recientes y populares...",
+      "enlace": ""
+    },
+    {
+      "titulo": "PROXIMOS LANZAMIENTOS",
+      "imagen": "./assets/Proximos lanzamientos.jpeg",
+      "descripcion": "Títulos más esperados...",
+      "enlace": ""
+    },
+    {
+      "titulo": "EVENTOS",
+      "imagen": "./assets/Eventos.jpg",
+      "descripcion": "Próximas ferias, conferencias...",
+      "enlace": ""
+    },
+    {
+      "titulo": "TIENDA",
+      "imagen": "./assets/Tienda.png",
+      "descripcion": "Dónde comprar...",
+      "enlace": ""
+    }
+  ]
+  

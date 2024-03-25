@@ -1,0 +1,178 @@
+[
+    {
+      "title": "The Legend of Zelda: Breath of the Wild",
+      "img": "https://upload.wikimedia.org/wikipedia/en/c/c6/The_Legend_of_Zelda_Breath_of_the_Wild.jpg",
+      "text": "Breath of the Wild redefine lo que significa ser un juego de mundo abierto. Con su vasto mundo lleno de misterios, interacciones y desafíos, ofrece una experiencia inigualable para los jugadores.",
+      "qualification": 9.5,
+      "date": "2024-03-23"
+    },
+    {
+      "title": "The Witcher 3: Wild Hunt",
+      "img": "https://image.api.playstation.com/vulcan/ap/rnd/202211/0711/kh4MUIuMmHlktOHar3lVl6rY.png",
+      "text": "The Witcher 3 es una obra maestra del RPG occidental. Su narrativa profunda, personajes memorables y mundo vivo hacen que sea una experiencia inolvidable.",
+      "qualification": 9.8,
+      "date": "2024-03-22"
+    },
+    {
+      "title": "Red Dead Redemption 2",
+      "img": "https://image.api.playstation.com/cdn/UP1004/CUSA03041_00/Hpl5MtwQgOVF9vJqlfui6SDB5Jl4oBSq.png",
+      "text": "Red Dead Redemption 2 es un logro técnico y narrativo. Su mundo abierto detallado y su historia convincente lo convierten en uno de los mejores juegos de la generación.",
+      "qualification": 9.7,
+      "date": "2024-03-21"
+    },
+    {
+      "title": "God of War",
+      "img": "https://image.api.playstation.com/vulcan/ap/rnd/202207/1210/4xJ8XB3bi888QTLZYdl7Oi0s.png",
+      "text": "God of War reinventa la franquicia con una narrativa emocionante y combate visceral. La relación entre Kratos y Atreus lleva la historia a nuevas alturas, mientras que la jugabilidad es pulida y satisfactoria.",
+      "qualification": 9.6,
+      "date": "2024-03-20"
+    },
+    {
+      "title": "Super Mario Odyssey",
+      "img": "https://m.media-amazon.com/images/I/81drkVN7GRL._AC_UF894,1000_QL80_.jpg",
+      "text": "Super Mario Odyssey es una celebración del género de plataformas. Con mundos vibrantes y mecánicas innovadoras, ofrece una experiencia de juego fresca y emocionante.",
+      "qualification": 9.4,
+      "date": "2024-03-19"
+    },
+    {
+        "title": "The Last of Us Part II",
+        "img": "https://example.com/lastofus2.jpg",
+        "text": "The Last of Us Part II es una experiencia emocionalmente impactante que desafía las expectativas del jugador. Con una narrativa compleja y un gameplay pulido, es una obra maestra del medio.",
+        "qualification": 9.7,
+        "date": "2024-03-18"
+    },
+    {
+        "title": "Dark Souls III",
+        "img": "https://example.com/darksouls3.jpg",
+        "text": "Dark Souls III es un desafío para los jugadores valientes. Con su dificultad implacable y su mundo oscuro y atmosférico, ofrece una experiencia de juego gratificante para aquellos que buscan un verdadero desafío.",
+        "qualification": 9.3,
+        "date": "2024-03-17"
+    },
+    {
+        "title": "Persona 5",
+        "img": "https://example.com/persona5.jpg",
+        "text": "Persona 5 es una mezcla única de RPG y simulador de vida. Con su estilo visual llamativo y su cautivadora historia, ofrece horas de juego gratificante y memorable.",
+        "qualification": 9.6,
+        "date": "2024-03-16"
+    },
+    {
+        "title": "Bloodborne",
+        "img": "https://example.com/bloodborne.jpg",
+        "text": "Bloodborne es un juego de acción RPG que desafía a los jugadores a explorar un mundo oscuro y peligroso lleno de monstruos y secretos. Su jugabilidad rápida y desafiante lo convierte en una experiencia única.",
+        "qualification": 9.5,
+        "date": "2024-03-15"
+    },
+    {
+        "title": "Hollow Knight",
+        "img": "https://example.com/hollowknight.jpg",
+        "text": "Hollow Knight es un juego de acción y aventuras que destaca por su diseño de niveles ingenioso y su atmósfera cautivadora. Explorar el vasto mundo de Hallownest es una experiencia inolvidable.",
+        "qualification": 9.4,
+        "date": "2024-03-14"
+    },
+    {
+        "title": "Final Fantasy VII Remake",
+        "img": "https://example.com/ff7remake.jpg",
+        "text": "Final Fantasy VII Remake es una reimaginación impresionante de un clásico del RPG. Con su impresionante apartado visual y su emocionante combate en tiempo real, cautiva tanto a los fanáticos de la serie como a los nuevos jugadores.",
+        "qualification": 9.8,
+        "date": "2024-03-13"
+    },
+    {
+        "title": "Minecraft",
+        "img": "https://example.com/minecraft.jpg",
+        "text": "Minecraft es un fenómeno cultural que ha capturado la imaginación de millones de jugadores en todo el mundo. Su libertad creativa y su comunidad activa lo convierten en un juego único y duradero.",
+        "qualification": 9.2,
+        "date": "2024-03-12"
+    },
+    {
+        "title": "Metal Gear Solid V: The Phantom Pain",
+        "img": "https://example.com/mgsv.jpg",
+        "text": "Metal Gear Solid V: The Phantom Pain es un juego de sigilo de mundo abierto que ofrece una libertad sin precedentes para completar misiones. Su diseño de juego innovador y su historia intrigante lo convierten en una experiencia inmersiva.",
+        "qualification": 9.5,
+        "date": "2024-03-11"
+    },
+    {
+        "title": "Celeste",
+        "img": "https://example.com/celeste.jpg",
+        "text": "Celeste es un juego de plataformas desafiante con una historia emotiva. Su diseño de niveles ingenioso y su banda sonora conmovedora hacen que cada victoria sea gratificante.",
+        "qualification": 9.4,
+        "date": "2024-03-10"
+    },
+    {
+        "title": "Uncharted 4: A Thief's End",
+        "img": "https://example.com/uncharted4.jpg",
+        "text": "Uncharted 4: A Thief's End es una aventura épica llena de acción y emoción. Con su impresionante gráficos y personajes carismáticos, es un cierre perfecto para la serie Uncharted.",
+        "qualification": 9.6,
+        "date": "2024-03-09"
+    },
+    {
+        "title": "Assassin's Creed Valhalla",
+        "img": "https://example.com/assassinscreedvalhalla.jpg",
+        "text": "Assassin's Creed Valhalla te sumerge en la era vikinga con una historia emocionante y un vasto mundo abierto para explorar. Con un combate renovado y un sistema de progresión profundo, ofrece una experiencia gratificante para los fans de la serie.",
+        "qualification": 9.3,
+        "date": "2024-03-08"
+    },
+    {
+        "title": "Cyberpunk 2077",
+        "img": "https://example.com/cyberpunk2077.jpg",
+        "text": "Cyberpunk 2077 te lleva a un futuro distópico donde la tecnología y la sociedad se entrelazan de maneras fascinantes. A pesar de los problemas de lanzamiento, su mundo rico y su narrativa envolvente ofrecen una experiencia memorable.",
+        "qualification": 8.7,
+        "date": "2024-03-07"
+    },
+    {
+        "title": "Horizon Zero Dawn",
+        "img": "https://example.com/horizonzerodawn.jpg",
+        "text": "Horizon Zero Dawn combina una narrativa cautivadora con un mundo abierto vibrante y un combate emocionante. Explorar las ruinas post-apocalípticas y enfrentarse a máquinas gigantes es una experiencia inolvidable.",
+        "qualification": 9.4,
+        "date": "2024-03-06"
+    },
+    {
+        "title": "Grand Theft Auto V",
+        "img": "https://example.com/gtav.jpg",
+        "text": "Grand Theft Auto V es un sandbox épico que te sumerge en el mundo del crimen y la corrupción. Con su vasto mapa y sus múltiples personajes, ofrece una experiencia de juego inigualable.",
+        "qualification": 9.6,
+        "date": "2024-03-05"
+    },
+    {
+        "title": "The Elder Scrolls V: Skyrim",
+        "img": "https://example.com/skyrim.jpg",
+        "text": "The Elder Scrolls V: Skyrim es un mundo de fantasía abierto lleno de aventuras y misterios. Con su libertad para explorar y su profundo sistema de progresión, es un clásico moderno que sigue cautivando a los jugadores.",
+        "qualification": 9.7,
+        "date": "2024-03-04"
+    },
+    {
+        "title": "Super Smash Bros. Ultimate",
+        "img": "https://example.com/smashbrosultimate.jpg",
+        "text": "Super Smash Bros. Ultimate es el sueño hecho realidad para los fanáticos de Nintendo. Con su enorme roster de personajes y su frenético gameplay, ofrece diversión sin fin tanto para jugadores casuales como competitivos.",
+        "qualification": 9.5,
+        "date": "2024-03-03"
+    },
+    {
+        "title": "Overwatch",
+        "img": "https://example.com/overwatch.jpg",
+        "text": "Overwatch es un shooter en equipo que combina acción rápida y estrategia. Con su colorido elenco de héroes y su constante apoyo de actualizaciones, sigue siendo una opción popular en el mundo de los juegos competitivos.",
+        "qualification": 9.2,
+        "date": "2024-03-02"
+    },
+    {
+        "title": "Among Us",
+        "img": "https://example.com/amongus.jpg",
+        "text": "Among Us es un juego de deducción social que ha tomado al mundo por sorpresa. Con su premisa simple pero adictiva, es perfecto para jugar con amigos y familiares en línea o localmente.",
+        "qualification": 9.0,
+        "date": "2024-03-01"
+    },
+    {
+        "title": "Rocket League",
+        "img": "https://example.com/rocketleague.jpg",
+        "text": "Rocket League combina el fútbol con los coches en una experiencia única y emocionante. Con su jugabilidad accesible pero difícil de dominar, ofrece diversión para jugadores de todas las edades.",
+        "qualification": 9.1,
+        "date": "2024-02-29"
+    },
+    {
+        "title": "FIFA 22",
+        "img": "https://example.com/fifa22.jpg",
+        "text": "FIFA 22 lleva la franquicia de simulación de fútbol a nuevas alturas con mejoras en la jugabilidad y los gráficos. Con su extenso conjunto de modos de juego, es una opción sólida para los fanáticos del fútbol en todo el mundo.",
+        "qualification": 8.8,
+        "date": "2024-02-28"
+    }      
+  ]
+  

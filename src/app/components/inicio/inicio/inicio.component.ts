@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import { loremIpsum } from 'lorem-ipsum';
+import { HomeService } from 'src/app/services/home.service';
+
 
 @Component({
   selector: 'app-inicio',
@@ -11,36 +13,43 @@ export class InicioComponent {
     count: 2,
     units: 'paragraphs',
   });
-
   currentNewsIndex: number = 0;
-
-  newsItems: { title: string }[] = [
-    { title: 'Noticia 1' },
-    { title: 'Noticia 2' },
-    { title: 'Noticia 3' },
-  ];
-
-  nextNews() {
-    this.currentNewsIndex = (this.currentNewsIndex + 1) % this.newsItems.length;
-  }
-  prevNews() {
-    this.currentNewsIndex =
-      (this.currentNewsIndex - 1 + this.newsItems.length) %
-      this.newsItems.length;
-  }
-
-  topVideoGames: string[] = ['Videojuego 1', 'Videojuego 2', 'Videojuego 3'];
+  buttonsHome: any[] | undefined;
+  top100Games: any[] | undefined;
+  newsItems: any[] | undefined;
 
   currentGameIndex: number = 0;
 
-  nextGame() {
-    this.currentGameIndex =
-      (this.currentGameIndex + 1) % this.topVideoGames.length;
-  }
+  constructor(private homeService: HomeService) { }
 
-  prevGame() {
-    this.currentGameIndex =
-      (this.currentGameIndex - 1 + this.topVideoGames.length) %
-      this.topVideoGames.length;
+  ngOnInit(): void {
+    this.homeService.getButtons().subscribe(data => {
+      this.buttonsHome = data;
+    });
+    this.homeService.getTop100Games().subscribe(data => {
+      this.top100Games = data;
+    });
+    this.homeService.getHomeNews().subscribe(data => {
+      this.newsItems = data;
+    });
   }
+  nextNews() {
+    this.currentNewsIndex = (this.currentNewsIndex + 1) % this.newsItems!.length;
+  }
+  prevNews() {
+    this.currentNewsIndex = (this.currentNewsIndex - 1 + this.newsItems!.length) % this.newsItems!.length;
+  }
+  nextGames() {
+    this.currentGameIndex = (this.currentGameIndex + 4) % this.top100Games!.length;
+  }
+  prevGames() {
+    this.currentGameIndex = (this.currentGameIndex - 4 + this.top100Games!.length) % this.top100Games!.length;
+  }
+  
+  truncateText(text: string, maxLength: number): string {
+    if (text.length > maxLength) {
+        return text.substring(0, maxLength) + '...';
+    }
+    return text;
+}
 }

@@ -1,0 +1,17 @@
+[
+    { 
+        "img": "https://stargamers.com.pe/index/wp-content/uploads/2022/08/the-elder-scrolls-vi.jpg", 
+        "title": "Noticia 1", 
+        "text": "Nuevo lanzamiento: 'The Elder Scrolls VI' revela su primer avance emocionante Los fanáticos de la franquicia de rol de mundo abierto The Elder Scrolls están emocionados por el reciente avance de su próxima entrega, 'The Elder Scrolls VI'. El tráiler, revelado en la conferencia de prensa de una importante exposición de videojuegos, muestra impresionantes paisajes, criaturas misteriosas y una ambientación fascinante. Aunque el avance es breve, ha generado una gran expectación entre los seguidores de la serie, que esperan ansiosos explorar este nuevo mundo virtual. La fecha de lanzamiento aún no se ha anunciado, pero se espera que el juego sea una experiencia épica para los amantes de los videojuegos de mundo abierto."
+    },
+    {
+        "img": "https://cdn.mos.cms.futurecdn.net/BeyhFdCM2ugLQjX8vX7fuQ-1200-80.jpg", 
+        "title": "Noticia 2",
+        "text": "Éxito sin precedentes: 'Cyberpunk 2077' rompe récords de ventas en su primer fin de semana. El muy esperado juego de rol de mundo abierto 'Cyberpunk 2077' ha superado todas las expectativas al convertirse en el lanzamiento más exitoso en la historia de los videojuegos"
+    },
+    {
+        "img": "https://fs-prod-cdn.nintendo-europe.com/media/images/10_share_images/portals_3/SI_Hub_Zelda_Portal.jpg", 
+        "title": "Noticia 3",
+        "text": "Anuncio emocionante: Nintendo revela planes para un nuevo juego de la serie 'The Legend of Zelda' En una reciente presentación en línea, Nintendo ha anunciado emocionantes novedades para los fanáticos de la legendaria serie 'The Legend of Zelda'. "
+    }
+]

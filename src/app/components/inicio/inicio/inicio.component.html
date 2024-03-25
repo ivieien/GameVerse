@@ -1,68 +1,139 @@
-<div class="background-image">
-  <img src="../../../../assets/Fondo home GameVerse.jpeg" alt="Imagen-fondo">
-</div>
 
-<div class="news-section">
-  <button class="prev-news-button" (click)="prevNews()"><i class="fas fa-chevron-left"></i></button>
-  <div class="news-container">
-    <div class="news-item">
-      <h3>{{ newsItems[currentNewsIndex].title }}</h3>
-      <p>{{loremIpsumText }}</p>
+<div class="homeGameVerse">
+  <!-- Carousel Noticias -->
+  <div id="newsCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item" *ngFor="let news of newsItems;index as i" [class]="(i === currentNewsIndex) ? 'active' : 'inactive'">
+          <img src="{{news.img}}" width="100%" height="400px">
+          <div class="carousel-caption">
+              <h3>{{news.title}}</h3>
+              <p>{{truncateText(news.text, 200)}}</p>
+          </div>
+      </div>
+  </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#newsCarousel" data-bs-slide="prev" (click)="prevNews()">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#newsCarousel" data-bs-slide="next" (click)="nextNews()">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    </button>
+  </div>
+
+  <!-- Top Games -->
+  <div id="topGamesCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item" *ngFor="let game of top100Games;index as i" [class]="(i === currentGameIndex) ? 'active' : 'inactive'" data-bs-interval="10000">
+        <div *ngIf="i % 4 === 0" class="group-container d-flex">
+          <div *ngFor="let innerGame of top100Games?.slice(i, i + 4)" class="divTopGames">
+            <div class="game-container">
+              <img src="{{innerGame.img}}" width="100%" height="400px">
+              <div class="overlay">
+                  <h3>{{innerGame.title}}</h3>
+                  <p>{{ truncateText(innerGame.text, 50) }}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+      </div>
+  </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#topGamesCarousel" data-bs-slide="prev" (click)="prevGames()">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#topGamesCarousel" data-bs-slide="next" (click)="nextGames()">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- Buttons  -->
+  <div class="boxContainer">
+    <div class="box" *ngFor="let button of buttonsHome">
+      <a routerLink="{{button.enlace}}">
+        <h2>{{button.titulo}}</h2>
+        <div class="content">
+          <img src="{{button.imagen}}" class="circle-image" />
+          <p>{{button.descripcion}}</p>
+        </div>
+      </a>
     </div>
   </div>
-  <button class="next-news-button" (click)="nextNews()"><i class="fas fa-chevron-right"></i></button>
-</div>
-
-<div class="topGames-section">
-  <div class="topGames-title-container">
-    <h2 class="topGames-title">Top-100 Juegos mejor valorados</h2>
-  </div>
-  <button class="prev-arrow" (click)="prevGame()"><i class="fa-solid fa-arrow-left"></i></button>
-  <div class="topGames-carousel">
-    <div class="topGames-carousel-item" *ngFor="let game of topVideoGames">
-      <h3>{{ game }}</h3>
+  <div class="boxContainer">
+    <div class="box" *ngFor="let button of buttonsHome">
+      <a routerLink="{{button.enlace}}">
+        <h2>{{button.titulo}}</h2>
+        <div class="content">
+          <img src="{{button.imagen}}" class="circle-image" />
+          <p>{{button.descripcion}}</p>
+        </div>
+      </a>
     </div>
   </div>
-  <button class="next-arrow" (click)="nextGame()"><i class="fa-solid fa-arrow-right"></i></button>
+  <div class="boxContainer">
+    <div class="box" *ngFor="let button of buttonsHome">
+      <a routerLink="{{button.enlace}}">
+        <h2>{{button.titulo}}</h2>
+        <div class="content">
+          <img src="{{button.imagen}}" class="circle-image" />
+          <p>{{button.descripcion}}</p>
+        </div>
+      </a>
+    </div>
+  </div>
+  <div class="boxContainer">
+    <div class="box" *ngFor="let button of buttonsHome">
+      <a routerLink="{{button.enlace}}">
+        <h2>{{button.titulo}}</h2>
+        <div class="content">
+          <img src="{{button.imagen}}" class="circle-image" />
+          <p>{{button.descripcion}}</p>
+        </div>
+      </a>
+    </div>
+  </div>
+  <div class="boxContainer">
+    <div class="box" *ngFor="let button of buttonsHome">
+      <a routerLink="{{button.enlace}}">
+        <h2>{{button.titulo}}</h2>
+        <div class="content">
+          <img src="{{button.imagen}}" class="circle-image" />
+          <p>{{button.descripcion}}</p>
+        </div>
+      </a>
+    </div>
+  </div>
+  <div class="boxContainer">
+    <div class="box" *ngFor="let button of buttonsHome">
+      <a routerLink="{{button.enlace}}">
+        <h2>{{button.titulo}}</h2>
+        <div class="content">
+          <img src="{{button.imagen}}" class="circle-image" />
+          <p>{{button.descripcion}}</p>
+        </div>
+      </a>
+    </div>
+  </div>
+  <div class="boxContainer">
+    <div class="box" *ngFor="let button of buttonsHome">
+      <a routerLink="{{button.enlace}}">
+        <h2>{{button.titulo}}</h2>
+        <div class="content">
+          <img src="{{button.imagen}}" class="circle-image" />
+          <p>{{button.descripcion}}</p>
+        </div>
+      </a>
+    </div>
+  </div>
+  <div class="boxContainer">
+    <div class="box" *ngFor="let button of buttonsHome">
+      <a routerLink="{{button.enlace}}">
+        <h2>{{button.titulo}}</h2>
+        <div class="content">
+          <img src="{{button.imagen}}" class="circle-image" />
+          <p>{{button.descripcion}}</p>
+        </div>
+      </a>
+    </div>
+  </div>
 </div>
-
-<div class="boxContainer">
-  <div class="box">
-    <a routerLink="">
-      <h2>DESTACADOS</h2>
-      <div class="content">
-        <img src="../../../../assets/Juegos destacados.jpg" alt="Imagen videojuegos populaes" class="circle-image" />
-        <p>Videojuegos más recientes y populares...</p>
-      </div>
-    </a>
-  </div>
-
-  <div class="box">
-    <a routerLink="">
-      <h2>PROXIMOS LANZAMIENTOS</h2>
-      <div class="content">
-        <img src="../../../../assets/Proximos lanzamientos.jpeg" alt="Imagen próximos títulos" class="circle-image" />
-        <p>Títulos más esperados...</p>
-      </div>
-    </a>
-  </div>
-
-  <div class="box">
-    <a routerLink="">
-      <h2>EVENTOS</h2>
-      <div class="content">
-        <img src="../../../../assets/Eventos.jpg" alt="Imagen feria de videojuegos" class="circle-image" />
-        <p>Próximas ferias, conferencias...</p>
-      </div>
-    </a>
-  </div>
-
-  <div class="box">
-    <a routerLink="">
-      <h2>TIENDA</h2>
-      <div class="content">
-        <img src="../../../../assets/Tienda.png" alt="Imagen icono carrito de compra" class="circle-image" />
-        <p>Dónde comprar...</p>
-      </div>
-    </a>
-  </div>

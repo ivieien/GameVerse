@@ -3,11 +3,20 @@
 @import "~font-awesome/css/font-awesome.min.css";
 @font-face {
   font-family: 'Inter';
-  src: url('./assets/Inter-Regular.woff2');
+  src: url('./assets/fonts/Inter-Regular.woff2');
+}
+body {
+  background: transparent;
 }
 
-body {
-  background-color: #959191;
-  margin: 0;
-  height: 100%;
+html {
+  background: url("./assets/FondoGameVerse.jpeg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+}
+
+button {
+  border: solid;
 }

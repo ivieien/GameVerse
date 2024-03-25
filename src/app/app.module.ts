@@ -4,6 +4,8 @@ import { AppRoutingModule } from './app-routing.module';
 
 import { AppComponent } from './app.component';
 import { LayoutModule } from './modules/layout.module';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
@@ -14,8 +16,10 @@ import { LayoutModule } from './modules/layout.module';
     bootstrap: [AppComponent],
     imports: [
         BrowserModule,
+        HttpClientModule,
         AppRoutingModule,
-        LayoutModule
+        LayoutModule,
+        NgbModule
     ]
 })
 export class AppModule { }

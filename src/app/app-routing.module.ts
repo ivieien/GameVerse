@@ -6,6 +6,7 @@ import { VideosComponent } from './components/videos/videos/videos.component';
 import { AnalisisComponent } from './components/analisis/analisis/analisis.component';
 import { LoUltimoComponent } from './components/lo-ultimo/lo-ultimo/lo-ultimo.component';
 import { InicioComponent } from './components/inicio/inicio/inicio.component';
+import { CommonModule } from '@angular/common';
 
 const routes: Routes = [
   { path: '', component: InicioComponent },
@@ -17,8 +18,17 @@ const routes: Routes = [
 ];
 
 @NgModule({
+  declarations: [
+    InicioComponent,
+    JuegosComponent,
+    NoticiasComponent,
+    VideosComponent,
+    AnalisisComponent,
+    LoUltimoComponent
+    ],
   imports: [
-    RouterModule.forRoot(routes)
+    RouterModule.forRoot(routes),
+    CommonModule
   ],
   exports: [RouterModule]
 })
