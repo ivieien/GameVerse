@@ -1,0 +1,83 @@
+<div class="homeGameVerse">
+  <!-- Carousel Noticias -->
+  <div id="newsCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item" *ngFor="let news of newsItems; index as i"
+        [class]="i === currentNewsIndex ? 'active' : 'inactive'">
+        <img src="{{ news.img }}" />
+        <div class="carousel-caption">
+          <h3>{{ news.title }}</h3>
+          <p>{{ truncateText(news.text, 200) }}</p>
+          <a routerLink="" class="btn btn-primary">Leer más</a>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#newsCarousel" data-bs-slide="prev"
+      (click)="prevNews()">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#newsCarousel" data-bs-slide="next"
+      (click)="nextNews()">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    </button>
+  </div>
+
+  <!-- Top Games -->
+  <div class="topGamesSection">
+    <h2 class="SectionTitle">{{ titleTop100 }}</h2>
+    <p class="SectionDescription">{{ descriptionTop100 }}</p>
+
+    <div id="topGamesCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item" *ngFor="let game of top100Games; index as i"
+          [class]="i === currentGameIndex ? 'active' : 'inactive'" data-bs-interval="1000">
+          <div *ngIf="i % 4 === 0" class="group-container d-flex">
+            <div *ngFor="let innerGame of top100Games?.slice(i, i + 4); index as j" class="divTopGames">
+              <a [routerLink]="['/games', formatURL(innerGame.title)]">
+                <div class="gameContainer">
+                  <span class="gameIndex">{{ i + j + 1 }}</span>
+                  <img src="{{ innerGame.img }}" />
+                  <div class="overlay">
+                    <h3>{{ innerGame.title }}</h3>
+                    <p>{{ truncateText(innerGame.text, 150) }}</p>
+                    <p class="ratingBox" [class]="getRatingClass(innerGame.qualification)">
+                      {{ innerGame.qualification }}
+                    </p>
+                  </div>
+                </div>
+                <div class="consoleButtons">
+                  <a *ngFor="let console of innerGame.consoles" routerLink="">
+                    <img class="consoleBtn" src="assets/images/{{ console }}.png" />
+                  </a>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#topGamesCarousel" data-bs-slide="prev"
+        (click)="prevGames()">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#topGamesCarousel" data-bs-slide="next"
+        (click)="nextGames()">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+
+  <!-- Buttons  -->
+  <div class="boxContainer">
+    <div class="box" *ngFor="let button of buttonsHome">
+      <a routerLink="{{ button.url }}">
+        <h2>{{ button.title }}</h2>
+        <div class="content">
+          <img src="{{ button.img }}" class="circleImage" />
+          <p>{{ button.text }}</p>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>

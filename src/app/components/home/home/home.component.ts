@@ -1,24 +1,20 @@
 import { Component } from '@angular/core';
-import { loremIpsum } from 'lorem-ipsum';
 import { HomeService } from 'src/app/services/home.service';
 
 
 @Component({
-  selector: 'app-inicio',
-  templateUrl: './inicio.component.html',
-  styleUrls: ['./inicio.component.scss'],
+  selector: 'app-home',
+  templateUrl: './home.component.html',
+  styleUrls: ['./home.component.scss'],
 })
-export class InicioComponent {
-  loremIpsumText: string = loremIpsum({
-    count: 2,
-    units: 'paragraphs',
-  });
+export class HomeComponent {
   currentNewsIndex: number = 0;
   buttonsHome: any[] | undefined;
   top100Games: any[] | undefined;
   newsItems: any[] | undefined;
-
   currentGameIndex: number = 0;
+  titleTop100: string = 'Descubre los Mejores Juegos'
+  descriptionTop100: string = 'Explora nuestra selección de los TOP 100 juegos mejor valorados.'
 
   constructor(private homeService: HomeService) { }
 
@@ -33,6 +29,7 @@ export class InicioComponent {
       this.newsItems = data;
     });
   }
+
   nextNews() {
     this.currentNewsIndex = (this.currentNewsIndex + 1) % this.newsItems!.length;
   }
@@ -45,11 +42,25 @@ export class InicioComponent {
   prevGames() {
     this.currentGameIndex = (this.currentGameIndex - 4 + this.top100Games!.length) % this.top100Games!.length;
   }
-  
+
+  formatURL(title: string): string {
+    return title.toLowerCase().replace(/\s+/g, '-');
+  }
+
   truncateText(text: string, maxLength: number): string {
     if (text.length > maxLength) {
-        return text.substring(0, maxLength) + '...';
+      return text.substring(0, maxLength) + '...';
     }
     return text;
-}
+  }
+
+  getRatingClass(qualification: number): string {
+    if (qualification >= 8.0) {
+      return 'goodRating';
+    } else if (qualification >= 6.0) {
+      return 'mediumRating';
+    } else {
+      return 'badRating';
+    }
+  }
 }

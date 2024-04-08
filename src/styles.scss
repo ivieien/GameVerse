@@ -1,20 +1,14 @@
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Kdam+Thmor+Pro&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Kdam+Thmor+Pro&display=swap');
 @import "~bootstrap/dist/css/bootstrap.min.css";
 @import "~font-awesome/css/font-awesome.min.css";
 @font-face {
   font-family: 'Inter';
   src: url('./assets/fonts/Inter-Regular.woff2');
 }
-body {
-  background: transparent;
-}
 
-html {
-  background: url("./assets/FondoGameVerse.jpeg") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -o-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
+body{
+ background: #E3E6E6;
+ font-family: "Montserrat", sans-serif;
 }
 
 button {
