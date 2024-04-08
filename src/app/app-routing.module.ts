@@ -1,31 +1,32 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { JuegosComponent } from './components/juegos/juegos/juegos.component';
-import { NoticiasComponent } from './components/noticias/noticias/noticias.component';
-import { VideosComponent } from './components/videos/videos/videos.component';
-import { AnalisisComponent } from './components/analisis/analisis/analisis.component';
-import { LoUltimoComponent } from './components/lo-ultimo/lo-ultimo/lo-ultimo.component';
-import { InicioComponent } from './components/inicio/inicio/inicio.component';
 import { CommonModule } from '@angular/common';
 
+import { HomeComponent } from './components/home/home/home.component';
+import { GamesComponent } from './components/games/games/games.component';
+import { NewsComponent } from './components/news/news/news.component';
+import { VideosComponent } from './components/videos/videos/videos.component';
+import { ReviewsComponent } from './components/reviews/reviews/reviews.component';
+import { TheLatestComponent } from './components/theLatest/theLatest/theLatest.component';
+
 const routes: Routes = [
-  { path: '', component: InicioComponent },
-  { path: 'games', component: JuegosComponent },
-  { path: 'news', component: NoticiasComponent },
+  { path: '', component: HomeComponent },
+  { path: 'games', component: GamesComponent },
+  { path: 'news', component: ReviewsComponent },
   { path: 'videos', component: VideosComponent },
-  { path: 'reviews', component: AnalisisComponent },
-  { path: 'the-latest', component: LoUltimoComponent },
+  { path: 'reviews', component: ReviewsComponent },
+  { path: 'the-latest', component: TheLatestComponent },
 ];
 
 @NgModule({
   declarations: [
-    InicioComponent,
-    JuegosComponent,
-    NoticiasComponent,
+    HomeComponent,
+    GamesComponent,
+    NewsComponent,
     VideosComponent,
-    AnalisisComponent,
-    LoUltimoComponent
-    ],
+    ReviewsComponent,
+    TheLatestComponent
+  ],
   imports: [
     RouterModule.forRoot(routes),
     CommonModule

@@ -12,14 +12,14 @@
   padding-left: 2%;
   align-self: center;
   cursor: pointer;
-  color: white;
+  color: #fff;
   font-size: 30px;
 }
 
 .title {
+  color: #fff;
   text-transform: uppercase;
   font-size: 40px;
-  color: white;
   text-align: center;
   align-self: center;
   font-family: "Playfair Display", serif;
@@ -35,15 +35,15 @@
 }
 
 .login span,
-.search-icon {
+.searchIcon {
   cursor: pointer;
-  height: 50px;
+  height: 50px;                /*??*/
   color: white;
   font-size: 24px;
 }
 
 .login span:hover,
-.search-icon:hover {
+.searchIcon:hover {
   color: orange;
 }
 
@@ -51,7 +51,7 @@
   padding-left: 100%;
 }
 
-.search-input {
+.searchInput {
   border: none;
   padding: 0 5px;
   border-radius: 5px;
@@ -63,7 +63,7 @@
   transition: max-width 0.3s ease, padding 0.3s ease, opacity 0.3s ease;
 }
 
-.search-input-expanded {
+.searchInputExpanded {
   max-width: 150px;
   padding: 5px;
   opacity: 1;
@@ -71,7 +71,7 @@
   margin-left: 10px;
 }
 
-.buttons-container {
+.buttonsContainer {
   display: flex;
   width: 100%;
   align-items: center;
@@ -81,7 +81,7 @@
 .buttons {
   display: flex;
   align-items: center;
-  margin: 10px 0px 20px;
+  margin: 10px 0px 20px;    
   padding: 0px 15px 3px;
 }
 
@@ -98,8 +98,10 @@
   margin-left: 15px;
   border-radius: 4px;
   padding: 8px;
+  transition: background-color 0.3s;
 }
 
 .buttons button:hover {
-  background-color: #4595e6;
+  background-color: orange;
 }
+

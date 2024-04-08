@@ -7,11 +7,11 @@
     <h1 class="title col-md-4" routerLink="">GameVerse</h1>
 
     <div class="col-md-4 rightDiv">
-      <div class="search-container">
-        <span class="search-icon" (click)="toggleSearch()">
+      <div class="searchContainer">
+        <span class="searchIcon" (click)="toggleSearch()">
           <i class="fas fa-search"></i>
         </span>
-        <input class="search-input" [ngClass]="{ 'search-input-expanded': searchExpanded }" type="text"
+        <input class="searchInput" [ngClass]="{ 'searchInputExpanded': searchExpanded }" type="text"
           placeholder="Buscar..." />
       </div>
 
@@ -21,7 +21,7 @@
     </div>
   </div>
 
-  <div class="buttons-container">
+  <div class="buttonsContainer">
     <div class="buttons">
       <button routerLink="">{{ home }}</button>
       <button routerLink="/games">{{ games }}</button>
@@ -32,3 +32,5 @@
     </div>
   </div>
 </header>
+
+

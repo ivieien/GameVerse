@@ -1,27 +1,27 @@
 [
     {
-      "titulo": "DESTACADOS",
-      "imagen": "./assets/Juegos destacados.jpg",
-      "descripcion": "Videojuegos más recientes y populares...",
-      "enlace": ""
+      "title": "DESTACADOS",
+      "img": "./assets/images/Juegos destacados.jpg",
+      "text": "Videojuegos más recientes y populares...",
+      "url": ""
     },
     {
-      "titulo": "PROXIMOS LANZAMIENTOS",
-      "imagen": "./assets/Proximos lanzamientos.jpeg",
-      "descripcion": "Títulos más esperados...",
-      "enlace": ""
+      "title": "PROXIMOS LANZAMIENTOS",
+      "img": "./assets/images/Proximos lanzamientos.jpeg",
+      "text": "Títulos más esperados...",
+      "url": ""
     },
     {
-      "titulo": "EVENTOS",
-      "imagen": "./assets/Eventos.jpg",
-      "descripcion": "Próximas ferias, conferencias...",
-      "enlace": ""
+      "title": "EVENTOS",
+      "img": "./assets/images/Eventos.jpg",
+      "text": "Próximas ferias, conferencias...",
+      "url": ""
     },
     {
-      "titulo": "TIENDA",
-      "imagen": "./assets/Tienda.png",
-      "descripcion": "Dónde comprar...",
-      "enlace": ""
+      "title": "TIENDA",
+      "img": "./assets/images/Tienda.png",
+      "text": "Dónde comprar...",
+      "url": ""
     }
   ]
   
