@@ -2,12 +2,12 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { CommonModule } from '@angular/common';
 
-import { HomeComponent } from './components/home/home/home.component';
-import { GamesComponent } from './components/games/games/games.component';
-import { NewsComponent } from './components/news/news/news.component';
-import { VideosComponent } from './components/videos/videos/videos.component';
-import { ReviewsComponent } from './components/reviews/reviews/reviews.component';
-import { TheLatestComponent } from './components/theLatest/theLatest/theLatest.component';
+import { HomeComponent } from '../components/home/home.component';
+import { GamesComponent } from '../components/games/games.component';
+import { NewsComponent } from '../components/news/news.component';
+import { VideosComponent } from '../components/videos/videos.component';
+import { ReviewsComponent } from '../components/reviews/reviews.component';
+import { TheLatestComponent } from '../components/theLatest/theLatest.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
