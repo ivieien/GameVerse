@@ -4,7 +4,7 @@
       <i class="fa fa-bars"></i>
     </div>
 
-    <h1 class="title col-md-4" routerLink="">GameVerse</h1>
+    <h1 class="title col-md-4" routerLink="">{{ 'gameVerseTitle' | i18next }}</h1>
 
     <div class="col-md-4 rightDiv">
       <div class="searchContainer">
@@ -23,16 +23,16 @@
 
   <div class="buttonsContainer">
     <div class="buttons">
-      <button routerLink="">{{ home }}</button>
-      <button routerLink="/games">{{ games }}</button>
-      <button routerLink="/news">{{ news }}</button>
-      <button routerLink="/videos">{{ videos }}</button>
-      <button routerLink="/reviews">{{ reviews }}</button>
-      <button routerLink="/the-latest">{{ theLatest }}</button>
+      <button routerLink="">{{ 'home' | i18next }}</button>
+      <button routerLink="/games">{{ 'games' | i18next }}</button>
+      <button routerLink="/news">{{ 'news' | i18next }}</button>
+      <button routerLink="/videos">{{ 'videos' | i18next }}</button>
+      <button routerLink="/reviews">{{ 'reviews' | i18next }}</button>
+      <button routerLink="/the-latest">{{ 'theLatest' | i18next }}</button>
     </div>
   </div>
-  <button (click)="changeLanguage('es')">Español</button>
-<button (click)="changeLanguage('en')">English</button>
+  <button>Español</button>
+<button>English</button>
 
 </header>
 

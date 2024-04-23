@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { TranslationService } from './services/translation.service';
 
 @Component({
   selector: 'app-root',
@@ -8,9 +7,6 @@ import { TranslationService } from './services/translation.service';
 })
 export class AppComponent {
   title = 'gameVerse';
-  constructor(private translationService: TranslationService) {}
+  constructor() {}
 
-  changeLanguage(idioma: string) {
-    this.translationService.changeLanguage(idioma);
-  }
 }

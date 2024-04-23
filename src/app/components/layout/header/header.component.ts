@@ -27,10 +27,5 @@ export class HeaderComponent {
     this.searchExpanded = !this.searchExpanded;
   }
 
-  home: string = 'inicio';
-  games: string = 'juegos';
-  news: string = 'noticias';
-  videos: string = 'videos';
-  reviews: string = 'analisis y reseñas';
-  theLatest: string = 'lo ultimo';
+
 }
