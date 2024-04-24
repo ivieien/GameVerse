@@ -1,1 +1,33 @@
-<p>lo-ultimo works!</p>
+<div class="new-releases-header">
+    <h2>New Releases</h2>
+    <div class="carousel-controls">
+        <div class="carousel-control-circle" (click)="prevGames()">
+            <button class="carousel-control-prev" type="button" data-bs-target="#newReleasesGamesCarousel" data-bs-slide="prev">
+                <i class="fa-solid fa-arrow-left arrow-icon"></i>
+            </button>
+        </div>
+        <div class="carousel-control-circle" (click)="nextGames()">
+            <button class="carousel-control-next" type="button" data-bs-target="#newReleasesGamesCarousel" data-bs-slide="next">
+                <i class="fa-solid fa-arrow-right arrow-icon"></i>
+            </button>
+        </div>
+    </div>
+    <hr>
+</div>
+<div id="newReleasesGamesCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <div class="group-container d-flex">
+                <div *ngFor="let game of visibleGames" class="divTopGames">
+                    <div class="game-container">
+                        <img [src]="game.img" width="150px" height="300px">
+                        <div class="overlay">
+                            <p>{{ truncateText( game.title, 10) }}</p>
+                            <p>{{ game.qualification }}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,4 +1,4 @@
-import { Injectable } from '@angular/core';
+/*import { Injectable } from '@angular/core';
 import i18next from 'i18next';
 
 
@@ -29,4 +29,4 @@ export class TranslationService {
   translate(key: string): string {
     return i18next.t(key);
   }
-}
+}*/

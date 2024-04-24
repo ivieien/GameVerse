@@ -1,0 +1,46 @@
+.new-releases-header {
+    display: flex;
+    align-items: center;
+}
+
+h2 {
+    margin-right: auto;
+}
+
+.carousel-controls {
+    display: flex;
+    align-items: center;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    cursor: pointer;
+    display: contents;
+}
+
+.carousel-control-circle {
+    width: 40px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 50%;
+    position: relative;
+    margin-right: 10px;
+}
+
+.carousel-control-circle:hover {
+    background-color: black;
+}
+
+.carousel-control-circle:hover .arrow-icon {
+    color: white;
+}
+
+.carousel-control-prev .arrow-icon,
+.carousel-control-next .arrow-icon {
+    color: black;
+    transition: color 0.3s;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

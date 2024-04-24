@@ -8,6 +8,7 @@ import { NewsComponent } from '../components/news/news.component';
 import { VideosComponent } from '../components/videos/videos.component';
 import { ReviewsComponent } from '../components/reviews/reviews.component';
 import { TheLatestComponent } from '../components/theLatest/theLatest.component';
+import { ErrorComponent } from '../components/error/error.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -16,6 +17,7 @@ const routes: Routes = [
   { path: 'videos', component: VideosComponent },
   { path: 'reviews', component: ReviewsComponent },
   { path: 'the-latest', component: TheLatestComponent },
+  { path: '**', component: ErrorComponent } 
 ];
 
 @NgModule({
