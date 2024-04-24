@@ -31,8 +31,8 @@
       <button routerLink="/the-latest">{{ 'theLatest' | i18next }}</button>
     </div>
   </div>
-  <button>Español</button>
-<button>English</button>
+  <button (click)="changeLanguage('es')">Español</button>
+<button (click)="changeLanguage('en')">English</button>
 
 </header>
 
