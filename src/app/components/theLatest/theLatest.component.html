@@ -1,5 +1,5 @@
 <div class="new-releases-header">
-    <h2>New Releases</h2>
+    <h2 class="sectionTitle">New Releases</h2>
     <div class="carousel-controls">
         <div class="carousel-control-circle" (click)="prevGames()">
             <button class="carousel-control-prev" type="button" data-bs-target="#newReleasesGamesCarousel" data-bs-slide="prev">
@@ -12,18 +12,20 @@
             </button>
         </div>
     </div>
-    <hr>
 </div>
+<hr>
 <div id="newReleasesGamesCarousel" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
         <div class="carousel-item active">
             <div class="group-container d-flex">
                 <div *ngFor="let game of visibleGames" class="divTopGames">
-                    <div class="game-container">
-                        <img [src]="game.img" width="150px" height="300px">
+                    <div>
+                        <img  class="game-container"[src]="game.img" width="150px" height="250px">
                         <div class="overlay">
-                            <p>{{ truncateText( game.title, 10) }}</p>
-                            <p>{{ game.qualification }}</p>
+                            <a>{{ truncateText( game.title, 12) }}</a>
+                            <p class="ratingBox" [class]="getRatingClass(game.qualification)">
+                                {{ game.qualification }}
+                            </p>
                         </div>
                     </div>
                 </div>
