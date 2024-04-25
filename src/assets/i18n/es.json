@@ -1,9 +1,14 @@
 {
-    "gameVerseTitle": "GameVerse",
-    "home": "inicio",
-    "games": "juegos",
-    "news": "noticias",
-    "videos": "videos",
-    "reviews": "analisis y reseñas",
-    "theLatest": "lo ultimo"
+    "GAMEVERSE_TITLE": "GameVerse",
+    "HOME": "Inicio",
+    "GAMES": "Juegos",
+    "NEWS": "Noticias",
+    "VIDEOS": "Videos",
+    "REVIEWS": "Analisis y reseñas",
+    "THE_LATEST": "Lo ultimo",
+
+    "LATEST" : {
+        "RELEASES": "Nuevos Lanzamientos",
+        "TOP100": "Top 100 Mejores juegos"
+    }
 }
