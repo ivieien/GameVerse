@@ -4,7 +4,7 @@
   </div>
   <div class="details-container">
     <h1>{{ game?.title }}</h1>
-    <p>{{ game?.text }}</p>
+    <p>{{ game | translateJsons: currentLanguage }}</p>
     <p>Qualification: {{ game?.qualification }}</p>
     <p>Release: {{ game?.release }}</p>
     <p>Consoles: {{ game?.consoles }}</p>

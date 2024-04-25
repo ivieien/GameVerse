@@ -3,7 +3,8 @@
       "title": "Another Crab's Treasure",
       "img": "https://image.api.playstation.com/vulcan/ap/rnd/202401/0301/962aa68f21bc5b4128b160851dde22c513f2b869af5897b6.jpg",
       "video": "https://cdn.akamai.steamstatic.com/steam/apps/257002469/movie480_vp9.webm?t=1708524179",
-      "text": "In a vibrant undersea kingdom on the verge of collapse, a hermit crab embarks on a treasure hunt to buy back his repossessed shell. The second game from AGGRO CRAB.",
+      "textES": "En un vibrante reino submarino al borde del colapso, un cangrejo ermitaño se embarca en una búsqueda del tesoro para recuperar su caparazón recuperado. El segundo juego de AGGRO CANGREJO.      ",
+      "textEN": "In a vibrant undersea kingdom on the verge of collapse, a hermit crab embarks on a treasure hunt to buy back his repossessed shell. The second game from AGGRO CRAB.",
       "qualification": 6.5,
       "release": "APR 25, 2024",
       "consoles": ["PC"]
@@ -12,7 +13,8 @@
         "title": "TopSpin 2K25",
         "img": "https://assets.2k.com/1a6ngf98576c/jqyg0ErWuWTmazRoCgVPO/4965e1441a1f1d2abfe43b8054584733/MODULE4-Standard_SKU.jpg",
         "video": "https://cdn.akamai.steamstatic.com/steam/apps/256997750/movie480_vp9.webm?t=1706721432",
-        "text": "La franquicia TopSpin regresa con TopSpin 2K25, con las leyendas del tenis Roger Federer, Serena Williams y un elenco de otros profesionales con los que podrás jugar, modos competitivos para un jugador y multijugador, los cuatro Grand Slams® históricos, ¡y mucho más!",
+        "textES": "La franquicia TopSpin regresa con TopSpin 2K25, con las leyendas del tenis Roger Federer, Serena Williams y un elenco de otros profesionales con los que podrás jugar, modos competitivos para un jugador y multijugador, los cuatro Grand Slams® históricos, ¡y mucho más!",
+        "textEN": "The TopSpin franchise returns with TopSpin 2K25, featuring tennis legends Roger Federer, Serena Williams and a cast of other pros to play alongside, competitive single and multiplayer modes, all four historic Grand Slams®, and much more! ",
         "qualification": 4.3,
         "release": "APR 27, 2024",
         "consoles": ["PC"]

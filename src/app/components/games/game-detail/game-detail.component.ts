@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
+import i18next from 'i18next';
 import { GamesService } from 'src/app/services/games.service';
 
 interface Game {
@@ -18,6 +19,7 @@ interface Game {
 })
 export class GameDetailComponent implements OnInit {
   game: Game | null = null;
+  currentLanguage: string = 'es';
 
   constructor(
     private route: ActivatedRoute,
@@ -25,12 +27,13 @@ export class GameDetailComponent implements OnInit {
   ) { }
 
   ngOnInit(): void {
+    this.currentLanguage= i18next.language;
+    
     this.route.paramMap.subscribe(params => {
       const title = params.get('title');
       if (title) {
         this.gamesService.getNewReleases().subscribe((data: Game[]) => {
           this.game = data.find(game => game.title === title) || null;
-          console.log('games', this.game);
         });
       }
     });

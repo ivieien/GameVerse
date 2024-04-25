@@ -11,6 +11,7 @@ import { ReviewsComponent } from '../components/reviews/reviews.component';
 import { TheLatestComponent } from '../components/theLatest/theLatest.component';
 import { GameDetailComponent } from '../components/games/game-detail/game-detail.component';
 import { SafeResourceUrlPipe } from '../pipes/safeResourceUrl.pipe';
+import { TranslateJsonsPipe } from '../pipes/translateJsons.pipe';
 
 
 
@@ -23,7 +24,8 @@ import { SafeResourceUrlPipe } from '../pipes/safeResourceUrl.pipe';
     ReviewsComponent,
     TheLatestComponent,
     GameDetailComponent,
-    SafeResourceUrlPipe
+    SafeResourceUrlPipe,
+    TranslateJsonsPipe
   ],
   imports: [
     CommonModule,
@@ -31,7 +33,8 @@ import { SafeResourceUrlPipe } from '../pipes/safeResourceUrl.pipe';
     i18nModule
   ],
   exports: [
-    SafeResourceUrlPipe
+    SafeResourceUrlPipe,
+    TranslateJsonsPipe
   ]
 })
 export class ViewsModule { }

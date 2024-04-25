@@ -33,7 +33,7 @@ export class HeaderComponent {
   changeLanguage(lang: string){
     if (lang !== this.i18NextService.language) {
       this.i18NextService.changeLanguage(lang).then(x => {
-        this.updateState(lang);
+        this.updateState(lang); 
         document.location.reload();
       });
     }
