@@ -1,5 +1,5 @@
 import { animate, state, style, transition, trigger } from '@angular/animations';
-import { Component, Inject } from '@angular/core';
+import { Component, Inject, OnInit } from '@angular/core';
 import { I18NEXT_SERVICE, ITranslationService } from 'angular-i18next';
 
 @Component({
@@ -22,7 +22,6 @@ export class HeaderComponent {
   searchExpanded: boolean = false;
   sidebarOpen: boolean = false;
   constructor(   @Inject(I18NEXT_SERVICE) private i18NextService: ITranslationService) {};
-
   
   openSidebar() {
     this.sidebarOpen = !this.sidebarOpen;
@@ -34,7 +33,7 @@ export class HeaderComponent {
   changeLanguage(lang: string){
     if (lang !== this.i18NextService.language) {
       this.i18NextService.changeLanguage(lang).then(x => {
-        this.updateState(lang);
+        this.updateState(lang); 
         document.location.reload();
       });
     }

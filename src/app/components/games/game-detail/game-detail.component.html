@@ -1,0 +1,12 @@
+<div class="game-detail-container">
+  <div class="video-container">
+    <iframe [src]="game?.video | safeResourceUrl" frameborder="0" allowfullscreen autoplay></iframe>
+  </div>
+  <div class="details-container">
+    <h1>{{ game?.title }}</h1>
+    <p>{{ game | translateJsons: currentLanguage }}</p>
+    <p>Qualification: {{ game?.qualification }}</p>
+    <p>Release: {{ game?.release }}</p>
+    <p>Consoles: {{ game?.consoles }}</p>
+  </div>
+</div>

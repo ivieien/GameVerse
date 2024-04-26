@@ -1,9 +1,13 @@
 {
-    "gameVerseTitle": "GameVerse",
-    "home": "home",
-    "games": "games",
-    "news": "news",
-    "videos": "videos",
-    "reviews": "reviews",
-    "theLatest": "the latest"
+    "GAMEVERSE_TITLE": "GameVerse",
+    "HOME": "Home",
+    "GAMES": "Games",
+    "NEWS": "News",
+    "VIDEOS": "Videos",
+    "REVIEWS": "Reviews",
+    "THE_LATEST": "The Latest",
+
+    "LATEST" : {
+        "RELEASES": "New Releases"
+    }
 }

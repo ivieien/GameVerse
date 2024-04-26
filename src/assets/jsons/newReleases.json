@@ -1,0 +1,113 @@
+[
+    {
+      "title": "Another Crab's Treasure",
+      "img": "https://image.api.playstation.com/vulcan/ap/rnd/202401/0301/962aa68f21bc5b4128b160851dde22c513f2b869af5897b6.jpg",
+      "video": "https://cdn.akamai.steamstatic.com/steam/apps/257002469/movie480_vp9.webm?t=1708524179",
+      "textES": "En un vibrante reino submarino al borde del colapso, un cangrejo ermitaño se embarca en una búsqueda del tesoro para recuperar su caparazón recuperado. El segundo juego de AGGRO CANGREJO.      ",
+      "textEN": "In a vibrant undersea kingdom on the verge of collapse, a hermit crab embarks on a treasure hunt to buy back his repossessed shell. The second game from AGGRO CRAB.",
+      "qualification": 6.5,
+      "release": "APR 25, 2024",
+      "consoles": ["PC"]
+    },
+    {
+        "title": "TopSpin 2K25",
+        "img": "https://assets.2k.com/1a6ngf98576c/jqyg0ErWuWTmazRoCgVPO/4965e1441a1f1d2abfe43b8054584733/MODULE4-Standard_SKU.jpg",
+        "video": "https://cdn.akamai.steamstatic.com/steam/apps/256997750/movie480_vp9.webm?t=1706721432",
+        "textES": "La franquicia TopSpin regresa con TopSpin 2K25, con las leyendas del tenis Roger Federer, Serena Williams y un elenco de otros profesionales con los que podrás jugar, modos competitivos para un jugador y multijugador, los cuatro Grand Slams® históricos, ¡y mucho más!",
+        "textEN": "The TopSpin franchise returns with TopSpin 2K25, featuring tennis legends Roger Federer, Serena Williams and a cast of other pros to play alongside, competitive single and multiplayer modes, all four historic Grand Slams®, and much more! ",
+        "qualification": 4.3,
+        "release": "APR 27, 2024",
+        "consoles": ["PC"]
+    },
+    {
+        "title": "Galactic Quest: The Lost Frontier",
+        "img": "https://example.com/galactic-quest.jpg",
+        "video": "https://example.com/galactic-quest-trailer",
+        "text": "Embárcate en una emocionante búsqueda espacial para descubrir los secretos del último rincón del universo. ¡Explora planetas desconocidos, lucha contra alienígenas y reúne recursos para salvar la galaxia!",
+        "qualification": 8.9,
+        "release": "MAY 5, 2024",
+        "consoles": ["PC", "PlayStation", "Xbox"]
+    },
+    {
+        "title": "Mystic Dungeons: Dark Adventure",
+        "img": "https://example.com/mystic-dungeons.jpg",
+        "video": "https://example.com/mystic-dungeons-trailer",
+        "text": "Adéntrate en los oscuros calabozos de la tierra mística, donde los peligros y tesoros esperan a los valientes aventureros. ¡Explora laberintos infinitos, lucha contra criaturas mágicas y desbloquea poderosos hechizos!",
+        "qualification": 7.5,
+        "release": "MAY 10, 2024",
+        "consoles": ["PC", "Nintendo Switch"]
+    },
+    {
+        "title": "Neon Racer: Cyber Speed",
+        "img": "https://example.com/neon-racer.jpg",
+        "video": "https://example.com/neon-racer-trailer",
+        "text": "Sumérgete en el mundo de la velocidad cibernética, donde las carreras futuristas y los neones brillantes te llevarán a la victoria. ¡Personaliza tu vehículo, desafía a tus rivales y domina las pistas más peligrosas!",
+        "qualification": 8.2,
+        "release": "MAY 15, 2024",
+        "consoles": ["PC", "PlayStation", "Xbox"]
+    },
+    {
+        "title": "Ancient Realms: Tales of Legend",
+        "img": "https://example.com/ancient-realms.jpg",
+        "video": "https://example.com/ancient-realms-trailer",
+        "text": "Viaja a tierras antiguas llenas de magia y misterio, donde los héroes legendarios luchan contra las fuerzas oscuras para restaurar el equilibrio en el mundo. ¡Experimenta una narrativa épica, combates emocionantes y un vasto mundo por explorar!",
+        "qualification": 9.0,
+        "release": "MAY 20, 2024",
+        "consoles": ["PC", "PlayStation", "Xbox", "Nintendo Switch"]
+    },
+    {
+        "title": "Pixel Planet: Retro Revival",
+        "img": "https://example.com/pixel-planet.jpg",
+        "video": "https://example.com/pixel-planet-trailer",
+        "text": "Revive la era dorada de los videojuegos con Pixel Planet, donde los gráficos retro y la jugabilidad clásica te transportarán de vuelta a los días de gloria de los 8 bits. ¡Explora niveles desafiantes, derrota jefes épicos y desbloquea secretos ocultos!",
+        "qualification": 8.7,
+        "release": "MAY 25, 2024",
+        "consoles": ["PC", "Nintendo Switch"]
+    },
+    {
+        "title": "Dragon's Fury: Fire and Ice",
+        "img": "https://example.com/dragons-fury.jpg",
+        "video": "https://example.com/dragons-fury-trailer",
+        "text": "Enfréntate a la furia de los dragones en este épico juego de aventuras, donde el fuego y el hielo chocan en una batalla legendaria. ¡Domina poderosos conjuros, forja alianzas y enfrenta desafíos que pondrán a prueba tu valentía!",
+        "qualification": 9.5,
+        "release": "MAY 30, 2024",
+        "consoles": ["PC", "PlayStation", "Xbox"]
+    },
+    {
+        "title": "Space Odyssey: Interstellar Voyage",
+        "img": "https://example.com/space-odyssey.jpg",
+        "video": "https://example.com/space-odyssey-trailer",
+        "text": "Embárcate en un viaje épico a través del cosmos en busca de nuevos mundos y civilizaciones. ¡Explora sistemas solares, comercia con extraterrestres y descubre los secretos del universo en esta emocionante odisea espacial!",
+        "qualification": 9.2,
+        "release": "JUN 5, 2024",
+        "consoles": ["PC", "PlayStation", "Xbox"]
+    },
+    {
+        "title": "Wild West Tales: Outlaw Chronicles",
+        "img": "https://example.com/wild-west-tales.jpg",
+        "video": "https://example.com/wild-west-tales-trailer",
+        "text": "Sumérgete en el Salvaje Oeste y vive la vida de un forajido en este juego de acción y aventuras. ¡Recorre pueblos polvorientos, enfréntate a bandidos y lucha por tu libertad en un mundo lleno de peligros y oportunidades!",
+        "qualification": 8.4,
+        "release": "JUN 10, 2024",
+        "consoles": ["PC", "PlayStation", "Xbox", "Nintendo Switch"]
+    },
+    {
+        "title": "Eternal Legends: Rise of Heroes",
+        "img": "https://example.com/eternal-legends.jpg",
+        "video": "https://example.com/eternal-legends-trailer",
+        "text": "Descubre la leyenda eterna de los héroes en este juego de rol de fantasía épica. ¡Forja tu destino, recluta aliados poderosos y enfréntate a los enemigos más temibles en una búsqueda para salvar el mundo de la destrucción!",
+        "qualification": 9.8,
+        "release": "JUN 15, 2024",
+        "consoles": ["PC", "PlayStation", "Xbox"]
+    },
+    {
+        "title": "Circuit Craze: Electric Racing",
+        "img": "https://example.com/circuit-craze.jpg",
+        "video": "https://example.com/circuit-craze-trailer",
+        "text": "Vive la emoción de las carreras eléctricas en Circuit Craze, donde la velocidad y la estrategia se encuentran en la pista de carreras más desafiante. ¡Construye y mejora tu propio vehículo, compite contra rivales hábiles y conquista el circuito!",
+        "qualification": 8.1,
+        "release": "JUN 20, 2024",
+        "consoles": ["PC", "PlayStation", "Xbox"]
+    }
+      
+]
