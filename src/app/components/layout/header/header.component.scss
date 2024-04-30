@@ -34,23 +34,6 @@
   padding-right: 2%;
 }
 
-.login span,
-.searchIcon {
-  cursor: pointer;
-  height: 50px;                /*??*/
-  color: white;
-  font-size: 24px;
-}
-
-.login span:hover,
-.searchIcon:hover {
-  color: orange;
-}
-
-.login span {
-  padding-left: 100%;
-}
-
 .searchInput {
   border: none;
   padding: 0 5px;
@@ -69,6 +52,22 @@
   opacity: 1;
   background-color: white;
   margin-left: 10px;
+}
+
+.login span,
+.searchIcon {
+  cursor: pointer;
+  color: white;
+  font-size: 24px;
+}
+
+.login span:hover,
+.searchIcon:hover {
+  color: orange;
+}
+
+.login span {
+  padding-left: 100%;
 }
 
 .buttonsContainer {
@@ -104,4 +103,3 @@
 .buttons button:hover {
   background-color: orange;
 }
-

@@ -12,9 +12,6 @@ export class HomeService {
   getButtons(): Observable<any[]> {
     return this.http.get<any[]>('assets/jsons/buttonsHome.json');
   }
-  getTop100Games(): Observable<any[]> {
-    return this.http.get<any[]>('assets/jsons/top100.json');
-  }
   getHomeNews(): Observable<any[]> {
     return this.http.get<any[]>('assets/jsons/newsHome.json');
   }

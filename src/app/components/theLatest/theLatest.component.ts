@@ -15,6 +15,10 @@ export class TheLatestComponent {
 
   constructor(private gamesService: GamesService) { }
 
+  formatURL(title: string): string {
+    return title.toLowerCase().replace(/\s+/g, '-');
+  } 
+  
   ngOnInit(): void {
     this.gamesService.getTop100Games().subscribe(data => {
       this.top100Games = data;

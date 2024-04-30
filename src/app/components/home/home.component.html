@@ -33,7 +33,7 @@
           [class]="i === currentGameIndex ? 'active' : 'inactive'" data-bs-interval="1000">
           <div *ngIf="i % 4 === 0" class="group-container d-flex">
             <div *ngFor="let innerGame of top100Games?.slice(i, i + 4); index as j" class="divTopGames">
-              <a [routerLink]="['/games', formatURL(innerGame.title)]">
+              <a [routerLink]="['/game', formatURL(innerGame.title)]">
                 <div class="gameContainer">
                   <span class="gameIndex">{{ i + j + 1 }}</span>
                   <img src="{{ innerGame.img }}" />
@@ -47,7 +47,7 @@
                 </div>
                 <div class="consoleButtons">
                   <a *ngFor="let console of innerGame.consoles" routerLink="">
-                    <img class="consoleBtn" src="assets/images/{{ console }}.png" />
+                    <img class="consoleBtn" src="assets/images/consoles/{{ console }}.png" />
                   </a>
                 </div>
               </a>

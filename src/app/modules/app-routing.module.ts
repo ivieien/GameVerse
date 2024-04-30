@@ -9,15 +9,17 @@ import { VideosComponent } from '../components/videos/videos.component';
 import { ReviewsComponent } from '../components/reviews/reviews.component';
 import { TheLatestComponent } from '../components/theLatest/theLatest.component';
 import { GameDetailComponent } from '../components/games/game-detail/game-detail.component';
+import { ErrorComponent } from '../components/error/error.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'games', component: GamesComponent },
-  { path: 'news', component: ReviewsComponent },
+  { path: 'news', component: NewsComponent },
   { path: 'videos', component: VideosComponent },
   { path: 'reviews', component: ReviewsComponent },
   { path: 'the-latest', component: TheLatestComponent },  
-  { path: 'game/:title', component: GameDetailComponent }
+  { path: 'game/:title', component: GameDetailComponent },
+  { path: '**', component: ErrorComponent }
 
 ];
 

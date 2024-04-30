@@ -14,9 +14,20 @@
         <input class="searchInput" [ngClass]="{ 'searchInputExpanded': searchExpanded }" type="text"
           placeholder="Buscar..." />
       </div>
+      
 
+      <select class="form-select" (change)="changeLanguage($event.target.value)" aria-label="Select Language">
+        <option *ngFor="let lang of languages" [value]="lang" [selected]="lang === language">
+          <img [src]="'./assets/images/flags/flag ' + lang + '.png'" alt="{{ lang }}">
+            {{ lang.toUpperCase() }}
+        </option>
+    </select>
+    
+    
       <div class="login">
-        <span><i class="fa fa-user"></i></span>
+        <span>
+          <i class="fa fa-user"></i>
+        </span>
       </div>
     </div>
   </div>
@@ -31,9 +42,7 @@
       <button routerLink="/the-latest">{{ 'THE_LATEST' | i18next }}</button>
     </div>
   </div>
-  <button (click)="changeLanguage('es')">Español</button>
-<button (click)="changeLanguage('en')">English</button>
-
+  
 </header>
 
 

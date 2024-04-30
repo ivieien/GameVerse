@@ -1,14 +1,16 @@
 <!--NEW RELEASES -->
-<div class="carousel-header">
+<div class="carouselHeader">
     <h2 class="sectionTitle">{{ 'LATEST.RELEASES' | i18next }}</h2>
-    <div class="carousel-controls">
+    <div class="carouselControls">
         <div class="carousel-control-circle" (click)="navigateCarousel('newReleases', 'prev')">
-            <button class="carousel-control-prev" type="button" data-bs-target="#newReleasesGamesCarousel" data-bs-slide="prev">
+            <button class="carousel-control-prev" type="button" data-bs-target="#newReleasesGamesCarousel"
+                data-bs-slide="prev">
                 <i class="fa-solid fa-arrow-left arrow-icon"></i>
             </button>
         </div>
         <div class="carousel-control-circle" (click)="navigateCarousel('newReleases', 'next')">
-            <button class="carousel-control-next" type="button" data-bs-target="#newReleasesGamesCarousel" data-bs-slide="next">
+            <button class="carousel-control-next" type="button" data-bs-target="#newReleasesGamesCarousel"
+                data-bs-slide="next">
                 <i class="fa-solid fa-arrow-right arrow-icon"></i>
             </button>
         </div>
@@ -21,9 +23,10 @@
             <div class="group-container d-flex">
                 <div *ngFor="let game of getVisibleGames('newReleases')" class="divTopGames">
                     <div>
-                        <img class="game-container" [src]="game.img" width="150px" height="250px" [routerLink]="['/game', game.title]">
-                        <div class="overlay" [routerLink]="['/game', game.title]">
-                            <a>{{ truncateText( game.title, 15) }}</a>
+                        <img class="gameContainer" [src]="game.img" width="167px" height="250px"
+                            [routerLink]="['/game', formatURL(game.title)]">
+                        <div class="overlay">
+                            {{ truncateText( game.title, 15) }}
                             <p class="ratingBox" [class]="getRatingClass(game.qualification)">
                                 {{ game.qualification }}
                             </p>
@@ -35,16 +38,18 @@
     </div>
 </div>
 <!--Top 100 -->
-<div class="carousel-header">
+<div class="carouselHeader">
     <h2 class="sectionTitle">{{ 'LATEST.TOP100' | i18next }}</h2>
-    <div class="carousel-controls">
+    <div class="carouselControls">
         <div class="carousel-control-circle" (click)="navigateCarousel('top100', 'prev')">
-            <button class="carousel-control-prev" type="button" data-bs-target="#top100GamesCarousel" data-bs-slide="prev">
+            <button class="carousel-control-prev" type="button" data-bs-target="#top100GamesCarousel"
+                data-bs-slide="prev">
                 <i class="fa-solid fa-arrow-left arrow-icon"></i>
             </button>
         </div>
         <div class="carousel-control-circle" (click)="navigateCarousel('top100', 'next')">
-            <button class="carousel-control-next" type="button" data-bs-target="#top100GamesCarousel" data-bs-slide="next">
+            <button class="carousel-control-next" type="button" data-bs-target="#top100GamesCarousel"
+                data-bs-slide="next">
                 <i class="fa-solid fa-arrow-right arrow-icon"></i>
             </button>
         </div>
@@ -57,9 +62,10 @@
             <div class="group-container d-flex">
                 <div *ngFor="let game of getVisibleGames('top100')" class="divTopGames">
                     <div>
-                        <img  class="game-container"[src]="game.img" width="150px" height="250px" [routerLink]="['/game', game.title]">
-                        <div class="overlay" [routerLink]="['/game', game.title]">
-                            <a>{{ truncateText( game.title, 12) }}</a>
+                        <img class="gameContainer" [src]="game.img" width="167px" height="250px"
+                            [routerLink]="['/game', formatURL(game.title)]">
+                        <div class="overlay">
+                            {{ truncateText( game.title, 15) }}
                             <p class="ratingBox" [class]="getRatingClass(game.qualification)">
                                 {{ game.qualification }}
                             </p>

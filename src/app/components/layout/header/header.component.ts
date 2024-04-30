@@ -17,23 +17,27 @@ import { I18NEXT_SERVICE, ITranslationService } from 'angular-i18next';
 })
 export class HeaderComponent {
   language = 'es';
-  languages: string[] = ['en', 'es'];
-
+  languages: string[] = ['es', 'en', 'fr', 'de', 'zh'];
   searchExpanded: boolean = false;
   sidebarOpen: boolean = false;
+  languageDropdownOpen: boolean = false;
+
   constructor(   @Inject(I18NEXT_SERVICE) private i18NextService: ITranslationService) {};
   
   openSidebar() {
     this.sidebarOpen = !this.sidebarOpen;
   }
-
   toggleSearch() {
     this.searchExpanded = !this.searchExpanded;
+  }
+  toggleLanguageDropdown() {
+    this.languageDropdownOpen = !this.languageDropdownOpen;
   }
   changeLanguage(lang: string){
     if (lang !== this.i18NextService.language) {
       this.i18NextService.changeLanguage(lang).then(x => {
         this.updateState(lang); 
+        this.languageDropdownOpen = false;
         document.location.reload();
       });
     }
@@ -41,5 +45,4 @@ export class HeaderComponent {
   private updateState(lang: string) {
     this.language = lang;
   }
-
 }

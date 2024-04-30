@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { HomeService } from 'src/app/services/home.service';
+import { GamesService } from 'src/app/services/games.service';
 
 
 @Component({
@@ -16,13 +17,16 @@ export class HomeComponent {
   titleTop100: string = 'Descubre los Mejores Juegos'
   descriptionTop100: string = 'Explora nuestra selección de los TOP 100 juegos mejor valorados.'
 
-  constructor(private homeService: HomeService) { }
+  constructor(
+    private homeService: HomeService,
+    private gamesService: GamesService
+  ) { }
 
   ngOnInit(): void {
     this.homeService.getButtons().subscribe(data => {
       this.buttonsHome = data;
     });
-    this.homeService.getTop100Games().subscribe(data => {
+    this.gamesService.getTop100Games().subscribe(data => {
       this.top100Games = data;
     });
     this.homeService.getHomeNews().subscribe(data => {

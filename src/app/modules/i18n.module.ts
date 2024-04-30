@@ -5,13 +5,19 @@ import { HttpClientModule } from '@angular/common/http';
 
 import translationES from "../../assets/i18n/es.json";
 import translationEN from "../../assets/i18n/en.json";
+import translationFR from "../../assets/i18n/fr.json";
+import translationDE from "../../assets/i18n/de.json";
+import translationZH from "../../assets/i18n/zh.json";
 
 const i18nextOptions = {
     debug: true,
     fallbackLng: 'es',
     resources: {
         es: {translation: translationES},
-        en: {translation: translationEN}
+        en: {translation: translationEN},
+        fr: {translation: translationFR},
+        de: {translation: translationDE},
+        zh: {translation: translationZH}
     },
     interpolation: {
         format: I18NextModule.interpolationFormat(defaultInterpolationFormat)

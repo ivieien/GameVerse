@@ -1,7 +1,7 @@
-.game-detail-container {
+.gameDetailContainer {
   display: flex;
 
-  .video-container {
+  .videoContainer {
     margin: 2%;
     width: 50%; 
     position: relative;
@@ -24,8 +24,8 @@
     }
   }
 
-  .details-container {
-    width: 50%; /* Ajusta esto según sea necesario */
+  .detailsContainer {
+    width: 50%; 
     padding: 20px;
     box-sizing: border-box;
   }

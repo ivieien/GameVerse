@@ -1,8 +1,8 @@
-<div class="game-detail-container">
-  <div class="video-container">
+<div class="gameDetailContainer">
+  <div class="videoContainer" *ngIf="game?.video">
     <iframe [src]="game?.video | safeResourceUrl" frameborder="0" allowfullscreen autoplay></iframe>
   </div>
-  <div class="details-container">
+  <div class="detailsContainer">
     <h1>{{ game?.title }}</h1>
     <p>{{ game | translateJsons: currentLanguage }}</p>
     <p>Qualification: {{ game?.qualification }}</p>

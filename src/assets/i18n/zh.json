@@ -1,0 +1,14 @@
+{
+    "GAMEVERSE_TITLE": "游戏宇宙",
+    "HOME": "主页",
+    "GAMES": "游戏",
+    "NEWS": "新闻",
+    "VIDEOS": "视频",
+    "REVIEWS": "评论",
+    "THE_LATEST": "最新消息",
+
+    "LATEST" : {
+        "RELEASES": "新发布",
+        "TOP100": "前100名最佳游戏"
+    }
+}
