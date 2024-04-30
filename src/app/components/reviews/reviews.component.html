@@ -1,1 +1,26 @@
-<p>analisis works!</p>
+<div class="reviewsContainer">
+    <h2 class="sectionTitle">{{ sectionTitle }}</h2>
+    <div *ngFor="let review of reviews" class="review">
+        <div class="title">{{ review.title }}</div>
+        <div class="content">{{ review.content }}</div>
+        <div class="info">
+            <span>Por {{ review.author }}</span>
+            <span> el {{ review.date }}</span>
+        </div>
+    </div>
+
+    <div class="addReviewForm">
+        <h2 class="formTitle">{{ formTitle }}</h2>
+        <form>
+            <div class="formGroup">
+                <label for="title">{{ labelTitle }}:</label>
+                <input type="text" id="title" name="title" required>
+            </div>
+            <div class="formGroup">
+                <label for="content">{{ labelContent }}</label>
+                <textarea id="content" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="submitBtn">{{ submitBtn }}</button>
+        </form>
+    </div>
+</div>

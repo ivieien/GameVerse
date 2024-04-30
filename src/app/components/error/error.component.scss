@@ -1,0 +1,42 @@
+.errorContainer {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.errorContainer h1 {
+    font-size: 36px;
+    color: #f00;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.errorContainer p {
+    font-size: 22px;
+}
+
+.buttonContainer {
+    margin-top: 20px;
+}
+
+.buttonContainer button {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.buttonContainer button:hover {
+    background-color: #f00;
+    color: #fff;
+}
+
+.errorContainer img {
+    width: 85%; 
+    height: auto; 
+    margin-bottom: 20px; 
+    margin-top: 20px;
+  }
