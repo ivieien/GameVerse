@@ -1,6 +1,6 @@
 <div class="game-detail-container">
   <div class="video-container">
-    <iframe [src]="game?.video | safeResourceUrl" frameborder="0" allowfullscreen autoplay></iframe>
+    <iframe *ngIf="game?.video" [src]="game?.video | safeResourceUrl" frameborder="0" allowfullscreen autoplay></iframe>
   </div>
   <div class="details-container">
     <h1>{{ game?.title }}</h1>
@@ -8,5 +8,10 @@
     <p>Qualification: {{ game?.qualification }}</p>
     <p>Release: {{ game?.release }}</p>
     <p>Consoles: {{ game?.consoles }}</p>
+  </div>
+  <div>
+    <button>
+      go shop
+    </button>
   </div>
 </div>

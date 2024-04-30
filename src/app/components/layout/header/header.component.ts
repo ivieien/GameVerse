@@ -21,7 +21,7 @@ export class HeaderComponent {
 
   searchExpanded: boolean = false;
   sidebarOpen: boolean = false;
-  constructor(   @Inject(I18NEXT_SERVICE) private i18NextService: ITranslationService) {};
+  constructor( @Inject(I18NEXT_SERVICE) private i18NextService: ITranslationService) {};
   
   openSidebar() {
     this.sidebarOpen = !this.sidebarOpen;

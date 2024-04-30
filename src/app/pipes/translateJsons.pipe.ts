@@ -7,9 +7,11 @@ export class TranslateJsonsPipe implements PipeTransform {
   transform(value: any, language: string): any {
     if (value) {
       if (language === 'en' && value.textEN) {
-        return value.textEN;
+        return value.titleEN;
       } else if (language === 'es' && value.textES) {
         return value.textES;
+      }else if (language === 'fr' && value.textFR) {
+        return value.textFR;
       }
     }
     return null;
