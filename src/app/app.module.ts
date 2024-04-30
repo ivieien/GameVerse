@@ -1,12 +1,11 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { AppRoutingModule } from './app-routing.module';
-import { LayoutModule } from './layout.module';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-import { i18nModule } from './i18n.module';
-import { ViewsModule } from './views.module';
-
-import { AppComponent } from '../app.component';
+import { AppComponent } from './app.component';
+import { AppRoutingModule } from './modules/app-routing.module';
+import { LayoutModule } from './modules/layout.module';
+import { ViewsModule } from './modules/views.module';
+import { i18nModule } from './modules/i18n.module';
 @NgModule({
     declarations: [
         AppComponent,
