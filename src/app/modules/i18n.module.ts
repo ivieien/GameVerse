@@ -23,7 +23,7 @@ const i18nextOptions = {
         format: I18NextModule.interpolationFormat(defaultInterpolationFormat)
     }
 };
-  
+
 export function appInit(i18next: ITranslationService) {
     return () => i18next
         .use<any>(LanguageDetector)
@@ -31,6 +31,7 @@ export function appInit(i18next: ITranslationService) {
         .then(() => console.log('i18next initialized successfully'))
         .catch(error => console.error('Error initializing i18next', error));
 }
+
 export function localeIdFactory(i18next: ITranslationService)  {
     return i18next.language;
 }

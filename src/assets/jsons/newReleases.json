@@ -20,10 +20,11 @@
         "consoles": ["PC"]
     },
     {
-        "title": "Galactic Quest: The Lost Frontier",
-        "img": "https://example.com/galactic-quest.jpg",
-        "video": "https://example.com/galactic-quest-trailer",
-        "text": "Embárcate en una emocionante búsqueda espacial para descubrir los secretos del último rincón del universo. ¡Explora planetas desconocidos, lucha contra alienígenas y reúne recursos para salvar la galaxia!",
+        "title": "Stellar Blade",
+        "img": "https://image.api.playstation.com/vulcan/ap/rnd/202401/2211/40e7cfd126a11fe5118310ebce6d9b3a23e7cabaca717217.png",
+        "video": "https://www.youtube.com/embed/?enablejsapi=1&rel=0&autoplay=0&playsinline=1&expflag=embeds_enable_muted_autoplay%3Atrue&fs=1",
+        "textES": "El futuro de la humanidad pende de un hilo en Stellar Blade, una aventura de acción completamente nueva para PlayStation®5. Asolada por extrañas y poderosas criaturas, la Tierra ha sido abandonada, y lo que queda de la diezmada raza humana ha huido a una Colonia en el espacio exterior. Después de salir de la Colonia, la soldado del Séptimo Escuadrón Aéreo EVE llega a los restos inhóspitos de nuestro planeta con una misión muy clara: salvar a la humanidad recuperando la Tierra de los Naytibos, la malévola fuerza que la ha devastado.Pero a medida que EVE se enfrenta a los Naytibos uno a uno y va desentrañando misterios del pasado mientras explora las ruinas de la civilización humana, descubre que su misión dista mucho de ser sencilla. De hecho, casi nada es lo que parece...",
+        "textEN": "The future of humanity hangs by a thread in Stellar Blade, a brand-new action adventure for PlayStation®5. Ravaged by strange and powerful creatures, Earth has been abandoned, and what remains of the decimated human race has fled to a Colony in outer space. Venturing out from the Colony, Seventh Air Squadron soldier EVE arrives at the inhospitable remnants of our planet with a very clear mission: to save humanity by reclaiming Earth from the Naytibos, the malevolent force that has laid waste to it. But as EVE faces the Naytibos one by one and unravels mysteries of the past while exploring the ruins of human civilization, she discovers that her mission is far from simple. In fact, almost nothing is as it seems...",
         "qualification": 8.9,
         "release": "MAY 5, 2024",
         "consoles": ["PC", "PlayStation", "Xbox"]

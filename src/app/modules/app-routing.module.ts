@@ -18,7 +18,7 @@ const routes: Routes = [
   { path: 'videos', component: VideosComponent },
   { path: 'reviews', component: ReviewsComponent },
   { path: 'the-latest', component: TheLatestComponent },  
-  { path: 'game/:title', component: GameDetailComponent },
+  { path: 'game/:title', component: GameDetailComponent }, 
   { path: '**', component: ErrorComponent }
 
 ];

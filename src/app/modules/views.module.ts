@@ -34,7 +34,7 @@ import { TranslateJsonsPipe } from '../pipes/translateJsons.pipe';
   ],
   exports: [
     SafeResourceUrlPipe,
-    TranslateJsonsPipe
+    TranslateJsonsPipe,
   ]
 })
 export class ViewsModule { }
