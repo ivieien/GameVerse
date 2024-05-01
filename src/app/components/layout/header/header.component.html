@@ -14,21 +14,9 @@
         <input class="searchInput" [ngClass]="{ 'searchInputExpanded': searchExpanded }" type="text"
           placeholder="Buscar..." />
       </div>
-      
-<!--Esto es lo de las banderas y no va, fueraaaaaaaaaaa :D
 
-      <select class="form-select" (change)="changeLanguage($event.target.value)" aria-label="Select Language">
-        <option *ngFor="let lang of languages" [value]="lang" [selected]="lang === language">
-          <img [src]="'./assets/images/flags/flag ' + lang + '.png'" alt="{{ lang }}">
-            {{ lang.toUpperCase() }}
-        </option>
-    </select>-->
-    
-    
-      <div class="login">
-        <span>
-          <i class="fa fa-user"></i>
-        </span>
+      <div class="login">       
+        <app-login></app-login>
       </div>
     </div>
   </div>

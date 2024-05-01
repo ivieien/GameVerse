@@ -1,0 +1,52 @@
+/* login-menu.component.css */
+.login-content {
+  position: absolute;
+  background-color: #1E385D;  //
+  width: 200px; 
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  display: block;
+}
+
+/* Asegúrate de que el dropdown se alinee a la derecha */
+.login-dropdown .login-content {
+  right: 0;
+}
+
+
+.login-content input[type="text"],
+.login-content input[type="password"],
+.login-content input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: none;
+  border-bottom: 1px solid #ddd;
+  outline: none;
+}
+
+.buttonLogin {
+  background-color: #59759C;
+  color: white;
+  cursor: pointer;
+}
+
+.flag {
+  border: none;
+  outline: none;
+  background: none; 
+  padding: 0; 
+  margin: 4%;
+}
+
+
+.login{
+  cursor: pointer;
+  color: white;
+  font-size: 24px;
+  padding-left: 50%;
+}
+
+.login:hover {
+  color: orange;
+}

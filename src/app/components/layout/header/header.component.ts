@@ -1,6 +1,5 @@
 import { animate, state, style, transition, trigger } from '@angular/animations';
-import { Component, Inject, OnInit } from '@angular/core';
-import { I18NEXT_SERVICE, ITranslationService } from 'angular-i18next';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-header',
@@ -16,12 +15,9 @@ import { I18NEXT_SERVICE, ITranslationService } from 'angular-i18next';
   ]
 })
 export class HeaderComponent {
-  language = 'es';
-  languages: string[] = ['es', 'en', 'fr', 'de', 'zh'];
   searchExpanded: boolean = false;
   sidebarOpen: boolean = false;
   
-  constructor( @Inject(I18NEXT_SERVICE) private i18NextService: ITranslationService) {};
   
   openSidebar() {
     this.sidebarOpen = !this.sidebarOpen;
@@ -29,16 +25,5 @@ export class HeaderComponent {
   toggleSearch() {
     this.searchExpanded = !this.searchExpanded;
   }
- 
-  changeLanguage(lang: string){
-    if (lang !== this.i18NextService.language) {
-      this.i18NextService.changeLanguage(lang).then(x => {
-        this.updateState(lang); 
-        document.location.reload();
-      });
-    }
-  } 
-  private updateState(lang: string) {
-    this.language = lang;
-  }
+
 }

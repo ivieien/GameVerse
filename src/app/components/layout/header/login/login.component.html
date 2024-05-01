@@ -1,0 +1,20 @@
+<div class="login-dropdown" (click)="toggleLogin()">
+    <span class="login">
+      <i class="fa fa-user"></i>
+    </span>
+    <div class="login-content" *ngIf="showLogin" (click)="stopPropagation($event)">
+      <form>
+        <input type="text" placeholder="Usuario" required>
+        <input type="password" placeholder="Contraseña" required>
+        <input class="buttonLogin" type="submit" value="Iniciar Sesión">
+      </form>
+
+      <input class="buttonLogin" type="submit" value="Registrarse">
+
+      <div>
+        <button *ngFor="let lang of languages" class="flag" (click)="changeLanguage(lang)">
+          <img src="./assets/images/flags/{{lang}}.png" alt="{{lang}}" width="50px">
+        </button>
+      </div>
+    </div>
+  </div>
