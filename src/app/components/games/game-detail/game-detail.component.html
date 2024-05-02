@@ -1,17 +1,13 @@
 <div class="gameDetailContainer">
   <div class="videoContainer" *ngIf="game?.video">
-    <iframe [src]="game?.video | safeResourceUrl" frameborder="0" allowfullscreen autoplay></iframe>
+    <iframe [src]="game?.video + '?autoplay=1&mute=1' | safeResourceUrl" frameborder="0" allowfullscreen allow="autoplay"></iframe>
   </div>
   <div class="detailsContainer">
     <h1>{{ game?.title }}</h1>
     <p>{{ game | translateJsons: currentLanguage }}</p>
-    <p>Qualification: {{ game?.qualification }}</p>
-    <p>Release: {{ game?.release }}</p>
-    <p>Consoles: {{ game?.consoles }}</p>
-  </div>
-  <div>
-    <button>
-      go shop
-    </button>
+    <p class="qualificationContainer" [class]="getRatingClass(game?.qualification)">Nota: {{ game?.qualification }}</p>
+    <p>Lanzamiento: {{ game?.release }}</p>
+    <p>Consolas: {{ game?.consoles.join(', ') }}</p>
+    <button class="shopButton">Comprar Ahora</button>
   </div>
 </div>

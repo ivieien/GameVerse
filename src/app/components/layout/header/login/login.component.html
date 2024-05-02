@@ -1,8 +1,8 @@
-<div class="login-dropdown" (click)="toggleLogin()">
+<div class="loginDropdown" (click)="toggleLogin()">
     <span class="login">
       <i class="fa fa-user"></i>
     </span>
-    <div class="login-content" *ngIf="showLogin" (click)="stopPropagation($event)">
+    <div class="loginContent" *ngIf="showLogin" (click)="stopPropagation($event)">
       <form>
         <input type="text" placeholder="Usuario" required>
         <input type="password" placeholder="Contraseña" required>

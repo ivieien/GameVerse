@@ -3,6 +3,7 @@
     align-items: center;
     margin-top: 2%;
 }
+
 .sectionTitle {
     font-size: 36px;
     font-weight: bold;
@@ -18,7 +19,6 @@ hr {
     margin-top: -0.5%;
     border: none;
 }
-
 
 .carouselControls {
     display: flex;
@@ -61,11 +61,14 @@ hr {
 .divTopGames {
     margin-right: 1%;
 }
+
 .gameContainer {
     margin: 2% 2% 2% 0; 
     border-radius: 5%;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
 }
+
 .overlay {
     display: flex;
     flex-direction: column;
@@ -73,11 +76,12 @@ hr {
     font-size: 13px;
     font-weight: bold;
 }
+
 .ratingBox {
-    color: #000;
     padding: 5px 10px;
     width: 25%;
 }
+
 .goodRating {
     background-color: rgb(0, 206, 122);
 }

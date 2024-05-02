@@ -49,6 +49,16 @@ export class GameDetailComponent implements OnInit {
           }
         });
       }
-    });
+    }); 
+  }
+
+  getRatingClass(qualification: number): string {
+    if (qualification >= 8.0) {
+      return 'goodRating';
+    } else if (qualification >= 6.0) {
+      return 'mediumRating';
+    } else {
+      return 'badRating';
+    }
   }
 }

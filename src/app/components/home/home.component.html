@@ -1,5 +1,6 @@
 <div class="homeGameVerse">
-  <!-- Carousel Noticias -->
+  
+  <!-- News -->
   <div id="newsCarousel" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item" *ngFor="let news of newsItems; index as i"
@@ -39,7 +40,7 @@
                   <img src="{{ innerGame.img }}" />
                   <div class="overlay">
                     <h3>{{ innerGame.title }}</h3>
-                    <p>{{ truncateText(innerGame.text, 150) }}</p>
+                    <p>{{ truncateText(innerGame.shortDescriptionES, 150) }}</p>
                     <p class="ratingBox" [class]="getRatingClass(innerGame.qualification)">
                       {{ innerGame.qualification }}
                     </p>
@@ -68,7 +69,7 @@
     </div>
   </div>
 
-  <!-- Buttons  -->
+  <!-- Buttons -->
   <div class="boxContainer">
     <div class="box" *ngFor="let button of buttonsHome">
       <a routerLink="{{ button.url }}">
