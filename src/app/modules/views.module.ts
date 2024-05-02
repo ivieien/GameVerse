@@ -12,6 +12,7 @@ import { TheLatestComponent } from '../components/theLatest/theLatest.component'
 import { GameDetailComponent } from '../components/games/game-detail/game-detail.component';
 import { SafeResourceUrlPipe } from '../pipes/safeResourceUrl.pipe';
 import { TranslateJsonsPipe } from '../pipes/translateJsons.pipe';
+import { ReactiveFormsModule } from '@angular/forms';
 
 
 
@@ -30,6 +31,7 @@ import { TranslateJsonsPipe } from '../pipes/translateJsons.pipe';
   imports: [
     CommonModule,
     RouterModule,
+    ReactiveFormsModule,
     i18nModule
   ],
   exports: [

@@ -7,7 +7,12 @@
     <p>{{ game | translateJsons: currentLanguage }}</p>
     <p class="qualificationContainer" [class]="getRatingClass(game?.qualification)">Nota: {{ game?.qualification }}</p>
     <p>Lanzamiento: {{ game?.release }}</p>
-    <p>Consolas: {{ game?.consoles.join(', ') }}</p>
+    <p>Consolas:</p> 
+      <div *ngFor="let console of game?.consoles" class="d-flex">
+        <p> {{console}}</p>
+        <i  class="fa-brands fa-{{console.toString() | lowercase}}"></i>
+        <i *ngIf="console == 'PC'" class="fa-solid fa-desktop"></i>
+      </div>
     <button class="shopButton">Comprar Ahora</button>
   </div>
 </div>
