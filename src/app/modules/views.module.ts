@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
 import { i18nModule } from './i18n.module';
+import { ReactiveFormsModule } from '@angular/forms';
 
 import { HomeComponent } from '../components/home/home.component';
 import { GamesComponent } from '../components/games/games.component';
@@ -12,8 +13,6 @@ import { TheLatestComponent } from '../components/theLatest/theLatest.component'
 import { GameDetailComponent } from '../components/games/game-detail/game-detail.component';
 import { SafeResourceUrlPipe } from '../pipes/safeResourceUrl.pipe';
 import { TranslateJsonsPipe } from '../pipes/translateJsons.pipe';
-import { ReactiveFormsModule } from '@angular/forms';
-
 
 
 @NgModule({
@@ -24,7 +23,7 @@ import { ReactiveFormsModule } from '@angular/forms';
     VideosComponent,
     ReviewsComponent,
     TheLatestComponent,
-    GameDetailComponent,
+    GameDetailComponent, 
     SafeResourceUrlPipe,
     TranslateJsonsPipe
   ],

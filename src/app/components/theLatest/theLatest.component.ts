@@ -41,6 +41,7 @@ export class TheLatestComponent {
       return [];
     }
   }
+  
   get translateValue(): string {
     const itemWidth = 100 / this.groupSize;
     const startIndex = this.startIndex['newReleases']; 

@@ -1,4 +1,5 @@
-import { Component, HostListener, Inject, ElementRef  } from '@angular/core';
+import { Component, Inject, OnInit  } from '@angular/core';
+import { FormGroup, FormControl, Validators } from '@angular/forms';
 import { I18NEXT_SERVICE, ITranslationService } from 'angular-i18next';
 
 @Component({
@@ -6,30 +7,27 @@ import { I18NEXT_SERVICE, ITranslationService } from 'angular-i18next';
   templateUrl: './login.component.html',
   styleUrls: ['./login.component.scss']
 })
-export class LoginComponent {
+export class LoginComponent implements OnInit {
+  loginForm: FormGroup = new FormGroup({});
+  showModal: boolean = false;
   language = 'es';
   languages: string[] = ['es', 'en', 'fr', 'de', 'zh'];
-  showLogin: boolean = false;
+ 
+  constructor(@Inject(I18NEXT_SERVICE) private i18NextService: ITranslationService) {}
 
-  constructor( @Inject(I18NEXT_SERVICE) private i18NextService: ITranslationService, 
-              private elementRef: ElementRef) {};
+  ngOnInit() {
+    this.loginForm = new FormGroup({
+      email: new FormControl('', [Validators.required, Validators.email]),
+      password: new FormControl('', [Validators.required, Validators.minLength(6)])
+    });
+  }
 
-  toggleLogin() {
-    this.showLogin = !this.showLogin;
+  toggleModal() {
+    this.showModal = !this.showModal;
   } 
-  stopPropagation(event: Event) {
-    event.stopPropagation();
-  }
-  closeDropdown() {
-    this.showLogin = false;
-  }
 
-  @HostListener('document:click', ['$event'])
-  onClick(event: MouseEvent) {
-    const isClickedInside = this.elementRef.nativeElement.contains(event.target);
-    if (!isClickedInside) {
-      this.closeDropdown();
-    }
+  closeModal() {
+    this.showModal = false;
   }
 
   changeLanguage(lang: string){
@@ -40,6 +38,7 @@ export class LoginComponent {
       });
     }
   } 
+
   private updateState(lang: string) {
     this.language = lang;
   }
