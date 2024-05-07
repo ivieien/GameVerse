@@ -1,4 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { FormGroup, FormControl, Validators } from '@angular/forms';
+import { ReviewsService } from 'src/app/services/reviews.service';
 
 @Component({
   selector: 'app-reviews',
@@ -6,25 +8,24 @@ import { Component } from '@angular/core';
   styleUrls: ['./reviews.component.scss']
 })
 
-export class ReviewsComponent {
-  sectionTitle: string = 'Reseñas'
-  formTitle: string = 'Añadir Reseña'
-  labelTitle: string = 'Título'
-  labelContent: string = 'Contenido'
-  submitBtn: string = 'Enviar Reseña'
+export class ReviewsComponent implements OnInit {
+  reviewForm: FormGroup = new FormGroup({});
+  reviews: any[] = [];
 
-  reviews: { title: string, content: string, author: string, date: string }[] = [
-    {
-      title: 'Reseña de Mario Kart 8 Deluxe',
-      content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-      author: 'Usuario1',
-      date: '19 de abril de 2024'
-    },
-    {
-      title: 'Análisis de The Legend of Zelda: Breath of the Wild',
-      content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-      author: 'Usuario2',
-      date: '20 de abril de 2024'
-    },
-  ];
+  constructor(private reviewsService: ReviewsService) {}
+
+  ngOnInit() {
+    this.reviewForm = new FormGroup({
+      gameTitle: new FormControl('', Validators.required),
+      userName: new FormControl('', Validators.required),
+      userReview: new FormControl('', Validators.required)
+    });
+    this.getReviews();
+  }
+
+  getReviews() {
+    this.reviewsService.readReviews().subscribe(reviews => {
+      this.reviews = reviews;
+    });
+  }
 }

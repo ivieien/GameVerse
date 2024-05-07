@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
 import { i18nModule } from './i18n.module';
+import { ReactiveFormsModule } from '@angular/forms';
 
 import { HeaderComponent } from '../components/layout/header/header.component';
 import { FooterComponent } from '../components/layout/footer/footer.component';
@@ -18,7 +19,8 @@ import { LoginComponent } from '../components/layout/header/login/login.componen
   imports: [
     CommonModule,
     RouterModule,
-    i18nModule
+    i18nModule,
+    ReactiveFormsModule
   ],
   exports: [
     SkeletonComponent

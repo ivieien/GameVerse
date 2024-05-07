@@ -1,4 +1,10 @@
-.login{
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.login {
   cursor: pointer;
   color: white;
   font-size: 24px;
@@ -9,40 +15,156 @@
   color: orange;
 }
 
-.loginContent {
+.popUp {
+  position: fixed;
+  left: 50%;
+  top: 10%;
+  transform: translateX(-50%);
+  width: 450px;
+  height: auto;
+  padding: 20px 30px;
+  background: #fff;
+  box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  transition: top 0.3s ease-in-out, opacity 0.3s ease;
+  z-index: 1000;
+  opacity: 0;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.popUp.active {
+  animation: fadeIn 0.3s ease forwards;
+}
+
+.popUp .closeBtn {
   position: absolute;
-  background-color: #1E385D;  
-  width: 200px; 
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
+  top: 10px;
+  right: 10px;
+  width: 15px;
+  height: 15px;
+  background: #888;
+  color: #eee;
+  text-align: center;
+  line-height: 15px;
+  border-radius: 7px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.popUp .closeBtn:hover {
+  background: #666;
+}
+
+.popUp .form h2 {
+  text-align: center;
+  margin: 10px 0px 20px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.popUp .form .formElement {
+  margin: 15px 0px;
+}
+
+.popUp .form .formElement label {
+  font-size: 14px;
+}
+
+.popUp .form .formElement input[type="email"],
+.popUp .form .formElement input[type="password"] {
+  margin-top: 5px;
   display: block;
-}
-
-.loginDropdown .loginContent {
-  right: 0;
-}
-
-.loginContent input[type="text"],
-.loginContent input[type="password"],
-.loginContent input[type="submit"] {
   width: 100%;
   padding: 10px;
-  margin: 5px 0;
-  border: none;
-  border-bottom: 1px solid #ddd;
   outline: none;
+  border: 1px solid #aaa;
+  border-radius: 5px;
 }
 
-.buttonLogin {
-  background-color: #59759C;
-  color: white;
+.popUp .form .formElement button {
+  width: 100%;
+  height: 40px;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  background: #1e385d;
+  color: #f5f5f5;
+  border-radius: 10px;
   cursor: pointer;
+  transition: background-color 0.3s;
 }
 
-.flag {
-  border: none;
+.popUp .form .formElement button:disabled {
+  cursor: not-allowed;
+}
+
+.popUp .form .formElement button.register {
+  width: 100%;
+  height: 40px;
+  border: 1px solid #1e385d;
   outline: none;
-  background: none; 
-  padding: 0; 
-  margin: 4%;
+  font-size: 15px;
+  background: #f5f5f5;
+  color: #1e385d;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.popUp .form .formElement button:hover {
+  background-color: #59759c;
+}
+
+.popUp .form .formElement button.register:hover {
+  color: #59759c;
+  background-color: #f5f5f5;
+  border-color: #59759c;
+}
+
+.popUp .form .formElement a {
+  display: block;
+  text-align: right;
+  font-size: 15px;
+  color: #1e385d;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.popUp .form .formElement a:hover {
+  color: #59759c;
+  text-decoration: underline;
+}
+
+.popUp .form .formElement input[type="checkbox"] {
+  display: inline-block;
+  width: 17px;
+  height: 17px;
+  margin-left: 5px;
+  vertical-align: middle;
+}
+
+.popUp .form .formElement label[for="rememberMe"] {
+  vertical-align: middle;
+}
+
+.errorMessage {
+  color: red;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 999;
 }

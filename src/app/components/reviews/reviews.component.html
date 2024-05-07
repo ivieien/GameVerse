@@ -1,26 +1,39 @@
-<div class="reviewsContainer">
-    <h2 class="sectionTitle">{{ sectionTitle }}</h2>
-    <div *ngFor="let review of reviews" class="review">
-        <div class="title">{{ review.title }}</div>
-        <div class="content">{{ review.content }}</div>
-        <div class="info">
-            <span>Por {{ review.author }}</span>
-            <span> el {{ review.date }}</span>
-        </div>
+<div class="container mt-5">
+  <form [formGroup]="reviewForm">
+    <div class="mb-3">
+      <label for="userName" class="form-label">Usuario:</label>
+      <input type="text" id="userName" formControlName="userName" class="form-control">
+      <div *ngIf="reviewForm.get('userName')?.invalid && reviewForm.get('userName')?.touched" class="errorMessage">
+        Tu usaurio es requerido.
+      </div>
     </div>
+    <div class="mb-3">
+      <label for="gameTitle" class="form-label">Título del juego:</label>
+      <input type="text" id="gameTitle" formControlName="gameTitle" class="form-control">
+      <div *ngIf="reviewForm.get('gameTitle')?.invalid && reviewForm.get('gameTitle')?.touched" class="errorMessage">
+        El título del juego es requerido.
+      </div>
+    </div>
+    <div class="mb-3">
+      <label for="userReview" class="form-label">Reseña:</label>
+      <textarea id="userReview" formControlName="userReview" class="form-control"></textarea>
+      <div *ngIf="reviewForm.get('userReview')?.invalid && reviewForm.get('userReview')?.touched" class="errorMessage">
+        Tu reseña es requerida.
+      </div>
+    </div>
+    <button type="submit" [disabled]="reviewForm.invalid" class="btn btn-primary">Enviar</button>
+  </form>
 
-    <div class="addReviewForm">
-        <h2 class="formTitle">{{ formTitle }}</h2>
-        <form>
-            <div class="formGroup">
-                <label for="title">{{ labelTitle }}:</label>
-                <input type="text" id="title" name="title" required>
-            </div>
-            <div class="formGroup">
-                <label for="content">{{ labelContent }}</label>
-                <textarea id="content" rows="4" required></textarea>
-            </div>
-            <button type="submit" class="submitBtn">{{ submitBtn }}</button>
-        </form>
+  <hr>
+
+  <div *ngIf="reviews.length > 0">
+    <h2 class="title">Reseñas:</h2>
+    <div class="list-group">
+      <div *ngFor="let review of reviews" class="list-group-item">
+        <h5 class="mb-1">{{ review.gameTitle }}</h5>
+        <p class="mb-1">Por: {{ review.userName }}</p>
+        <p class="mb-1">{{ review.userReview }}</p>
+      </div>
     </div>
+  </div>
 </div>
