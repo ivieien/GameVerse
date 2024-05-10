@@ -54,14 +54,27 @@
   margin-left: 10px;
 }
 
+.languageIcon,
 .searchIcon {
   cursor: pointer;
   color: white;
   font-size: 24px;
 }
-
+.languageIcon:hover,
 .searchIcon:hover {
   color: orange;
+}
+.langDropdown {
+  margin-right: 4%;
+}
+.langContent {
+  position: absolute;
+  background-color: #fff;
+}
+.flag {
+  border: none;
+  background-color: #fff;
+  margin: 1%;
 }
 
 .buttonsContainer {

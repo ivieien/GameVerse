@@ -1,6 +1,5 @@
-import { Component, Inject, OnInit  } from '@angular/core';
+import { Component, ElementRef, HostListener, Inject, OnInit  } from '@angular/core';
 import { FormGroup, FormControl, Validators } from '@angular/forms';
-import { I18NEXT_SERVICE, ITranslationService } from 'angular-i18next';
 
 @Component({
   selector: 'app-login',
@@ -10,10 +9,8 @@ import { I18NEXT_SERVICE, ITranslationService } from 'angular-i18next';
 export class LoginComponent implements OnInit {
   loginForm: FormGroup = new FormGroup({});
   showModal: boolean = false;
-  language = 'es';
-  languages: string[] = ['es', 'en', 'fr', 'de', 'zh'];
  
-  constructor(@Inject(I18NEXT_SERVICE) private i18NextService: ITranslationService) {}
+  constructor(private elementRef: ElementRef) {}
 
   ngOnInit() {
     this.loginForm = new FormGroup({
@@ -22,24 +19,21 @@ export class LoginComponent implements OnInit {
     });
   }
 
-  toggleModal() {
+  toggleModal(event: MouseEvent) {
+    event.stopPropagation(); 
     this.showModal = !this.showModal;
-  } 
+  }
 
   closeModal() {
     this.showModal = false;
   }
 
-  changeLanguage(lang: string){
-    if (lang !== this.i18NextService.language) {
-      this.i18NextService.changeLanguage(lang).then(x => {
-        this.updateState(lang); 
-        document.location.reload();
-      });
+  @HostListener('document:click', ['$event'])
+  onClick(event: MouseEvent) {
+    console.log('Clicked outside');
+    if (!this.elementRef.nativeElement.querySelector('.popUp').contains(event.target)) {
+      this.closeModal();
     }
-  } 
-
-  private updateState(lang: string) {
-    this.language = lang;
   }
+  
 }

@@ -7,7 +7,21 @@
     <h1 class="title col-md-4" routerLink="">{{ 'GAMEVERSE_TITLE' | i18next }}</h1>
 
     <div class="col-md-4 rightDiv">
-      <div class="searchContainer">
+
+      <div class="langDropdown" (click)="toggleLogin()">
+        <span class="languageIcon">
+          <i class="fa-solid fa-language"></i>
+        </span>  
+        <div class="langContent" *ngIf="showLogin" (click)="stopPropagation($event)">
+
+          <button *ngFor="let lang of languages" class="flag" (click)="changeLanguage(lang)">
+            <img src="./assets/images/flags/{{lang}}.png" alt="{{lang}}" width="50px">
+          </button>
+        </div>
+      </div>
+    
+
+      <div>
         <span class="searchIcon" (click)="toggleSearch()">
           <i class="fas fa-search"></i>
         </span>
@@ -15,9 +29,11 @@
           placeholder="Buscar..." />
       </div>
 
-      <div class="login">       
+      <div>       
         <app-login></app-login>
       </div>
+
+
     </div>
   </div>
 
