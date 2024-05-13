@@ -11,5 +11,18 @@
     "LATEST" : {
         "RELEASES": "Nuevos Lanzamientos",
         "TOP100": "Top 100 Mejores juegos"
+    },
+    "LOGIN_MODAL" : {
+        "LOGIN": "Iniciar Sesión",
+        "EMAIL": "Email",
+        "EMAIL_REQUIRED": "El correo electrónico es requerido.",
+        "EMAIL_NOTVALID": "El correo electrónico no es válido.",
+        "PASSWORD": "Contraseña",      
+        "PASSWORD_REQUIRED": "La contraseña es requerida.",
+        "PASSWORD_NOTVALID": "La contraseña debe tener al menos 6 caracteres.",
+        "REMEMBER": "Recuérdame",
+        "ENTER": "Entrar",
+        "REGISTER": "Registrarse",
+        "FORGOT_PASSWORD": "¿Has olvidado tu contraseña?"
     }
 }
