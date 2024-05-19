@@ -23,7 +23,7 @@
     <input type="number" id="maxPrice" placeholder="Máx" (input)="priceFilter()">
   </div>
 
-  <table>
+  <table id="gamesTable">
     <thead>
       <tr>
         <th *ngFor="let column of columns">{{ column }}</th>
