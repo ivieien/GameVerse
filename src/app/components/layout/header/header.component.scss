@@ -60,21 +60,50 @@
   color: white;
   font-size: 24px;
 }
+
 .languageIcon:hover,
 .searchIcon:hover {
   color: orange;
 }
+
 .langDropdown {
   margin-right: 4%;
 }
+
 .langContent {
   position: absolute;
-  background-color: #fff;
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
 }
+
 .flag {
   border: none;
-  background-color: #fff;
-  margin: 1%;
+  background-color: transparent; 
+  margin: 5px; 
+  display: block;
+}
+
+.selected {
+  background-color: orange;
+  color: white; 
+}
+
+.flag img {
+  width: 24px; 
+  height: 24px;
+  border-radius: 50%; 
+  margin-right: 7px;
+}
+
+.flag:hover {
+  background-color: orange; 
+}
+
+.abbreviation {
+  font-size: 14px;
 }
 
 .buttonsContainer {

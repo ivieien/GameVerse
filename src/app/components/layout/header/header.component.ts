@@ -6,21 +6,19 @@ import { I18NEXT_SERVICE, ITranslationService } from 'angular-i18next';
   selector: 'app-header',
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.scss'],
-  animations: [
-    trigger('expandSearch', [
-      state('collapsed', style({ width: '0' })),
-      state('expanded', style({ width: '150px' })),
-      transition('collapsed => expanded', animate('300ms ease-out')),
-      transition('expanded => collapsed', animate('300ms ease-in'))
-    ])
-  ]
 })
+
 export class HeaderComponent {  
   language = 'es';
   languages: string[] = ['es', 'en', 'fr', 'de', 'zh'];
   showLogin: boolean = false;
 
-  constructor(@Inject(I18NEXT_SERVICE) private i18NextService: ITranslationService) {}
+  constructor(@Inject(I18NEXT_SERVICE) private i18NextService: ITranslationService) {
+    const selectedLanguage = localStorage.getItem('selectedLanguage');
+    if (selectedLanguage) {
+      this.language = selectedLanguage;
+    }
+  }
 
   searchExpanded: boolean = false;
   sidebarOpen: boolean = false;
@@ -32,23 +30,20 @@ export class HeaderComponent {
   toggleSearch() {
     this.searchExpanded = !this.searchExpanded;
   }  
-
   toggleLogin() {
     this.showLogin = !this.showLogin;
   }
 
+  stopPropagation(event: Event) {
+    event.stopPropagation();
+  }
   
   changeLanguage(lang: string){
     if (lang !== this.i18NextService.language) {
       this.i18NextService.changeLanguage(lang).then(x => {
-        this.updateState(lang); 
+        localStorage.setItem('selectedLanguage', lang); 
         document.location.reload();
       });
     }
   } 
-
-  private updateState(lang: string) {
-    this.language = lang;
-  }
-
 }

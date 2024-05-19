@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
 import { i18nModule } from './i18n.module';
 import { ReactiveFormsModule } from '@angular/forms';
+import { NgxPaginationModule } from 'ngx-pagination';
 
 import { HomeComponent } from '../components/home/home.component';
 import { GamesComponent } from '../components/games/games.component';
@@ -31,7 +32,8 @@ import { TranslateJsonsPipe } from '../pipes/translateJsons.pipe';
     CommonModule,
     RouterModule,
     ReactiveFormsModule,
-    i18nModule
+    i18nModule,
+    NgxPaginationModule
   ],
   exports: [
     SafeResourceUrlPipe,

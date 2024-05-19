@@ -1,4 +1,71 @@
+<!-- GRÁFICAS-->
+<div style="width: 1000px;">
+  <canvas id="lineChart"></canvas>
+</div>
+<div style="width: 1000px;">
+  <canvas id="barChart"></canvas>
+</div>
+
+<!--TABLA con FILTROS-->
+<div class="tableContainer">
+  <div class="filtersContainer">
+    <i class="fa fa-search search-icon"></i>
+    <input type="text" placeholder="Buscar..." (input)="searchFilter($event)" />
+  
+    <label for="startDate">Fecha de inicio:</label>
+    <input type="date" id="startDate" (input)="dateFilter()">
+    <label for="endDate">Fecha de fin:</label>
+    <input type="date" id="endDate" (input)="dateFilter()">
+
+    <label for="minPrice">Precio mínimo:</label>
+    <input type="number" id="minPrice" placeholder="Mín" (input)="priceFilter()">
+    <label for="maxPrice">Precio máximo:</label>
+    <input type="number" id="maxPrice" placeholder="Máx" (input)="priceFilter()">
+  </div>
+
+  <table>
+    <thead>
+      <tr>
+        <th *ngFor="let column of columns">{{ column }}</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let game of filteredGames | paginate: { itemsPerPage: itemsPerPage, currentPage: currentPage }">
+        <td>{{ game.id }}</td>
+        <td>{{ game.title }}</td>
+        <td>{{ game.price }}</td>
+        <td>{{ game.platform }}</td>
+        <td>{{ game.genre }}</td>
+        <td>{{ game.pegi }}</td>
+        <td>{{ game.releaseDate }}</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="paginationControls">
+    <pagination-controls (pageChange)="pageChanged($event)" [previousLabel]="'Anterior'" [nextLabel]="'Siguiente'"
+      [maxSize]="0">
+    </pagination-controls>
+  </div>
+
+  <button class="excel" (click)="exportToExcel()">Exportar a Excel</button>
+</div>
+
+
 <div class="container mt-5">
+  <div *ngIf="reviews.length > 0">
+    <h2 class="title">Reseñas:</h2>
+    <div class="list-group">
+      <div *ngFor="let review of reviews" class="list-group-item">
+        <h5 class="mb-1">{{ review.gameTitle }}</h5>
+        <p class="mb-1">Por: {{ review.userName }}</p>
+        <p class="mb-1">{{ review.userReview }}</p>
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
   <form [formGroup]="reviewForm">
     <div class="mb-3">
       <label for="userName" class="form-label">Usuario:</label>
@@ -23,17 +90,4 @@
     </div>
     <button type="submit" [disabled]="reviewForm.invalid" class="btn btn-primary">Enviar</button>
   </form>
-
-  <hr>
-
-  <div *ngIf="reviews.length > 0">
-    <h2 class="title">Reseñas:</h2>
-    <div class="list-group">
-      <div *ngFor="let review of reviews" class="list-group-item">
-        <h5 class="mb-1">{{ review.gameTitle }}</h5>
-        <p class="mb-1">Por: {{ review.userName }}</p>
-        <p class="mb-1">{{ review.userReview }}</p>
-      </div>
-    </div>
-  </div>
 </div>
