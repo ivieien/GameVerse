@@ -10,17 +10,16 @@
 
       <div class="langDropdown" (click)="toggleLogin()">
         <span class="languageIcon">
-          <i class="fa-solid fa-language"></i>
+          <i class="fas fa-flag"></i>
         </span>  
         <div class="langContent" *ngIf="showLogin" (click)="stopPropagation($event)">
-
-          <button *ngFor="let lang of languages" class="flag" (click)="changeLanguage(lang)">
-            <img src="./assets/images/flags/{{lang}}.png" alt="{{lang}}" width="50px">
+          <button class="flag" *ngFor="let lang of languages" (click)="changeLanguage(lang)" [ngClass]="{ 'selected': lang === language }">
+            <img src="./assets/images/flags/{{ lang }}.png" alt="{{lang}}">
+            <span class="abbreviation">{{ lang | uppercase }}</span>
           </button>
         </div>
       </div>
     
-
       <div>
         <span class="searchIcon" (click)="toggleSearch()">
           <i class="fas fa-search"></i>
@@ -32,7 +31,6 @@
       <div>       
         <app-login></app-login>
       </div>
-
 
     </div>
   </div>

@@ -7,6 +7,7 @@ import { LayoutModule } from './modules/layout.module';
 import { ViewsModule } from './modules/views.module';
 import { i18nModule } from './modules/i18n.module';
 
+
 @NgModule({
     declarations: [
         AppComponent,
