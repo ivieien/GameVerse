@@ -30,8 +30,8 @@ export class LoginComponent implements OnInit {
 
   @HostListener('document:click', ['$event'])
   onClick(event: MouseEvent) {
-    console.log('Clicked outside');
-    if (!this.elementRef.nativeElement.querySelector('.popUp').contains(event.target)) {
+    const popUpElement = this.elementRef.nativeElement.querySelector('.popUp');
+    if (popUpElement && !popUpElement.contains(event.target)) {
       this.closeModal();
     }
   }
