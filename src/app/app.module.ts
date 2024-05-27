@@ -6,13 +6,15 @@ import { AppRoutingModule } from './modules/app-routing.module';
 import { LayoutModule } from './modules/layout.module';
 import { ViewsModule } from './modules/views.module';
 import { i18nModule } from './modules/i18n.module';
+import { DatePipe, registerLocaleData } from '@angular/common';
+import localeEs from '@angular/common/locales/es';
 
-
+registerLocaleData(localeEs);
 @NgModule({
     declarations: [
         AppComponent,
     ],
-    providers: [],
+    providers: [DatePipe],
     bootstrap: [AppComponent],
     imports: [
         BrowserModule,

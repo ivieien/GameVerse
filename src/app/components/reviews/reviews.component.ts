@@ -1,9 +1,10 @@
 import { Component, OnInit } from '@angular/core';
-import { Chart } from 'chart.js/auto';
+import { Chart, ChartEvent, LegendElement, LegendItem } from 'chart.js/auto';
 import * as XLSX from 'xlsx';
 import { FormGroup, FormControl, Validators } from '@angular/forms';
 import { ReviewsService } from 'src/app/services/reviews.service';
-
+import { DatePipe } from '@angular/common';
+import moment from 'moment';
 
 @Component({
   selector: 'app-reviews',
@@ -28,10 +29,12 @@ export class ReviewsComponent implements OnInit {
   //REVIEWS
   reviewForm: FormGroup = new FormGroup({});
   reviews: any[] = [];
+  private originalBackgroundColors: string[] = [];
 
-  constructor(private reviewsService: ReviewsService) { }
+  constructor(private reviewsService: ReviewsService, private datePipe: DatePipe) { }
 
   ngOnInit() {
+    this.borrarcolumna();
     //CHARTS
     this.reviewsService.getChartData().subscribe(data => {
       this.lineChart = new Chart("lineChart", {
@@ -116,15 +119,17 @@ export class ReviewsComponent implements OnInit {
         type: "pie",
         data: data.pieChart,
         options: {
+          aspectRatio: 2.5,
           plugins: {
             title: {
               display: true,
-              text: 'Tiempo semanal dedicado a jugar videojuegos en España en 2023, por dispositivo (en horas)',
               font: { size: 18 },
               color: '#333',
               padding: 20,
             },
             legend: {
+              onHover: (e, legendItem, legend) => this.handlehoover(e, legendItem, legend),
+              onLeave: (e, legendItem, legend) => this.handleleave(e, legendItem, legend),
               position: 'bottom',
               labels: {
                 usePointStyle: true,
@@ -159,6 +164,37 @@ export class ReviewsComponent implements OnInit {
     this.reviewsService.readReviews().subscribe(data => {
       this.reviews = data.reviews;
     });
+  }  
+  private handlehoover(e: ChartEvent, legendItem: LegendItem, legend: LegendElement<'pie'>) {
+    const backgroundColor = legend.chart.data.datasets[0].backgroundColor;
+
+    if (Array.isArray(backgroundColor)) {
+      // Store the original colors if not already stored
+      if (this.originalBackgroundColors.length === 0) {
+        this.originalBackgroundColors = [...backgroundColor];
+      }
+
+      backgroundColor.forEach((color: string, index: number, colors: any) => {
+        colors[index] = index === legendItem.index || color.length === 9 ? color : color + '4D';
+      });
+      legend.chart.update();
+    }
+  }
+
+  private handleleave(e: ChartEvent, legendItem: LegendItem, legend: LegendElement<'pie'>) {
+    const backgroundColor = legend.chart.data.datasets[0].backgroundColor;
+
+    if (Array.isArray(backgroundColor) && this.originalBackgroundColors.length > 0) {
+      backgroundColor.forEach((color: string, index: number, colors: any) => {
+        colors[index] = this.originalBackgroundColors[index];
+      });
+      legend.chart.update();
+      }
+  }
+  borrarcolumna() {
+    let columnas = ['nombre', 'precio', 'pegi']
+    columnas =  columnas.filter(columnaBorrar => columnaBorrar !== 'precio');
+    console.log('columnas', columnas);
   }
 
   //FILTERS (TABLE)
@@ -173,33 +209,50 @@ export class ReviewsComponent implements OnInit {
   }
 
   dateFilter() {
-    const startDateValue = (document.getElementById('startDate') as HTMLInputElement).value;
-    const endDateValue = (document.getElementById('endDate') as HTMLInputElement).value;
+    const startDateValue = (document.getElementById('startDate') as HTMLInputElement)?.value;
+    const endDateValue = (document.getElementById('endDate') as HTMLInputElement)?.value;
 
     if (startDateValue && endDateValue) {
-      const startDate = new Date(startDateValue);
-      const endDate = new Date(endDateValue);
+      const startDate = this.datePipe.transform(startDateValue, 'dd/MM/yy');
+      const endDate = this.datePipe.transform(endDateValue, 'dd/MM/yy');
+
+      const stDate = moment(startDate, 'DD/MM/YY').toDate();
+      const enDate = moment(endDate, 'DD/MM/YY').toDate();
+      
       this.filteredGames = this.games.filter(game => {
-        const releaseDate = new Date(game.releaseDate);
-        return releaseDate >= startDate && releaseDate <= endDate;
+        if (stDate && enDate) {
+          const releaseDate = moment(game.releaseDate, 'DD/MM/YY').toDate();
+          return releaseDate >= stDate && releaseDate <= enDate;
+        } else {
+          return null;
+        }
       });
     } else {
       this.filteredGames = this.games;
     }
   }
-
+  
   priceFilter() {
     const minPriceValue = (document.getElementById('minPrice') as HTMLInputElement).value;
     const maxPriceValue = (document.getElementById('maxPrice') as HTMLInputElement).value;
 
+    const minPrice = parseFloat(minPriceValue);
+    const maxPrice = parseFloat(maxPriceValue);
+    
     if (minPriceValue && maxPriceValue) {
-      const minPrice = parseFloat(minPriceValue);
-      const maxPrice = parseFloat(maxPriceValue);
+
       this.filteredGames = this.games.filter(game => {
         const price = parseFloat(game.price);
         return price >= minPrice && price <= maxPrice;
       });
-    } else {
+    } else if (minPriceValue || maxPriceValue) {
+      
+      this.filteredGames = this.games.filter(game => {
+        const price = parseFloat(game.price);
+        return price >= minPrice || price <= maxPrice;
+      });
+    }
+    else {
       this.filteredGames = this.games;
     }
   }
