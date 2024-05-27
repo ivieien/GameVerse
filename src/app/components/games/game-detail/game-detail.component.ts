@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import i18next from 'i18next'; 
 import { GamesService } from 'src/app/services/games.service';
+import i18next from 'i18next';
 
 interface Game {
   title: string;

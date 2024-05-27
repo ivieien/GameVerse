@@ -1,17 +1,20 @@
-<!-- GRÁFICAS-->
-<div style="width: 1000px;">
+<!--CHARTS-->
+<div style="width: 1000px;  margin-top: 20px;">
   <canvas id="lineChart"></canvas>
 </div>
-<div style="width: 1000px;">
+<div style="width: 1000px;  margin-top: 25px;">
   <canvas id="barChart"></canvas>
 </div>
+<div style="width: 500px;">
+  <canvas id="pieChart"></canvas>
+</div>
 
-<!--TABLA con FILTROS-->
+<!--TABLE with FILTERS-->
 <div class="tableContainer">
   <div class="filtersContainer">
     <i class="fa fa-search search-icon"></i>
     <input type="text" placeholder="Buscar..." (input)="searchFilter($event)" />
-  
+
     <label for="startDate">Fecha de inicio:</label>
     <input type="date" id="startDate" (input)="dateFilter()">
     <label for="endDate">Fecha de fin:</label>
@@ -51,7 +54,7 @@
   <button class="excel" (click)="exportToExcel()">Exportar a Excel</button>
 </div>
 
-
+<!--REVIEWS-->
 <div class="container mt-5">
   <div *ngIf="reviews.length > 0">
     <h2 class="title">Reseñas:</h2>

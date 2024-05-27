@@ -1,15 +1,27 @@
 {
-    "GAMEVERSE_TITLE": "GameVerse",
-    "HOME": "Inicio",
-    "GAMES": "Juegos",
-    "PREVIOUS": "Anterior", 
-    "NEWS": "Noticias",
-    "VIDEOS": "Videos",
-    "REVIEWS": "Analisis y reseñas",
-    "THE_LATEST": "Lo ultimo",
-
-    "LATEST" : {
-        "RELEASES": "Nuevos Lanzamientos",
-        "TOP100": "Top 100 Mejores juegos"
-    }
+  "GAMEVERSE_TITLE": "GameVerse",
+  "HOME": {
+    "BUTTON": "Inicio",
+    "READ_MORE": "Leer más",
+    "TITLE": "Descubre los Mejores Juegos",
+    "DESCRIPTION": "Explora nuestra selección de los TOP 100 juegos mejor valorados."
+  },
+  "GAMES": {
+    "BUTTON": "Juegos"
+  },
+  "NEWS": {
+    "BUTTON": "Noticias"
+  },
+  "VIDEOS": {
+    "BUTTON": "Videos"
+  },
+  "REVIEWS": {
+    "BUTTON": "Analisis y reseñas"
+  },
+  "THE_LATEST": {
+    "BUTTON": "Lo ultimo",
+    "RELEASES": "Nuevos Lanzamientos",
+    "TOP100": "Top 100 Mejores juegos"
+  },
+  "PREVIOUS": "Anterior"
 }

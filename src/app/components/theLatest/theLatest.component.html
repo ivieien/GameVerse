@@ -1,6 +1,6 @@
-<!--NEW RELEASES -->
+<!--NEW RELEASES-->
 <div class="carouselHeader">
-    <h2 class="sectionTitle">{{ 'LATEST.RELEASES' | i18next }}</h2>
+    <h2 class="sectionTitle">{{ 'THE_LATEST.RELEASES' | i18next }}</h2>
     <div class="carouselControls">
         <div class="carousel-control-circle" (click)="navigateCarousel('newReleases', 'prev')">
             <button class="carousel-control-prev" type="button" data-bs-target="#newReleasesGamesCarousel"
@@ -26,7 +26,7 @@
                         <img class="gameContainer" [src]="game.img" width="167px" height="250px"
                             [routerLink]="['/game', formatURL(game.title)]">
                         <div class="overlay">
-                            {{ truncateText( game.title, 15) }}
+                            {{ game.title | truncateText: 15 }}
                             <p class="ratingBox" [class]="getRatingClass(game.qualification)">
                                 {{ game.qualification }}
                             </p>
@@ -37,9 +37,9 @@
         </div>
     </div>
 </div>
-<!--Top 100 -->
+<!--TOP 100-->
 <div class="carouselHeader">
-    <h2 class="sectionTitle">{{ 'LATEST.TOP100' | i18next }}</h2>
+    <h2 class="sectionTitle">{{ 'THE_LATEST.TOP100' | i18next }}</h2>
     <div class="carouselControls">
         <div class="carousel-control-circle" (click)="navigateCarousel('top100', 'prev')">
             <button class="carousel-control-prev" type="button" data-bs-target="#top100GamesCarousel"
@@ -65,7 +65,7 @@
                         <img class="gameContainer" [src]="game.img" width="167px" height="250px"
                             [routerLink]="['/game', formatURL(game.title)]">
                         <div class="overlay">
-                            {{ truncateText( game.title, 15) }}
+                            {{ game.title | truncateText: 15 }}
                             <p class="ratingBox" [class]="getRatingClass(game.qualification)">
                                 {{ game.qualification }}
                             </p>
