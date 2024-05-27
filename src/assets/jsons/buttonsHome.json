@@ -1,27 +1,74 @@
 [
-    {
-      "title": "DESTACADOS",
-      "img": "./assets/images/buttons/Juegos destacados.jpg",
-      "text": "Videojuegos más recientes y populares...",
-      "url": ""
+  {
+    "title": {
+      "es": "DESTACADOS",
+      "en": "FEATURED",
+      "fr": "EN VEDETTE",
+      "de": "HIGHLIGHTS",
+      "zh": "精选"
     },
-    {
-      "title": "PROXIMOS LANZAMIENTOS",
-      "img": "./assets/images/buttons/Proximos lanzamientos.jpeg",
-      "text": "Títulos más esperados...",
-      "url": ""
+    "img": "./assets/images/buttons/Juegos destacados.jpg",
+    "text": {
+      "es": "Videojuegos más recientes y populares...",
+      "en": "Latest and most popular video games...",
+      "fr": "Jeux vidéo les plus récents et les plus populaires...",
+      "de": "Neueste und beliebteste Videospiele...",
+      "zh": "最新最受欢迎的视频游戏..."
     },
-    {
-      "title": "EVENTOS",
-      "img": "./assets/images/buttons/Eventos.jpg",
-      "text": "Próximas ferias, conferencias...",
-      "url": ""
+    "url": ""
+  },
+  {
+    "title": {
+      "es": "PROXIMOS LANZAMIENTOS",
+      "en": "UPCOMING RELEASES",
+      "fr": "SORTIES À VENIR",
+      "de": "KOMMENDE VERÖFFENTLICHUNGEN",
+      "zh": "即将发布"
     },
-    {
-      "title": "TIENDA",
-      "img": "./assets/images/buttons/Tienda.png",
-      "text": "Dónde comprar...",
-      "url": ""
-    }
-  ]
-  
+    "img": "./assets/images/buttons/Proximos lanzamientos.jpeg",
+    "text": {
+      "es": "Títulos más esperados...",
+      "en": "Most anticipated titles...",
+      "fr": "Les titres les plus attendus...",
+      "de": "Am meisten erwartete Titel...",
+      "zh": "最受期待的标题..."
+    },
+    "url": ""
+  },
+  {
+    "title": {
+      "es": "EVENTOS",
+      "en": "EVENTS",
+      "fr": "ÉVÉNEMENTS",
+      "de": "VERANSTALTUNGEN",
+      "zh": "活动"
+    },
+    "img": "./assets/images/buttons/Eventos.jpg",
+    "text": {
+      "es": "Próximas ferias, conferencias...",
+      "en": "Upcoming fairs, conferences...",
+      "fr": "Prochaines foires, conférences...",
+      "de": "Kommende Messen, Konferenzen...",
+      "zh": "即将举行的博览会、会议..."
+    },
+    "url": ""
+  },
+  {
+    "title": {
+      "es": "TIENDA",
+      "en": "SHOP",
+      "fr": "MAGASIN",
+      "de": "GESCHÄFT",
+      "zh": "商店"
+    },
+    "img": "./assets/images/buttons/Tienda.png",
+    "text": {
+      "es": "Dónde comprar...",
+      "en": "Where to buy...",
+      "fr": "Où acheter...",
+      "de": "Wo kaufen...",
+      "zh": "在哪里购买..."
+    },
+    "url": ""
+  }
+]

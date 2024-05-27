@@ -1,28 +1,27 @@
 {
-    "GAMEVERSE_TITLE": "GameVerse",
-    "HOME": "Inicio",
-    "GAMES": "Juegos",
-    "PREVIOUS": "Anterior", 
-    "NEWS": "Noticias",
-    "VIDEOS": "Videos",
-    "REVIEWS": "Analisis y reseñas",
-    "THE_LATEST": "Lo ultimo",
-
-    "LATEST" : {
-        "RELEASES": "Nuevos Lanzamientos",
-        "TOP100": "Top 100 Mejores juegos"
-    },
-    "LOGIN_MODAL" : {
-        "LOGIN": "Iniciar Sesión",
-        "EMAIL": "Email",
-        "EMAIL_REQUIRED": "El correo electrónico es requerido.",
-        "EMAIL_NOTVALID": "El correo electrónico no es válido.",
-        "PASSWORD": "Contraseña",      
-        "PASSWORD_REQUIRED": "La contraseña es requerida.",
-        "PASSWORD_NOTVALID": "La contraseña debe tener al menos 6 caracteres.",
-        "REMEMBER": "Recuérdame",
-        "ENTER": "Entrar",
-        "REGISTER": "Registrarse",
-        "FORGOT_PASSWORD": "¿Has olvidado tu contraseña?"
-    }
+  "GAMEVERSE_TITLE": "GameVerse",
+  "HOME": {
+    "BUTTON": "Inicio",
+    "READ_MORE": "Leer más",
+    "TITLE": "Descubre los Mejores Juegos",
+    "DESCRIPTION": "Explora nuestra selección de los TOP 100 juegos mejor valorados."
+  },
+  "GAMES": {
+    "BUTTON": "Juegos"
+  },
+  "NEWS": {
+    "BUTTON": "Noticias"
+  },
+  "VIDEOS": {
+    "BUTTON": "Videos"
+  },
+  "REVIEWS": {
+    "BUTTON": "Analisis y reseñas"
+  },
+  "THE_LATEST": {
+    "BUTTON": "Lo ultimo",
+    "RELEASES": "Nuevos Lanzamientos",
+    "TOP100": "Top 100 Mejores juegos"
+  },
+  "PREVIOUS": "Anterior"
 }

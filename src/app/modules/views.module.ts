@@ -14,6 +14,7 @@ import { TheLatestComponent } from '../components/theLatest/theLatest.component'
 import { GameDetailComponent } from '../components/games/game-detail/game-detail.component';
 import { SafeResourceUrlPipe } from '../pipes/safeResourceUrl.pipe';
 import { TranslateJsonsPipe } from '../pipes/translateJsons.pipe';
+import { TruncateTextPipe } from '../pipes/truncateText.pipe';
 
 
 @NgModule({
@@ -26,7 +27,8 @@ import { TranslateJsonsPipe } from '../pipes/translateJsons.pipe';
     TheLatestComponent,
     GameDetailComponent, 
     SafeResourceUrlPipe,
-    TranslateJsonsPipe
+    TranslateJsonsPipe,
+    TruncateTextPipe
   ],
   imports: [
     CommonModule,
@@ -38,6 +40,7 @@ import { TranslateJsonsPipe } from '../pipes/translateJsons.pipe';
   exports: [
     SafeResourceUrlPipe,
     TranslateJsonsPipe,
+    TruncateTextPipe
   ]
 })
 export class ViewsModule { }

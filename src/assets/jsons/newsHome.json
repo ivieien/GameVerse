@@ -1,17 +1,53 @@
 [
-    { 
-        "img": "https://stargamers.com.pe/index/wp-content/uploads/2022/08/the-elder-scrolls-vi.jpg", 
-        "title": "Noticia 1", 
-        "text": "Nuevo lanzamiento: 'The Elder Scrolls VI' revela su primer avance emocionante Los fanáticos de la franquicia de rol de mundo abierto The Elder Scrolls están emocionados por el reciente avance de su próxima entrega, 'The Elder Scrolls VI'. El tráiler, revelado en la conferencia de prensa de una importante exposición de videojuegos, muestra impresionantes paisajes, criaturas misteriosas y una ambientación fascinante. Aunque el avance es breve, ha generado una gran expectación entre los seguidores de la serie, que esperan ansiosos explorar este nuevo mundo virtual. La fecha de lanzamiento aún no se ha anunciado, pero se espera que el juego sea una experiencia épica para los amantes de los videojuegos de mundo abierto."
+     {
+        "img": "https://stargamers.com.pe/index/wp-content/uploads/2022/08/the-elder-scrolls-vi.jpg",
+        "title": {
+            "es": "Noticia 1",
+            "en": "News 1",
+            "fr": "Nouvelle 1",
+            "de": "Nachricht 1",
+            "zh": "新闻 1"
+        },
+        "text": {
+            "es": "Nuevo lanzamiento: 'The Elder Scrolls VI' revela su primer avance emocionante. Los fanáticos de la franquicia de rol de mundo abierto The Elder Scrolls están emocionados por el reciente avance de su próxima entrega, 'The Elder Scrolls VI'. El tráiler, revelado en la conferencia de prensa de una importante exposición de videojuegos, muestra impresionantes paisajes, criaturas misteriosas y una ambientación fascinante. Aunque el avance es breve, ha generado una gran expectación entre los seguidores de la serie, que esperan ansiosos explorar este nuevo mundo virtual. La fecha de lanzamiento aún no se ha anunciado, pero se espera que el juego sea una experiencia épica para los amantes de los videojuegos de mundo abierto.",
+            "en": "Exciting Announcement: 'The Elder Scrolls VI' Reveals Its First Thrilling Teaser. Fans of the open-world role-playing franchise The Elder Scrolls are excited for the recent teaser of its upcoming installment, 'The Elder Scrolls VI'. The trailer, unveiled at a major gaming expo press conference, showcases stunning landscapes, mysterious creatures, and a captivating setting. Although the teaser is brief, it has generated high anticipation among series followers, who are eagerly awaiting to explore this new virtual world. The release date has not been announced yet, but the game is expected to be an epic experience for open-world gaming enthusiasts.",
+            "fr": "Annonce passionnante: 'The Elder Scrolls VI' révèle son premier teaser palpitant. Les fans de la franchise de jeu de rôle en monde ouvert The Elder Scrolls sont enthousiastes à l'idée du teaser récent de sa prochaine livraison, 'The Elder Scrolls VI'. Le trailer, dévoilé lors d'une conférence de presse majeure d'un salon du jeu vidéo, présente des paysages magnifiques, des créatures mystérieuses et un cadre captivant. Bien que le teaser soit bref, il a généré une grande attente parmi les suiveurs de la série, qui attendent avec impatience d'explorer ce nouveau monde virtuel. La date de sortie n'a pas encore été annoncée, mais le jeu devrait être une expérience épique pour les amateurs de jeux en monde ouvert.",
+            "de": "Aufregende Ankündigung: 'The Elder Scrolls VI' enthüllt seinen ersten aufregenden Teaser. Fans der Open-World-Rollenspielreihe The Elder Scrolls sind begeistert vom kürzlich veröffentlichten Teaser ihrer kommenden Folge, 'The Elder Scrolls VI'. Der Trailer, der auf einer großen Gaming-Expo-Pressekonferenz enthüllt wurde, zeigt atemberaubende Landschaften, mysteriöse Kreaturen und eine fesselnde Kulisse. Obwohl der Teaser kurz ist, hat er große Erwartungen bei den Fans der Serie geweckt, die gespannt darauf warten, diese neue virtuelle Welt zu erkunden. Das Veröffentlichungsdatum wurde noch nicht bekannt gegeben, aber das Spiel wird voraussichtlich ein episches Erlebnis für Fans von Open-World-Spielen sein.",
+            "zh": "令人兴奋的公告：《上古卷轴VI》发布首个惊险预告。《上古卷轴》系列开放世界角色扮演游戏的粉丝们对即将推出的最新作品《上古卷轴VI》的预告感到兴奋。这款预告片在一场重要的游戏博览会新闻发布会上首次亮相，展示了令人惊叹的风景、神秘的生物和迷人的场景。尽管预告片很短，但已经在系列追随者中引起了极大的期待，他们迫不及待地想要探索这个新的虚拟世界。尚未宣布发行日期，但预计该游戏将成为开放世界游戏爱好者的史诗级体验。"
+        }
     },
     {
-        "img": "https://cdn.mos.cms.futurecdn.net/BeyhFdCM2ugLQjX8vX7fuQ-1200-80.jpg", 
-        "title": "Noticia 2",
-        "text": "Éxito sin precedentes: 'Cyberpunk 2077' rompe récords de ventas en su primer fin de semana. El muy esperado juego de rol de mundo abierto 'Cyberpunk 2077' ha superado todas las expectativas al convertirse en el lanzamiento más exitoso en la historia de los videojuegos"
+        "img": "https://cdn.mos.cms.futurecdn.net/BeyhFdCM2ugLQjX8vX7fuQ-1200-80.jpg",
+        "title": {
+            "en": "News 2",
+            "es": "Noticia 2",
+            "fr": "Nouvelle 2",
+            "de": "Nachricht 2",
+            "zh": "新闻 2"
+        },
+        "text": {
+            "en": "Unprecedented Success: 'Cyberpunk 2077' Breaks Sales Records in Its First Weekend. The highly anticipated open-world role-playing game 'Cyberpunk 2077' has exceeded all expectations by becoming the most successful launch in the history of video games.",
+            "es": "Éxito sin precedentes: 'Cyberpunk 2077' rompe récords de ventas en su primer fin de semana. El muy esperado juego de rol de mundo abierto 'Cyberpunk 2077' ha superado todas las expectativas al convertirse en el lanzamiento más exitoso en la historia de los videojuegos.",
+            "fr": "Succès sans précédent: 'Cyberpunk 2077' bat des records de ventes dès son premier week-end. Le jeu de rôle en monde ouvert très attendu 'Cyberpunk 2077' a dépassé toutes les attentes en devenant le lancement le plus réussi de l'histoire des jeux vidéo.",
+            "de": "Beispielloser Erfolg: 'Cyberpunk 2077' bricht Verkaufsrekorde am ersten Wochenende. Das mit Spannung erwartete Open-World-Rollenspiel 'Cyberpunk 2077' hat alle Erwartungen übertroffen und ist zum erfolgreichsten Start in der Geschichte der Videospiele geworden.",
+            "zh": "前所未有的成功：《赛博朋克2077》在首个周末打破销售纪录。备受期待的开放世界角色扮演游戏《赛博朋克2077》在发布的首个周末就超过了所有人的预期，成为了游戏历史上最成功的首发游戏。"
+        }
     },
     {
-        "img": "https://fs-prod-cdn.nintendo-europe.com/media/images/10_share_images/portals_3/SI_Hub_Zelda_Portal.jpg", 
-        "title": "Noticia 3",
-        "text": "Anuncio emocionante: Nintendo revela planes para un nuevo juego de la serie 'The Legend of Zelda' En una reciente presentación en línea, Nintendo ha anunciado emocionantes novedades para los fanáticos de la legendaria serie 'The Legend of Zelda'. "
-    }
+        "img": "https://fs-prod-cdn.nintendo-europe.com/media/images/10_share_images/portals_3/SI_Hub_Zelda_Portal.jpg",
+        "title": {
+            "en": "News 3",
+            "es": "Noticia 3",
+            "fr": "Nouvelle 3",
+            "de": "Nachricht 3",
+            "zh": "新闻 3"
+        },
+        "text": {
+            "en": "Exciting Announcement: Nintendo Reveals Plans for a New 'The Legend of Zelda' Game. In a recent online presentation, Nintendo has announced exciting news for fans of the legendary 'The Legend of Zelda' series.",
+            "es": "Anuncio emocionante: Nintendo revela planes para un nuevo juego de la serie 'The Legend of Zelda'. En una reciente presentación en línea, Nintendo ha anunciado emocionantes novedades para los fanáticos de la legendaria serie 'The Legend of Zelda'.",
+            "fr": "Annonce passionnante: Nintendo dévoile des plans pour un nouveau jeu 'The Legend of Zelda'. Lors d'une récente présentation en ligne, Nintendo a annoncé des nouvelles excitantes pour les fans de la légendaire série 'The Legend of Zelda'.",
+            "de": "Aufregende Ankündigung: Nintendo enthüllt Pläne für ein neues 'The Legend of Zelda'-Spiel. In einer kürzlich erfolgten Online-Präsentation hat Nintendo aufregende Neuigkeiten für Fans der legendären 'The Legend of Zelda'-Serie bekannt gegeben.",
+            "zh": "令人兴奋的公告：任天堂公布了一款新的《塞尔达传说》游戏的计划。在最近的在线展示中，任天堂为传奇性的《塞尔达传说》系列的粉丝们宣布了令人兴奋的消息。"
+        }
+    }    
 ]

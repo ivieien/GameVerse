@@ -41,14 +41,7 @@ export class TheLatestComponent {
       return [];
     }
   }
-  
-  get translateValue(): string {
-    const itemWidth = 100 / this.groupSize;
-    const startIndex = this.startIndex['newReleases']; 
-    const offset = (itemWidth * (startIndex % this.groupSize));
-    return `calc(-50% + ${offset}%)`; 
-  }
-  
+
   navigateCarousel(type: string, direction: string) {
     const startIndex = this.startIndex[type];
     const endIndex = this.endIndex[type];
@@ -64,13 +57,6 @@ export class TheLatestComponent {
         this.endIndex[type]--;
       }
     }
-  }
-  
-  truncateText(text: string, maxLength: number): string {
-    if (text.length > maxLength) {
-      return text.substring(0, maxLength) + '...';
-    }
-    return text;
   }
   
   getRatingClass(qualification: number): string {

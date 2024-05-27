@@ -19,7 +19,7 @@ export class GamesService {
 
   constructor(private http: HttpClient) { }
 
-  getTop100Games(): Observable<any[]> {
+  getTop100Games(): Observable<Game[]> {
     return this.http.get<any[]>('assets/jsons/top100.json');
   }
   getNewReleases(): Observable<Game[]> {

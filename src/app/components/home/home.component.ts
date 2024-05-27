@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { HomeService } from 'src/app/services/home.service';
 import { GamesService } from 'src/app/services/games.service';
-
+import i18next from 'i18next';
 
 @Component({
   selector: 'app-home',
@@ -9,20 +9,21 @@ import { GamesService } from 'src/app/services/games.service';
   styleUrls: ['./home.component.scss'],
 })
 export class HomeComponent {
-  currentNewsIndex: number = 0;
-  buttonsHome: any[] | undefined;
-  top100Games: any[] | undefined;
   newsItems: any[] | undefined;
+  currentNewsIndex: number = 0;
+  top100Games: any[] | undefined;
   currentGameIndex: number = 0;
-  titleTop100: string = 'Descubre los Mejores Juegos'
-  descriptionTop100: string = 'Explora nuestra selección de los TOP 100 juegos mejor valorados.'
-
+  buttonsHome: any[] | undefined;
+  currentLanguage: string = 'es';
+  
   constructor(
     private homeService: HomeService,
     private gamesService: GamesService
   ) { }
 
   ngOnInit(): void {
+    this.currentLanguage = i18next.language;
+
     this.homeService.getButtons().subscribe(data => {
       this.buttonsHome = data;
     });
@@ -49,13 +50,6 @@ export class HomeComponent {
 
   formatURL(title: string): string {
     return title.toLowerCase().replace(/\s+/g, '-');
-  }
-
-  truncateText(text: string, maxLength: number): string {
-    if (text.length > maxLength) {
-      return text.substring(0, maxLength) + '...';
-    }
-    return text;
   }
 
   getRatingClass(qualification: number): string {

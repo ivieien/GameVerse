@@ -2,7 +2,7 @@
   <i class="fa fa-user"></i>
 </div>
 
-<div class="popUp" *ngIf="showModal">
+<div class="popUp"  [ngClass]="{ 'active': showModal }" *ngIf="showModal">
   <div class="closeBtn" (click)="closeModal()">
     <i class="fa-solid fa-xmark"></i>
   </div>

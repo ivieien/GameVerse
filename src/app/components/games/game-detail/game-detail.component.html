@@ -4,12 +4,12 @@
   </div>
   <div class="detailsContainer">
     <h1>{{ game?.title }}</h1>
-    <p>{{ game | translateJsons: currentLanguage }}</p>
+    <p>{{ game?.text[currentLanguage] }}</p>
     <p class="qualificationContainer" [class]="getRatingClass(game?.qualification)">Nota: {{ game?.qualification }}</p>
     <p>Lanzamiento: {{ game?.release }}</p>
     <p>Consolas:</p> 
       <div *ngFor="let console of game?.consoles" class="d-flex">
-        <p> {{console}}</p>
+        <p> {{ console }}</p>
         <i  class="fa-brands fa-{{console.toString() | lowercase}}"></i>
         <i *ngIf="console == 'PC'" class="fa-solid fa-desktop"></i>
       </div>

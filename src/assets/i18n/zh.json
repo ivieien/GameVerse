@@ -1,14 +1,27 @@
 {
-    "GAMEVERSE_TITLE": "游戏宇宙",
-    "HOME": "主页",
-    "GAMES": "游戏",
-    "NEWS": "新闻",
-    "VIDEOS": "视频",
-    "REVIEWS": "评论",
-    "THE_LATEST": "最新消息",
-
-    "LATEST" : {
-        "RELEASES": "新发布",
-        "TOP100": "前100名最佳游戏"
-    }
+  "GAMEVERSE_TITLE": "GameVerse",
+  "HOME": {
+    "BUTTON": "首页",
+    "READ_MORE": "阅读更多",
+    "TITLE": "发现最佳游戏",
+    "DESCRIPTION": "探索我们精选的前100款最受好评的游戏。"
+  },
+  "GAMES": {
+    "BUTTON": "游戏"
+  },
+  "NEWS": {
+    "BUTTON": "新闻"
+  },
+  "VIDEOS": {
+    "BUTTON": "视频"
+  },
+  "REVIEWS": {
+    "BUTTON": "评论与评测"
+  },
+  "THE_LATEST": {
+    "BUTTON": "最新内容",
+    "RELEASES": "新发行",
+    "TOP100": "前100佳游戏"
+  },
+  "PREVIOUS": "前一页"
 }

@@ -1,4 +1,3 @@
-import { animate, state, style, transition, trigger } from '@angular/animations';
 import { Component, Inject } from '@angular/core';
 import { I18NEXT_SERVICE, ITranslationService } from 'angular-i18next';
 
