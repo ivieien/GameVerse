@@ -7,14 +7,14 @@
 .sectionTitle {
     font-size: 36px;
     font-weight: bold;
-    color: #ff7f00;
+    color: var(--color-secondary);
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); 
     margin-right: auto;
 }
 
 hr {
     height: 1px;
-    background-color:#1E385D;
+    background-color: var(--color-primary);
     width: 90%;
     margin-top: -0.5%;
     border: none;
@@ -34,23 +34,23 @@ hr {
 .carousel-control-circle {
     width: 40px;
     height: 40px;
-    border: 2px solid #1E385D;;
+    border: 2px solid var(--color-primary);
     border-radius: 50%;
     position: relative;
     margin-right: 10px;
 }
 
 .carousel-control-circle:hover {
-    background-color: #1E385D;;
+    background-color: var(--color-primary);
 }
 
 .carousel-control-circle:hover .arrow-icon {
-    color: #ff7f00;;
+    color: var(--color-secondary);
 }
 
 .carousel-control-prev .arrow-icon,
 .carousel-control-next .arrow-icon {
-    color: #1E385D;;
+    color: var(--color-primary);
     transition: color 0.3s;
     position: absolute;
     top: 50%;

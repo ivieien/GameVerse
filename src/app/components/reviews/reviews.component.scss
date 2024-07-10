@@ -27,7 +27,7 @@
 .filtersContainer input[type="number"]:focus,
 .filtersContainer input[type="date"]:focus {
   outline: none;
-  border-color: #59759C;
+  border-color: var(--color-base);
 }
 
 .filtersContainer label {
@@ -69,13 +69,13 @@ tr:nth-child(even) {
 
 .excel {
   margin-top: 20px;
-  background-color: #59759C;
+  background-color: var(--color-base);
   border-radius: 5px;
   transition: background-color 0.3s;
 }
 
 .excel:hover {
-  background-color: orange;
+  background-color: var(--color-secondary);
 }
 
 //REVIEWS
@@ -105,7 +105,7 @@ button:disabled {
 }
 
 .list-group-item h5 {
-  color: orange;
+  color: var(--color-secondary);
   font-weight: bold;
 }
 

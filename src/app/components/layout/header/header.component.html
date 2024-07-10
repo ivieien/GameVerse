@@ -41,7 +41,7 @@
       <button routerLink="">{{ 'HOME.BUTTON' | i18next }}</button>
       <button routerLink="/games">{{ 'GAMES.BUTTON' | i18next }}</button>
       <button routerLink="/news">{{ 'NEWS.BUTTON' | i18next }}</button>
-      <button routerLink="/videos">{{ 'VIDEOS.BUTTON' | i18next }}</button>
+      <button *ngIf="isAdmin()" routerLink="/videos">{{ 'VIDEOS.BUTTON' | i18next }}</button>
       <button routerLink="/reviews">{{ 'REVIEWS.BUTTON' | i18next }}</button>
       <button routerLink="/the-latest">{{ 'THE_LATEST.BUTTON' | i18next }}</button>
     </div>

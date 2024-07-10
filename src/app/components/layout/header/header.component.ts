@@ -1,5 +1,6 @@
 import { Component, Inject } from '@angular/core';
 import { I18NEXT_SERVICE, ITranslationService } from 'angular-i18next';
+import { LoginService } from 'src/app/services/login.service';
 
 @Component({
   selector: 'app-header',
@@ -12,7 +13,7 @@ export class HeaderComponent {
   languages: string[] = ['es', 'en', 'fr', 'de', 'zh'];
   showLogin: boolean = false;
 
-  constructor(@Inject(I18NEXT_SERVICE) private i18NextService: ITranslationService) {
+  constructor(@Inject(I18NEXT_SERVICE) private i18NextService: ITranslationService, private loginService: LoginService) {
     const selectedLanguage = localStorage.getItem('selectedLanguage');
     if (selectedLanguage) {
       this.language = selectedLanguage;
@@ -45,4 +46,8 @@ export class HeaderComponent {
       });
     }
   } 
+  isAdmin() {
+    console.log('Ha entrado', this.loginService.getRole());
+    return this.loginService.getRole() === 'admin';
+  }
 }

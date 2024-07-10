@@ -10,12 +10,13 @@ import { ReviewsComponent } from '../components/reviews/reviews.component';
 import { TheLatestComponent } from '../components/theLatest/theLatest.component';
 import { GameDetailComponent } from '../components/games/game-detail/game-detail.component';
 import { ErrorComponent } from '../components/error/error.component';
+import { RoleGuard } from '../guards/role.guard';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'games', component: GamesComponent },
   { path: 'news', component: NewsComponent },
-  { path: 'videos', component: VideosComponent },
+  { path: 'videos', component: VideosComponent, canActivate: [RoleGuard], data: {expectedRole: 'admin'} },
   { path: 'reviews', component: ReviewsComponent },
   { path: 'the-latest', component: TheLatestComponent },  
   { path: 'game/:title', component: GameDetailComponent }, 

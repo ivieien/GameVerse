@@ -23,7 +23,7 @@
 }
 
 .btn.btn-primary {
-  background-color: #59759C;
+  background-color: var(--color-base);
   color: #fff;
   padding: 10px 20px;
   border: none;
@@ -31,12 +31,12 @@
 }
 
 .btn.btn-primary:hover {
-  background-color: orange;
+  background-color: var(--color-secondary);
 }
 
 //TOP GAMES
 .topGamesSection {
-  background-color: #1E385D;
+  background-color: var(--color-primary);
   padding: 50px 0px 25px;
   margin-bottom: 100px;
   text-align: center;
@@ -47,7 +47,7 @@
   font-size: 36px;
   font-weight: bold;
   margin-bottom: 25px;
-  color: #ff7f00;
+  color: var(--color-secondary);
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); 
 }
 
@@ -199,7 +199,7 @@
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   background-color: #fff;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); 
-  border: 2px solid #59759C;
+  border: 2px solid var(--color-base);
 }
 
 .box:hover {
@@ -208,7 +208,7 @@
 }
 
 .box h2 {
-  color: #59759C;
+  color: var(--color-base);
   font-size: 24px;
   margin-bottom: 12px;
   text-decoration: underline;
