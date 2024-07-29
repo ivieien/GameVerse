@@ -3,7 +3,11 @@
 @import "~font-awesome/css/font-awesome.min.css";
 
 body{
- background: #E3E6E6;
+ background: #eef4fc;
  font-family: "Montserrat", sans-serif;
 }
-
+:root {
+    --color-primary: #1E385D;
+    --color-secondary: #ff7f00;
+    --color-base: #59759C;
+}
