@@ -11,7 +11,7 @@ import { LoginService } from 'src/app/services/login.service';
 export class HeaderComponent {  
   language = 'es';
   languages: string[] = ['es', 'en', 'fr', 'de', 'zh'];
-  showLogin: boolean = false;
+  showLanguage: boolean = false;
 
   constructor(@Inject(I18NEXT_SERVICE) private i18NextService: ITranslationService, private loginService: LoginService) {
     const selectedLanguage = localStorage.getItem('selectedLanguage');
@@ -30,8 +30,8 @@ export class HeaderComponent {
   toggleSearch() {
     this.searchExpanded = !this.searchExpanded;
   }  
-  toggleLogin() {
-    this.showLogin = !this.showLogin;
+  toggleLanguage() {
+    this.showLanguage = !this.showLanguage;
   }
 
   stopPropagation(event: Event) {

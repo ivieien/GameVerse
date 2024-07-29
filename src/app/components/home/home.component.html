@@ -7,7 +7,7 @@
         [class]="i === currentNewsIndex ? 'active' : 'inactive'">
         <img src="{{ news.img }}" />
         <div class="carousel-caption">
-          <h3>{{  news.title[currentLanguage]  }}</h3>
+          <h3>{{ news.title[currentLanguage] }}</h3>
           <p>{{ news.text[currentLanguage] | truncateText: 200  }}</p>
           <a routerLink="" class="btn btn-primary">{{ 'HOME.READ_MORE' | i18next }}</a>
         </div>

@@ -16,7 +16,10 @@
     "BUTTON": "Videos"
   },
   "REVIEWS": {
-    "BUTTON": "Reviews"
+    "BUTTON": "Reviews",
+    "LINECHART_TITLE": "Monthly Video Game Releases by Platform in 2023",
+    "BARCHART_TITLE": "Annual Sales of Current Generation Consoles (2017 - 2024)",
+    "PIECHART_TITLE": "Weekly Time Spent Playing Video Games in Spain in 2023, by Device (in hours)"
   },
   "THE_LATEST": {
     "BUTTON": "Latest",

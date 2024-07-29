@@ -17,11 +17,4 @@ export class ReviewsService {
   getGamesAndColumns(): Observable<any> {
     return this.http.get<any>('assets/jsons/reviews.json');
   }
-
-  readReviews(): Observable<any> {
-    return this.http.get<any>('assets/jsons/reviews.json');
-  }
-  saveReviews(data: any): Observable<any> {
-    return this.http.put('assets/jsons/reviews.json', data);
-  }
 }

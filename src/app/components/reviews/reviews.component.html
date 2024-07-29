@@ -1,13 +1,15 @@
 <!--CHARTS-->
-<div class="graphics">
-  <div>
+<div class="charts">
+  <div class="chartContainer">
+    <h1 class="chartTitle">{{ 'REVIEWS.LINECHART_TITLE' | i18next }}</h1>
     <canvas id="lineChart"></canvas>
   </div>
-  <div>
+  <div class="chartContainer">
+    <h1 class="chartTitle">{{ 'REVIEWS.BARCHART_TITLE' | i18next }}</h1>
     <canvas id="barChart"></canvas>
   </div>
-  <div>
-    <h1>Tiempo semanal dedicado a jugar videojuegos en España en 2023, por dispositivo (en horas)</h1>
+  <div class="chartContainer">
+    <h1 class="chartTitle">{{ 'REVIEWS.PIECHART_TITLE' | i18next }}</h1>
     <canvas id="pieChart"></canvas>
   </div>
 </div>
@@ -16,20 +18,86 @@
 <!--TABLE with FILTERS-->
 <div class="tableContainer">
   <div class="filtersContainer">
-    <i class="fa fa-search search-icon"></i>
-    <input type="text" placeholder="Buscar..." (input)="searchFilter($event)" />
+    <div class="dropdown" (click)="toggleDropdown('letter')" [ngClass]="{'selected': isDropdownOpen('letter')}">
+      <div class="dropdownHeader">
+        {{ selectedLetter === '' ? 'Letra' : 'Letra ' + selectedLetter }}
+      </div>
+      <div class="dropdownContent" [ngClass]="{'show': isDropdownOpen('letter')}">
+        <ul class="ulItem">
+          <li class="liItem" *ngFor="let letter of letters" (click)="selectLetter(letter, $event)">
+            <a [ngClass]="{'selected': selectedLetter === letter}">{{ letter }}</a>
+          </li>
+        </ul>
+      </div>
+    </div>
 
-    <label for="startDate">Fecha de inicio:</label>
-    <input type="date" id="startDate" (input)="dateFilter()">
-    <label for="endDate">Fecha de fin:</label>
-    <input type="date" id="endDate" (input)="dateFilter()">
+    <div class="dropdown" (click)="toggleDropdown('price')" [ngClass]="{'selected': isDropdownOpen('price')}">
+      <div class="dropdownHeader">
+        {{ selectedPriceRange === '' ? 'Precio' : selectedPriceRange }}
+      </div>
+      <div class="dropdownContent positionF2" [ngClass]="{'show': isDropdownOpen('price')}">
+        <ul class="ulItem">
+          <li class="liItem" *ngFor="let price of priceRanges" (click)="selectPriceRange(price, $event)">
+            <a [ngClass]="{'selected': selectedPriceRange === price}">{{ price }}</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  
+    <div class="dropdown" (click)="toggleDropdown('platform')" [ngClass]="{'selected': isDropdownOpen('platform')}">
+      <div class="dropdownHeader">
+        {{ selectedPlatform === 'Todas' ? 'Plataforma' : selectedPlatform }}
+      </div>
+      <div class="dropdownContent positionF3" [ngClass]="{'show': isDropdownOpen('platform')}">
+        <ul class="ulItem">
+          <li class="liItem" *ngFor="let platform of platforms" (click)="selectPlatform(platform, $event)">
+            <a [ngClass]="{'selected': selectedPlatform === platform}">{{ platform }}</a>
+          </li>
+        </ul>
+      </div>
+    </div>
 
-    <label for="minPrice">Precio mínimo:</label>
-    <input type="number" id="minPrice" placeholder="Mín" (input)="priceFilter()">
-    <label for="maxPrice">Precio máximo:</label>
-    <input type="number" id="maxPrice" placeholder="Máx" (input)="priceFilter()">
+    <div class="dropdown" (click)="toggleDropdown('genre')" [ngClass]="{'selected': isDropdownOpen('genre')}">
+      <div class="dropdownHeader">
+        {{ selectedGenre === 'Todos' ? 'Género' : selectedGenre }}
+      </div>
+      <div class="dropdownContent" [ngClass]="{'show': isDropdownOpen('genre')}">
+        <ul class="ulItem">
+          <li class="liItem" *ngFor="let genre of genres" (click)="selectGenre(genre, $event)">
+            <a [ngClass]="{'selected': selectedGenre === genre}">{{ genre }}</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="dropdown" (click)="toggleDropdown('pegi')" [ngClass]="{'selected': isDropdownOpen('pegi')}">
+      <div class="dropdownHeader">
+        {{ selectedPegi === 'Todos' ? 'PEGI' : 'PEGI ' + selectedPegi }}
+      </div>
+      <div class="dropdownContent positionF2" [ngClass]="{'show': isDropdownOpen('pegi')}">
+        <ul class="ulItem">
+          <li class="liItem" *ngFor="let pegi of pegiRatings" (click)="selectPegi(pegi, $event)">
+            <a [ngClass]="{'selected': selectedPegi === pegi}">{{ pegi }}</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="dropdown" (click)="toggleDropdown('month')" [ngClass]="{'selected': isDropdownOpen('month')}">
+      <div class="dropdownHeader">
+        {{ selectedMonth === 'Todos' ? 'Mes' : selectedMonth }}
+      </div>
+      <div class="dropdownContent positionF3" [ngClass]="{'show': isDropdownOpen('month')}">
+        <ul class="ulItem">
+          <li class="liItem" *ngFor="let month of months" (click)="selectMonth(month, $event)">
+            <a [ngClass]="{'selected': selectedMonth === month}">{{ month }}</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    
   </div>
-
+  
   <table id="gamesTable">
     <thead>
       <tr>
@@ -38,7 +106,6 @@
     </thead>
     <tbody>
       <tr *ngFor="let game of filteredGames | paginate: { itemsPerPage: itemsPerPage, currentPage: currentPage }">
-        <td>{{ game.id }}</td>
         <td>{{ game.title }}</td>
         <td>{{ game.price }}</td>
         <td>{{ game.platform }}</td>

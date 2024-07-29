@@ -16,7 +16,10 @@
     "BUTTON": "视频"
   },
   "REVIEWS": {
-    "BUTTON": "评论与评测"
+    "BUTTON": "评论与评测",
+    "LINECHART_TITLE": "2023年各平台月度视频游戏发布情况",
+    "BARCHART_TITLE": "2017年至2024年当前世代游戏机年销量",
+    "PIECHART_TITLE": "2023年西班牙每周各设备游戏时间分布（小时）"
   },
   "THE_LATEST": {
     "BUTTON": "最新内容",

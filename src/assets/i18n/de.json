@@ -16,7 +16,10 @@
     "BUTTON": "Videos"
   },
   "REVIEWS": {
-    "BUTTON": "Bewertungen"
+    "BUTTON": "Bewertungen",
+    "LINECHART_TITLE": "Monatliche Veröffentlichungen von Videospielen nach Plattform im Jahr 2023",
+    "BARCHART_TITLE": "Jährliche Verkäufe der aktuellen Konsolengeneration (2017 - 2024)",
+    "PIECHART_TITLE": "Wöchentliche Spielzeit für Videospiele in Spanien im Jahr 2023, nach Gerät (in Stunden)"
   },
   "THE_LATEST": {
     "BUTTON": "Die neuesten",
