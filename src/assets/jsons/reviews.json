@@ -1,284 +1,283 @@
 {
   "columns": [
-    "ID",
     "Título",
     "Precio",
     "Plataforma",
     "Género",
     "PEGI",
-    "Fecha de salida"
+    "Mes de salida"
   ],
 
   "games": [
     {
       "id": 1,
-      "title": "Dragon's Legacy: Fire and Fury",
-      "price": 49.99,
-      "platform": "PlayStation 5",
-      "genre": "RPG de Fantasía",
-      "pegi": 16,
-      "releaseDate": "18/05/24"
+      "title": "Avatar: Frontiers of Pandora",
+      "price": 69.99,
+      "platform": "PS5, Xbox, PC",
+      "genre": "Acción, Aventura",
+      "pegi": 12,
+      "releaseDate": "Enero"
     },
     {
       "id": 2,
-      "title": "Apocalyptic Fallout: New Era",
-      "price": 59.99,
-      "platform": "Xbox Series X",
-      "genre": "Aventura de Mundo Abierto",
-      "pegi": 18,
-      "releaseDate": "17/05/24"
+      "title": "THE FINALS",
+      "price": 0.00,
+      "platform": "PC",
+      "genre": "Acción, Supervivencia",
+      "pegi": 16,
+      "releaseDate": "Enero"
     },
     {
       "id": 3,
-      "title": "Galactic Domination: Space Empires",
-      "price": 39.99,
-      "platform": "Nintendo Switch",
-      "genre": "Simulación de Estrategia",
-      "pegi": 10,
-      "releaseDate": "16/05/24"
+      "title": "Tekken 8",
+      "price": 69.99,
+      "platform": "PS5, Xbox, PC",
+      "genre": "Lucha",
+      "pegi": 16,
+      "releaseDate": "Enero"
     },
     {
       "id": 4,
-      "title": "Mystical Realms: Arcane Awakening",
-      "price": 54.99,
+      "title": "Palworld",
+      "price": 28.99,
       "platform": "PC",
-      "genre": "Aventura de Fantasía",
+      "genre": "Aventura, Supervivencia",
       "pegi": 12,
-      "releaseDate": "15/05/24"
+      "releaseDate": "Enero"
     },
     {
       "id": 5,
-      "title": "Epic Quest: Legends Unleashed",
-      "price": 49.99,
-      "platform": "PlayStation 5",
-      "genre": "Acción-Aventura",
+      "title": "Suicide Squad: Kill the Justice League",
+      "price": 69.99,
+      "platform": "PS5, Xbox, PC",
+      "genre": "Aventura, Acción",
       "pegi": 16,
-      "releaseDate": "14/05/24"
+      "releaseDate": "Febrero"
     },
     {
       "id": 6,
-      "title": "Mechanical Mayhem: Robot",
-      "price": 44.99,
-      "platform": "Xbox Series X",
-      "genre": "Acción de Ciencia Ficción",
-      "pegi": 12,
-      "releaseDate": "13/05/24"
+      "title": "Mario vs Donkey Kong",
+      "price": 49.99,
+      "platform": "Switch",
+      "genre": "Puzles",
+      "pegi": 3,
+      "releaseDate": "Febrero"
     },
     {
       "id": 7,
-      "title": "Lost World: Forgotten Realms",
-      "price": 49.99,
-      "platform": "Nintendo Switch",
-      "genre": "Rompecabezas de Aventura",
-      "pegi": 10,
-      "releaseDate": "12/05/24"
+      "title": "Helldivers 2",
+      "price": 39.99,
+      "platform": "PS5, PC",
+      "genre": "Acción",
+      "pegi": 18,
+      "releaseDate": "Febrero"
     },
     {
       "id": 8,
-      "title": "Cybernetic Conquest: Digital Warfare",
-      "price": 0,
-      "platform": "PC, PlayStation 5, Xbox Series X",
-      "genre": "Estrategia de Ciberpunk",
-      "pegi": 16,
-      "releaseDate": "11/05/24"
+      "title": "Inazuma Eleven: Victory Road",
+      "price": 59.99,
+      "platform": "Switch, PS5",
+      "genre": "Deportes",
+      "pegi": 7,
+      "releaseDate": "Marzo"
     },
     {
       "id": 9,
-      "title": "Shadowlands: Chronicles of Darkness",
-      "price": 39.99,
-      "platform": "PC",
-      "genre": "Aventura de Terror",
+      "title": "Rise of the Ronin",
+      "price": 79.99,
+      "platform": "PS5",
+      "genre": "Acción",
       "pegi": 18,
-      "releaseDate": "10/05/24"
+      "releaseDate": "Marzo"
     },
     {
       "id": 10,
-      "title": "Fantasy Frontier: Kingdoms Rising",
-      "price": 54.99,
-      "platform": "PlayStation 5",
-      "genre": "Estrategia de Fantasía",
-      "pegi": 12,
-      "releaseDate": "09/05/24"
+      "title": "Midnight Ghost Hunt",
+      "price": 19.99,
+      "platform": "PC",
+      "genre": "Acción",
+      "pegi": 16,
+      "releaseDate": "Marzo"
     },
     {
       "id": 11,
-      "title": "Chronicles of Destiny: Legacy Reborn",
-      "price": 49.99,
-      "platform": "Xbox Series X",
-      "genre": "Fantasy RPG",
+      "title": "Content Warning",
+      "price": 7.79,
+      "platform": "PC",
+      "genre": "Terror",
       "pegi": 16,
-      "releaseDate": "24/04/24"
+      "releaseDate": "Abril"
     },
     {
       "id": 12,
-      "title": "Interstellar Odyssey: Galactic Explorer",
-      "price": 59.99,
-      "platform": "PC",
-      "genre": "Space Exploration",
+      "title": "TopSpin 2K25",
+      "price": 69.99,
+      "platform": "PS5, Xbox, PC",
+      "genre": "Deportes",
       "pegi": 12,
-      "releaseDate": "22/04/24"
+      "releaseDate": "Abril"
     },
     {
       "id": 13,
-      "title": "Nuclear Winter: Frost Survival",
-      "price": 39.99,
-      "platform": "PlayStation 5",
-      "genre": "Survival Horror",
-      "pegi": 18,
-      "releaseDate": "20/04/24"
+      "title": "MotoGP 24",
+      "price": 69.99,
+      "platform": "PS5, Xbox, PC, Switch",
+      "genre": "Deportes",
+      "pegi": 3,
+      "releaseDate": "Mayo"
     },
     {
       "id": 14,
-      "title": "Arcane Legends: Sorcerer's Awakening",
-      "price": 54.99,
-      "platform": "Nintendo Switch",
-      "genre": "Action RPG",
-      "pegi": 10,
-      "releaseDate": "18/04/24"
+      "title": "XDefiant",
+      "price": 0.00,
+      "platform": "PS5, Xbox, PC",
+      "genre": "Acción",
+      "pegi": 16,
+      "releaseDate": "Mayo"
     },
     {
       "id": 15,
-      "title": "Cyberpunk Revolution: Digital Uprising",
-      "price": 49.99,
-      "platform": "PC",
-      "genre": "Cyberpunk Action",
-      "pegi": 16,
-      "releaseDate": "16/04/24"
+      "title": "F1 24",
+      "price": 79.99,
+      "platform": "PS5, Xbox, PC",
+      "genre": "Deportes",
+      "pegi": 3,
+      "releaseDate": "Mayo"
     },
     {
       "id": 16,
-      "title": "Shadow Tactics: Silent Assassins",
-      "price": 44.99,
-      "platform": "PlayStation 5",
-      "genre": "Stealth Strategy",
+      "title": "Journey",
+      "price": 0.00,
+      "platform": "PC",
+      "genre": "Terror",
       "pegi": 16,
-      "releaseDate": "14/04/24"
+      "releaseDate": "Junio"
     },
     {
       "id": 17,
-      "title": "Medieval Conquest: Kingdoms Clash",
-      "price": 49.99,
-      "platform": "Xbox Series X",
-      "genre": "Strategy Simulation",
-      "pegi": 12,
-      "releaseDate": "12/04/24"
+      "title": "Mannequin",
+      "price": 19.99,
+      "platform": "PC",
+      "genre": "VR, Acción",
+      "pegi": 16,
+      "releaseDate": "Junio"
     },
     {
       "id": 18,
-      "title": "Lost Paradise: Island Survival",
-      "price": 0,
-      "platform": "Nintendo Switch",
-      "genre": "Adventure Survival",
-      "pegi": 12,
-      "releaseDate": "10/04/24"
+      "title": "Nobody Wants to Die",
+      "price": 24.99,
+      "platform": "PS5, Xbox, PC",
+      "genre": "Acción, Aventura",
+      "pegi": 18,
+      "releaseDate": "Julio"
     },
     {
       "id": 19,
-      "title": "Eternal Darkness: Cursed Legacy",
-      "price": 39.99,
+      "title": "Once Human",
+      "price": 0.00,
       "platform": "PC",
-      "genre": "Horror Adventure",
-      "pegi": 18,
-      "releaseDate": "08/04/24"
+      "genre": "Acción, Aventura",
+      "pegi": 16,
+      "releaseDate": "Julio"
     },
     {
       "id": 20,
-      "title": "Wild West Legends: Outlaw Redemption",
-      "price": 54.99,
-      "platform": "PlayStation 5",
-      "genre": "Western Adventure",
+      "title": "Star Wars Outlaws",
+      "price": 69.99,
+      "platform": "PS5, Xbox, PC",
+      "genre": "Acción, Aventura",
       "pegi": 16,
-      "releaseDate": "06/04/24"
+      "releaseDate": "Agosto"
     },
     {
       "id": 21,
-      "title": "Vampire Chronicles: Blood Moon Rising",
-      "price": 49.99,
-      "platform": "Xbox Series X",
-      "genre": "Action-Adventure",
-      "pegi": 18,
-      "releaseDate": "02/04/24"
+      "title": "Concord",
+      "price": 39.99,
+      "platform": "PS5, PC",
+      "genre": "Acción",
+      "pegi": 16,
+      "releaseDate": "Agosto"
     },
     {
       "id": 22,
-      "title": "Space Odyssey: Frontier Expedition",
-      "price": 59.99,
-      "platform": "PC",
-      "genre": "Space Simulation",
-      "pegi": 10,
-      "releaseDate": "02/04/24"
+      "title": "The Casting of Frank Stone",
+      "price": 39.99,
+      "platform": "PS5, Xbox, PC",
+      "genre": "Terror",
+      "pegi": 18,
+      "releaseDate": "Septiembre"
     },
     {
       "id": 23,
-      "title": "Fantasy Realms: Mage's Legacy",
-      "price": 39.99,
-      "platform": "PlayStation 5",
-      "genre": "Fantasy Adventure",
-      "pegi": 12,
-      "releaseDate": "31/03/24"
+      "title": "Astro Bot",
+      "price": 59.99,
+      "platform": "PS5",
+      "genre": "Puzles, Aventura",
+      "pegi": 7,
+      "releaseDate": "Septiembre"
     },
     {
       "id": 24,
-      "title": "Alien Invasion: Xeno Threat",
-      "price": 54.99,
-      "platform": "Xbox Series X",
-      "genre": "Sci-Fi Shooter",
-      "pegi": 16,
-      "releaseDate": "29/03/24"
+      "title": "The Legend of Zelda: Echoes of Wisdom",
+      "price": 59.99,
+      "platform": "Switch",
+      "genre": "Aventura, Puzles",
+      "pegi": 7,
+      "releaseDate": "Septiembre"
     },
     {
       "id": 25,
-      "title": "Mystic Quest: Enchanted Journey",
-      "price": 49.99,
-      "platform": "Nintendo Switch",
-      "genre": "Adventure Puzzle",
-      "pegi": 10,
-      "releaseDate": "27/03/24"
+      "title": "Silent Hill 2 Remake",
+      "price": 69.99,
+      "platform": "PS5, PC",
+      "genre": "Terror, Acción",
+      "pegi": 18,
+      "releaseDate": "Octubre"
     },
     {
       "id": 26,
-      "title": "Samurai Legends: Bushido Honor",
-      "price": 44.99,
-      "platform": "PC",
-      "genre": "Action RPG",
-      "pegi": 16,
-      "releaseDate": "25/03/24"
+      "title": "Super Mario Party Jamboree",
+      "price": 59.99,
+      "platform": "Switch",
+      "genre": "Puzles",
+      "pegi": 3,
+      "releaseDate": "Octubre"
     },
     {
       "id": 27,
-      "title": "Cybernetic Warzone: Digital Assault",
-      "price": 49.99,
-      "platform": "PlayStation 5",
-      "genre": "Cyberpunk Shooter",
-      "pegi": 18,
-      "releaseDate": "23/03/24"
+      "title": "Mario y Luigi: Conexión Fraternal",
+      "price": 59.99,
+      "platform": "Switch",
+      "genre": "Puzles",
+      "pegi": 7,
+      "releaseDate": "Noviembre"
     },
     {
       "id": 28,
-      "title": "Pirate's Curse: Blackbeard's Revenge",
-      "price": 0,
-      "platform": "Xbox Series X",
-      "genre": "Pirate Adventure",
-      "pegi": 12,
-      "releaseDate": "21/03/24"
+      "title": "Assassin's Creed Shadows",
+      "price": 69.99,
+      "platform": "PS5, Xbox, PC",
+      "genre": "Acción, Aventura",
+      "pegi": 18,
+      "releaseDate": "Noviembre"
     },
     {
       "id": 29,
-      "title": "Jurassic World: Dino Rampage",
-      "price": 39.99,
-      "platform": "Nintendo Switch",
-      "genre": "Action-Adventure",
-      "pegi": 10,
-      "releaseDate": "19/03/24"
+      "title": "Stick It to the Stickman",
+      "price": 14.99,
+      "platform": "PC",
+      "genre": "Acción, Puzles",
+      "pegi": 12,
+      "releaseDate": "Diciembre"
     },
     {
       "id": 30,
-      "title": "Zombie Apocalypse: Undead Horde",
-      "price": 54.99,
+      "title": "Battle Aces",
+      "price": 0.00,
       "platform": "PC",
-      "genre": "Survival Horror",
-      "pegi": 18,
-      "releaseDate": "17/03/24"
+      "genre": "Acción",
+      "pegi": 12,
+      "releaseDate": "Diciembre"
     }
   ],
 

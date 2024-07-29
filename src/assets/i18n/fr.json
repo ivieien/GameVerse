@@ -16,7 +16,10 @@
     "BUTTON": "Vidéos"
   },
   "REVIEWS": {
-    "BUTTON": "Critiques"
+    "BUTTON": "Critiques",
+    "LINECHART_TITLE": "Lancement mensuel des jeux vidéo par plateforme en 2023",
+    "BARCHART_TITLE": "Ventes annuelles des consoles de génération actuelle (2017 - 2024)",
+    "PIECHART_TITLE": "Temps hebdomadaire consacré aux jeux vidéo en Espagne en 2023, par appareil (en heures)"
   },
   "THE_LATEST": {
     "BUTTON": "Dernières",

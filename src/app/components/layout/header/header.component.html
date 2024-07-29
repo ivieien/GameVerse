@@ -9,11 +9,11 @@
 
     <div class="col-md-4 rightDiv">
 
-      <div class="langDropdown" (click)="toggleLogin()">
+      <div class="langDropdown" (click)="toggleLanguage()">
         <span class="languageIcon">
-          <i class="fas fa-flag"></i>
+         <i  class="fa-solid fa-globe"></i>
         </span>  
-        <div class="langContent" *ngIf="showLogin" (click)="stopPropagation($event)">
+        <div class="langContent" *ngIf="showLanguage" (click)="stopPropagation($event)">
           <button class="flag" *ngFor="let lang of languages" (click)="changeLanguage(lang)" [ngClass]="{ 'selected': lang === language }">
             <img src="./assets/images/flags/{{ lang }}.png" alt="{{lang}}">
             <span class="abbreviation">{{ lang | uppercase }}</span>

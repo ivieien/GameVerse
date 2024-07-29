@@ -61,7 +61,6 @@
       }
     ]
   },
-
   "barChart": {
     "labels": ["2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024"],
     "datasets": [
@@ -97,8 +96,6 @@
       }
     ]
   },
-
-  
   "pieChart": {
     "labels": ["Consola", "PC", "Móvil y Tablet"],
     "datasets": [

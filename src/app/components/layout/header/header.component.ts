@@ -10,7 +10,7 @@ import { I18NEXT_SERVICE, ITranslationService } from 'angular-i18next';
 export class HeaderComponent {  
   language = 'es';
   languages: string[] = ['es', 'en', 'fr', 'de', 'zh'];
-  showLogin: boolean = false;
+  showLanguage: boolean = false;
 
   constructor(@Inject(I18NEXT_SERVICE) private i18NextService: ITranslationService) {
     const selectedLanguage = localStorage.getItem('selectedLanguage');
@@ -29,8 +29,8 @@ export class HeaderComponent {
   toggleSearch() {
     this.searchExpanded = !this.searchExpanded;
   }  
-  toggleLogin() {
-    this.showLogin = !this.showLogin;
+  toggleLanguage() {
+    this.showLanguage = !this.showLanguage;
   }
 
   stopPropagation(event: Event) {

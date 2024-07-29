@@ -16,12 +16,28 @@
     "BUTTON": "Videos"
   },
   "REVIEWS": {
-    "BUTTON": "Analisis y reseñas"
+    "BUTTON": "Analisis y reseñas",
+    "LINECHART_TITLE": "Lanzamiento Mensual de Videojuegos por Plataforma en 2023",
+    "BARCHART_TITLE": "Ventas Anuales de Consolas de Actual Generación (2017 - 2024)",
+    "PIECHART_TITLE": "Tiempo semanal dedicado a jugar videojuegos en España en 2023, por dispositivo (en horas)"
   },
   "THE_LATEST": {
     "BUTTON": "Lo ultimo",
     "RELEASES": "Nuevos Lanzamientos",
     "TOP100": "Top 100 Mejores juegos"
+  },
+  "LOGIN": {
+    "TITLE": "Iniciar Sesión",
+    "EMAIL": "Email",
+    "EMAIL_REQUIRED": "El correo electrónico es requerido.",
+    "EMAIL_ERROR": "El correo electrónico no es válido.",
+    "PASSWORD": "Contraseña",
+    "PASSWORD_REQUIRED": "La contraseña es requerida.",
+    "PASSWORD_ERROR": "La contraseña debe tener al menos 6 caracteres.",
+    "REMEMBER_ME": "Recuérdame",
+    "LOGIN": "Entrar",
+    "SIGN_IN":"Registrarse",
+    "FORGOTTEN_PASSWORD": "¿Has olvidado tu contraseña?"
   },
   "PREVIOUS": "Anterior"
 }
