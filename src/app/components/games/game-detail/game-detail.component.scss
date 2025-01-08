@@ -1,4 +1,4 @@
-.gameDetailContainer {
+.gameContainer {
   display: flex;
 }
 
@@ -25,14 +25,14 @@
   }
 }
 
-.detailsContainer {
+.gameDetailsContainer {
   width: 50%;
   padding: 20px;
   box-sizing: border-box;
   border: 1px solid #ccc;
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  
+
   h1 {
     font-size: 30px;
     margin-bottom: 10px;
@@ -43,27 +43,34 @@
     margin-bottom: 10px;
     font-size: 18px;
   }
+
+  .highlight {
+    font-size: 19px;
+    font-weight: bold;
+  }
+}
+
+.consolesContainer {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.d-flex {
+  gap: 5px;
+  line-height: 1;
+}
+
+.d-flex i {
+  font-size: 20px;
 }
 
 .qualificationContainer {
   padding: 5px 10px;
   border-radius: 5px;
-  display: inline-block;
   font-weight: bold;
-}
-
-.shopButton {
-  padding: 10px 20px;
-  background-color: var(--color-base);
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-
-  &:hover {
-    background-color: var(--color-secondary);
-  }
+  max-width: 120px;
+  text-align: center;
 }
 
 .goodRating {
@@ -76,4 +83,155 @@
 
 .badRating {
   background-color: #ff6874;
+}
+
+.tbdRating {
+  border: 2px solid gray;
+  display: flex;
+  justify-content: center;
+}
+
+.shopButton {
+  padding: 10px 20px;
+  max-width: 160px;
+  background-color: var(--color-primary);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: #3a5ba0;
+  }
+} 
+
+.imagesContainer {
+  padding: 20px;
+}
+
+.sectionTitle {
+  font-size: 2rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+
+  i {
+    margin-right: 0.5rem;
+  }
+}
+
+hr {
+    height: 1px;
+    background-color: rgb(0, 0, 0);
+    width: 87.5%;
+    margin-top: -0.5%;
+    border: none;
+}
+
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.images img {
+  width: calc(25% - 55px);
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  border-radius: 5px; 
+}
+
+.images img:hover {
+  transform: scale(1.05);
+}
+
+.lightboxContainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  overflow: hidden;
+}
+
+.lightboxContent {
+  position: relative;
+  max-width: 90%;
+  max-height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lightboxContent img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  transition: transform 0.3s ease-in-out; 
+}
+
+.lightboxNav {
+  position: fixed;
+  top: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-50%);
+  pointer-events: none;
+  z-index: 1001;
+}
+
+.lightboxNav button {
+  background-color: rgba(0, 0, 0, 0.7); 
+  border: none;
+  color: #fff;
+  font-size: 32px; 
+  cursor: pointer;
+  padding: 15px; 
+  pointer-events: all;
+  border-radius: 50%; 
+  transition: background-color 0.3s ease, transform 0.3s ease; 
+}
+
+.lightboxNav button:hover {
+  background-color: rgba(255, 255, 255, 0.5); 
+  transform: scale(1.1); 
+}
+
+.lightboxNav button.left {
+  position: absolute;
+  left: 20px;
+}
+
+.lightboxNav button.right {
+  position: absolute;
+  right: 20px;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  color: #fff; 
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 10px 15px; 
+  border-radius: 50%;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  z-index: 1002;
+}
+
+.close:hover {
+  background-color: rgba(255, 255, 255, 0.9); 
+  transform: scale(1.2); 
+}
+
+.close:before {
+  content: "\00d7";
 }

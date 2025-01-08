@@ -1,5 +1,8 @@
 .topbar {
   background-color: var(--color-primary);
+  position: relative; 
+  width: 100%; 
+  z-index: 999;
 }
 
 .headerContainer {
@@ -42,7 +45,7 @@
   max-width: 0;
   overflow: hidden;
   opacity: 0;
-  background-color: transparent;
+  margin-left: 10px;
   transition: max-width 0.3s ease, padding 0.3s ease, opacity 0.3s ease;
 }
 
@@ -51,7 +54,6 @@
   padding: 5px;
   opacity: 1;
   background-color: white;
-  margin-left: 10px;
 }
 
 .languageIcon,

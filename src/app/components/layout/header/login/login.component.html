@@ -1,49 +1,129 @@
-<div class="login" (click)="toggleModal($event)">
+<div *ngIf="!isLoggedIn" class="user" (click)="toggleModal('login')">
   <i class="fa fa-user"></i>
 </div>
 
-<div class="popUp"  [ngClass]="{ 'active': showModal }" *ngIf="showModal">
-  <div class="closeBtn" (click)="closeModal()">
-    <i class="fa-solid fa-xmark"></i>
-  </div>
-  <div class="form">
+<div *ngIf="isLoggedIn" class="loggedUser">
+  <span>{{ currentUser?.username }}</span>
+  <button class="logout" (click)="logout()">Cerrar sesión</button>
+</div>
+
+<div #loginModal class="popUp" *ngIf="activeModal === 'login'" [ngClass]="{ 'active': activeModal}">
+  <div class="header">
     <h2>{{'LOGIN.TITLE' | i18next}}</h2>
+    <div class="closeBtn" (click)="toggleModal(null)">
+      <i class="fa-solid fa-xmark"></i>
+    </div>
+  </div>
+
+  <div class="form">
+    <div *ngIf="loginError" class="alert alert-danger" role="alert" [innerHTML]="'LOGIN.ERROR_MESSAGE' | i18next"></div>
+
     <form [formGroup]="loginForm">
       <div class="formElement">
         <label for="email">{{'LOGIN.EMAIL' | i18next}}</label>
-        <input type="email" id="email" formControlName="email" placeholder="Correo Electrónico">
-        <div
-          *ngIf="loginForm.get('email')?.invalid && (loginForm.get('email')?.dirty || loginForm.get('email')?.touched)"
-          class="errorMessage">
-          <span *ngIf="loginForm.get('email')?.hasError('required')">{{'LOGIN.EMAIL_REQUIRED' | i18next}}</span>
-          <span *ngIf="loginForm.get('email')?.hasError('email')">{{'LOGIN.EMAIL_ERROR' | i18next}}</span>
-        </div>
+        <input type="email" id="email" formControlName="email">
       </div>
       <div class="formElement">
         <label for="password">{{'LOGIN.PASSWORD' | i18next}}</label>
-        <input type="password" id="password" formControlName="password" placeholder="Contraseña">
-        <div
-          *ngIf="loginForm.get('password')?.invalid && (loginForm.get('password')?.dirty || loginForm.get('password')?.touched)"
-          class="errorMessage">
-          <span *ngIf="loginForm.get('password')?.hasError('required')">{{'LOGIN.PASSWORD_REQUIRED' | i18next}}</span>
-          <span *ngIf="loginForm.get('password')?.hasError('minlength')">{{'LOGIN.PASSWORD_ERROR' | i18next}}</span>
-        </div>
+        <input type="password" id="password" formControlName="password">
       </div>
       <div class="formElement">
         <label for="rememberMe">{{'LOGIN.REMEMBER_ME' | i18next}}</label>
         <input type="checkbox" id="rememberMe" placeholder="Contraseña">
       </div>
       <div class="formElement">
-        <button type="submit" [disabled]="loginForm.invalid">{{'LOGIN.LOGIN' | i18next}}</button>
+        <button class="login" type="submit" (click)="login()">{{'LOGIN.LOGIN' | i18next}}</button>
       </div>
     </form>
     <div class="formElement">
-      <button class="register">{{'LOGIN.SIGN_IN' | i18next}}</button>
+      <button class="register" type="button" (click)="toggleModal('register')">
+        {{'LOGIN.SIGN_UP' | i18next}}
+      </button>
     </div>
-    <div class="formElement">
-      <a href="">{{'LOGIN.FORGOTTEN_PASSWORD' | i18next}}</a>
+    <div class="formElement forgottenPasswordContainer">
+      <button class="forgottenPassword" type="button" (click)="toggleModal('recovery')">
+        {{'LOGIN.FORGOTTEN_PASSWORD' | i18next}}
+      </button>
     </div>
   </div>
 </div>
 
-<div class="overlay" *ngIf="showModal"></div>
+<div #registerModal class="popUp" *ngIf="activeModal === 'register'" [ngClass]="{ 'active': activeModal }">
+  <div class="header">
+    <h2>{{'REGISTER.TITLE' | i18next}}</h2>
+    <div class="closeBtn" (click)="toggleModal(null)">
+      <i class="fa-solid fa-xmark"></i>
+    </div>
+  </div>
+
+  <div class="form">
+    <div *ngIf="registrationSuccess" class="alert alert-success" role="alert">
+      {{'REGISTER.SUCCESS_MESSAGE' | i18next}}
+    </div>
+    <div *ngIf="registrationError" class="alert alert-danger" role="alert"
+      [innerHTML]="'REGISTER.ERROR_MESSAGE' | i18next"></div>
+
+    <form [formGroup]="registerForm">
+      <div class="formElement">
+        <label for="registerEmail">{{'REGISTER.EMAIL' | i18next}}</label>
+        <input type="email" id="registerEmail" formControlName="email">
+      </div>
+      <div class="formElement">
+        <label for="registerPassword">{{'REGISTER.PASSWORD' | i18next}}</label>
+        <input type="password" id="registerPassword" formControlName="password">
+      </div>
+      <div class="formElement">
+        <label for="confirmPassword">{{'REGISTER.REPEAT_PASSWORD' | i18next}}</label>
+        <input type="password" id="confirmPassword" formControlName="confirmPassword">
+      </div>
+      <div class="formElement">
+        <label for="username">{{'REGISTER.USERNAME' | i18next}}</label>
+        <input type="text" id="username" formControlName="username">
+      </div>
+
+      <div class="formElement">
+        <button class="login" type="submit" (click)="register()">{{'REGISTER.REGISTER' | i18next}}</button>
+      </div>
+    </form>
+
+    <div class="formElement termsContainer">
+      <p>{{'REGISTER.PRE_TERMS' | i18next}}<a href="#">{{'REGISTER.TERMS' | i18next}}</a> {{'REGISTER.PRE_PRIVACY' |
+        i18next}} <a href="#">{{'REGISTER.PRIVACY' | i18next}}</a> {{'REGISTER.AFTER_PRIVACY' | i18next}}</p>
+    </div>
+    <hr>
+    <div class="formElement loginLinkContainer">
+      <p>{{'REGISTER.ACCOUNT_PROMPT' | i18next}}</p>
+      <button class="loginLink" type="button" (click)="toggleModal('login')">{{'REGISTER.LOGIN' | i18next}}</button>
+    </div>
+  </div>
+</div>
+
+<div #recoveryModal class="popUp" *ngIf="activeModal === 'recovery'" [ngClass]="{ 'active': activeModal }">
+  <div class="header">
+    <h2>{{'RECOVERY.TITLE' | i18next}}</h2>
+    <div class="closeBtn" (click)="toggleModal(null)">
+      <i class="fa-solid fa-xmark"></i>
+    </div>
+  </div>
+
+  <div class="form">
+    <div *ngIf="recoverySuccess" class="alert alert-success" role="alert"
+      [innerHTML]="'RECOVERY.SUCCESS_MESSAGE' | i18next"></div>
+    <div *ngIf="recoveryError" class="alert alert-danger" role="alert" [innerHTML]="'RECOVERY.ERROR_MESSAGE' | i18next">
+    </div>
+
+    <form [formGroup]="recoveryForm">
+      <div class="formElement">
+        <label for="recoveryEmail">{{'RECOVERY.EMAIL' | i18next}}</label>
+        <input type="email" id="recoveryEmail" formControlName="email">
+      </div>
+      <div class="formElement recoveryContainer">
+        <button class="recovery" type="button" (click)="recoverPassword()">{{'RECOVERY.RECOVERY_PASSWORD' |
+          i18next}}</button>
+        <button class="cancel" type="button" (click)="toggleModal('login')">{{'RECOVERY.CANCEL' | i18next}}</button>
+      </div>
+    </form>
+  </div>
+</div>
+
+<div #overlay class="overlay" *ngIf="activeModal"></div>

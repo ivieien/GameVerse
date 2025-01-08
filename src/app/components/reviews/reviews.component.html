@@ -14,154 +14,42 @@
   </div>
 </div>
 
-
-<!--TABLE with FILTERS-->
-<div class="tableContainer">
-  <div class="filtersContainer">
-    <div class="dropdown" (click)="toggleDropdown('letter')" [ngClass]="{'selected': isDropdownOpen('letter')}">
-      <div class="dropdownHeader">
-        {{ selectedLetter === '' ? 'Letra' : 'Letra ' + selectedLetter }}
-      </div>
-      <div class="dropdownContent" [ngClass]="{'show': isDropdownOpen('letter')}">
-        <ul class="ulItem">
-          <li class="liItem" *ngFor="let letter of letters" (click)="selectLetter(letter, $event)">
-            <a [ngClass]="{'selected': selectedLetter === letter}">{{ letter }}</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="dropdown" (click)="toggleDropdown('price')" [ngClass]="{'selected': isDropdownOpen('price')}">
-      <div class="dropdownHeader">
-        {{ selectedPriceRange === '' ? 'Precio' : selectedPriceRange }}
-      </div>
-      <div class="dropdownContent positionF2" [ngClass]="{'show': isDropdownOpen('price')}">
-        <ul class="ulItem">
-          <li class="liItem" *ngFor="let price of priceRanges" (click)="selectPriceRange(price, $event)">
-            <a [ngClass]="{'selected': selectedPriceRange === price}">{{ price }}</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  
-    <div class="dropdown" (click)="toggleDropdown('platform')" [ngClass]="{'selected': isDropdownOpen('platform')}">
-      <div class="dropdownHeader">
-        {{ selectedPlatform === 'Todas' ? 'Plataforma' : selectedPlatform }}
-      </div>
-      <div class="dropdownContent positionF3" [ngClass]="{'show': isDropdownOpen('platform')}">
-        <ul class="ulItem">
-          <li class="liItem" *ngFor="let platform of platforms" (click)="selectPlatform(platform, $event)">
-            <a [ngClass]="{'selected': selectedPlatform === platform}">{{ platform }}</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="dropdown" (click)="toggleDropdown('genre')" [ngClass]="{'selected': isDropdownOpen('genre')}">
-      <div class="dropdownHeader">
-        {{ selectedGenre === 'Todos' ? 'Género' : selectedGenre }}
-      </div>
-      <div class="dropdownContent" [ngClass]="{'show': isDropdownOpen('genre')}">
-        <ul class="ulItem">
-          <li class="liItem" *ngFor="let genre of genres" (click)="selectGenre(genre, $event)">
-            <a [ngClass]="{'selected': selectedGenre === genre}">{{ genre }}</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="dropdown" (click)="toggleDropdown('pegi')" [ngClass]="{'selected': isDropdownOpen('pegi')}">
-      <div class="dropdownHeader">
-        {{ selectedPegi === 'Todos' ? 'PEGI' : 'PEGI ' + selectedPegi }}
-      </div>
-      <div class="dropdownContent positionF2" [ngClass]="{'show': isDropdownOpen('pegi')}">
-        <ul class="ulItem">
-          <li class="liItem" *ngFor="let pegi of pegiRatings" (click)="selectPegi(pegi, $event)">
-            <a [ngClass]="{'selected': selectedPegi === pegi}">{{ pegi }}</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="dropdown" (click)="toggleDropdown('month')" [ngClass]="{'selected': isDropdownOpen('month')}">
-      <div class="dropdownHeader">
-        {{ selectedMonth === 'Todos' ? 'Mes' : selectedMonth }}
-      </div>
-      <div class="dropdownContent positionF3" [ngClass]="{'show': isDropdownOpen('month')}">
-        <ul class="ulItem">
-          <li class="liItem" *ngFor="let month of months" (click)="selectMonth(month, $event)">
-            <a [ngClass]="{'selected': selectedMonth === month}">{{ month }}</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-    
-  </div>
-  
-  <table id="gamesTable">
-    <thead>
-      <tr>
-        <th *ngFor="let column of columns">{{ column }}</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr *ngFor="let game of filteredGames | paginate: { itemsPerPage: itemsPerPage, currentPage: currentPage }">
-        <td>{{ game.title }}</td>
-        <td>{{ game.price }}</td>
-        <td>{{ game.platform }}</td>
-        <td>{{ game.genre }}</td>
-        <td>{{ game.pegi }}</td>
-        <td>{{ game.releaseDate }}</td>
-      </tr>
-    </tbody>
-  </table>
-
-  <div class="paginationControls">
-    <pagination-controls (pageChange)="pageChanged($event)" [previousLabel]="'Anterior'" [nextLabel]="'Siguiente'"
-      [maxSize]="0">
-    </pagination-controls>
-  </div>
-
-  <button class="excel" (click)="exportToExcel()">Exportar a Excel</button>
-</div>
-
 <!--REVIEWS-->
 <div class="container mt-5">
-  <div *ngIf="reviews.length > 0">
-    <h2 class="title">Reseñas:</h2>
-    <div class="list-group">
-      <div *ngFor="let review of reviews" class="list-group-item">
-        <h5 class="mb-1">{{ review.gameTitle }}</h5>
-        <p class="mb-1">Por: {{ review.userName }}</p>
-        <p class="mb-1">{{ review.userReview }}</p>
-      </div>
-    </div>
+  <h2 class="title">Reseñas:</h2>
+  <div *ngFor="let review of reviews" class="listGroupItem">
+    <h5 class="mb-1">{{ review.gameTitle }}</h5>
+    <p class="mb-1"><strong>Por: {{ review.userName }}</strong></p>
+    <p class="mb-1">{{ review.userReview }}</p>
   </div>
 
   <hr>
 
-  <form [formGroup]="reviewForm">
+  <h3 class="formTitle">Añadir una reseña</h3>
+  <form [formGroup]="reviewForm" (ngSubmit)="onSubmit()">
     <div class="mb-3">
       <label for="userName" class="form-label">Usuario:</label>
-      <input type="text" id="userName" formControlName="userName" class="form-control">
+      <input type="text" id="userName" formControlName="userName" class="form-control" placeholder="Ej. Usuario 4">
       <div *ngIf="reviewForm.get('userName')?.invalid && reviewForm.get('userName')?.touched" class="errorMessage">
-        Tu usaurio es requerido.
+        Tu usuario es requerido.
       </div>
     </div>
     <div class="mb-3">
       <label for="gameTitle" class="form-label">Título del juego:</label>
-      <input type="text" id="gameTitle" formControlName="gameTitle" class="form-control">
+      <input type="text" id="gameTitle" formControlName="gameTitle" class="form-control"
+        placeholder="Ej. The Legend of Zelda">
       <div *ngIf="reviewForm.get('gameTitle')?.invalid && reviewForm.get('gameTitle')?.touched" class="errorMessage">
         El título del juego es requerido.
       </div>
     </div>
     <div class="mb-3">
       <label for="userReview" class="form-label">Reseña:</label>
-      <textarea id="userReview" formControlName="userReview" class="form-control"></textarea>
+      <textarea id="userReview" formControlName="userReview" class="form-control"
+        placeholder="Escribe tu reseña aquí..."></textarea>
       <div *ngIf="reviewForm.get('userReview')?.invalid && reviewForm.get('userReview')?.touched" class="errorMessage">
         Tu reseña es requerida.
       </div>
     </div>
-    <button type="submit" [disabled]="reviewForm.invalid" class="btn btn-primary">Enviar</button>
+    <button type="submit" [disabled]="reviewForm.invalid">Enviar</button>
   </form>
 </div>

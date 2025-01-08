@@ -1,53 +1,2213 @@
 [
-     {
-        "img": "https://stargamers.com.pe/index/wp-content/uploads/2022/08/the-elder-scrolls-vi.jpg",
-        "title": {
-            "es": "Noticia 1",
-            "en": "News 1",
-            "fr": "Nouvelle 1",
-            "de": "Nachricht 1",
-            "zh": "新闻 1"
-        },
-        "text": {
-            "es": "Nuevo lanzamiento: 'The Elder Scrolls VI' revela su primer avance emocionante. Los fanáticos de la franquicia de rol de mundo abierto The Elder Scrolls están emocionados por el reciente avance de su próxima entrega, 'The Elder Scrolls VI'. El tráiler, revelado en la conferencia de prensa de una importante exposición de videojuegos, muestra impresionantes paisajes, criaturas misteriosas y una ambientación fascinante. Aunque el avance es breve, ha generado una gran expectación entre los seguidores de la serie, que esperan ansiosos explorar este nuevo mundo virtual. La fecha de lanzamiento aún no se ha anunciado, pero se espera que el juego sea una experiencia épica para los amantes de los videojuegos de mundo abierto.",
-            "en": "Exciting Announcement: 'The Elder Scrolls VI' Reveals Its First Thrilling Teaser. Fans of the open-world role-playing franchise The Elder Scrolls are excited for the recent teaser of its upcoming installment, 'The Elder Scrolls VI'. The trailer, unveiled at a major gaming expo press conference, showcases stunning landscapes, mysterious creatures, and a captivating setting. Although the teaser is brief, it has generated high anticipation among series followers, who are eagerly awaiting to explore this new virtual world. The release date has not been announced yet, but the game is expected to be an epic experience for open-world gaming enthusiasts.",
-            "fr": "Annonce passionnante: 'The Elder Scrolls VI' révèle son premier teaser palpitant. Les fans de la franchise de jeu de rôle en monde ouvert The Elder Scrolls sont enthousiastes à l'idée du teaser récent de sa prochaine livraison, 'The Elder Scrolls VI'. Le trailer, dévoilé lors d'une conférence de presse majeure d'un salon du jeu vidéo, présente des paysages magnifiques, des créatures mystérieuses et un cadre captivant. Bien que le teaser soit bref, il a généré une grande attente parmi les suiveurs de la série, qui attendent avec impatience d'explorer ce nouveau monde virtuel. La date de sortie n'a pas encore été annoncée, mais le jeu devrait être une expérience épique pour les amateurs de jeux en monde ouvert.",
-            "de": "Aufregende Ankündigung: 'The Elder Scrolls VI' enthüllt seinen ersten aufregenden Teaser. Fans der Open-World-Rollenspielreihe The Elder Scrolls sind begeistert vom kürzlich veröffentlichten Teaser ihrer kommenden Folge, 'The Elder Scrolls VI'. Der Trailer, der auf einer großen Gaming-Expo-Pressekonferenz enthüllt wurde, zeigt atemberaubende Landschaften, mysteriöse Kreaturen und eine fesselnde Kulisse. Obwohl der Teaser kurz ist, hat er große Erwartungen bei den Fans der Serie geweckt, die gespannt darauf warten, diese neue virtuelle Welt zu erkunden. Das Veröffentlichungsdatum wurde noch nicht bekannt gegeben, aber das Spiel wird voraussichtlich ein episches Erlebnis für Fans von Open-World-Spielen sein.",
-            "zh": "令人兴奋的公告：《上古卷轴VI》发布首个惊险预告。《上古卷轴》系列开放世界角色扮演游戏的粉丝们对即将推出的最新作品《上古卷轴VI》的预告感到兴奋。这款预告片在一场重要的游戏博览会新闻发布会上首次亮相，展示了令人惊叹的风景、神秘的生物和迷人的场景。尽管预告片很短，但已经在系列追随者中引起了极大的期待，他们迫不及待地想要探索这个新的虚拟世界。尚未宣布发行日期，但预计该游戏将成为开放世界游戏爱好者的史诗级体验。"
-        }
+  {
+    "img": "https://media.es.wired.com/photos/65524a1a75940208747b4936/16:9/w_1280,c_limit/the-game-awards.jpg",
+    "title": {
+      "es": "Estos son los juegos GOTY de los últimos 20 años",
+      "en": "e",
+      "fr": "e",
+      "de": "e",
+      "zh": "e"
     },
-    {
-        "img": "https://cdn.mos.cms.futurecdn.net/BeyhFdCM2ugLQjX8vX7fuQ-1200-80.jpg",
-        "title": {
-            "en": "News 2",
-            "es": "Noticia 2",
-            "fr": "Nouvelle 2",
-            "de": "Nachricht 2",
-            "zh": "新闻 2"
-        },
-        "text": {
-            "en": "Unprecedented Success: 'Cyberpunk 2077' Breaks Sales Records in Its First Weekend. The highly anticipated open-world role-playing game 'Cyberpunk 2077' has exceeded all expectations by becoming the most successful launch in the history of video games.",
-            "es": "Éxito sin precedentes: 'Cyberpunk 2077' rompe récords de ventas en su primer fin de semana. El muy esperado juego de rol de mundo abierto 'Cyberpunk 2077' ha superado todas las expectativas al convertirse en el lanzamiento más exitoso en la historia de los videojuegos.",
-            "fr": "Succès sans précédent: 'Cyberpunk 2077' bat des records de ventes dès son premier week-end. Le jeu de rôle en monde ouvert très attendu 'Cyberpunk 2077' a dépassé toutes les attentes en devenant le lancement le plus réussi de l'histoire des jeux vidéo.",
-            "de": "Beispielloser Erfolg: 'Cyberpunk 2077' bricht Verkaufsrekorde am ersten Wochenende. Das mit Spannung erwartete Open-World-Rollenspiel 'Cyberpunk 2077' hat alle Erwartungen übertroffen und ist zum erfolgreichsten Start in der Geschichte der Videospiele geworden.",
-            "zh": "前所未有的成功：《赛博朋克2077》在首个周末打破销售纪录。备受期待的开放世界角色扮演游戏《赛博朋克2077》在发布的首个周末就超过了所有人的预期，成为了游戏历史上最成功的首发游戏。"
-        }
+    "subtitle": {
+      "es": "¿Sabes quién ganó el GOTY en 2018? ¿Y en 2015? Te traemos el listado completo de los videojuegos que han ganado estos premios GOTY desde que existe el galardón.",
+      "en": "e",
+      "fr": "e",
+      "de": "e",
+      "zh": "e"
     },
-    {
-        "img": "https://fs-prod-cdn.nintendo-europe.com/media/images/10_share_images/portals_3/SI_Hub_Zelda_Portal.jpg",
-        "title": {
-            "en": "News 3",
-            "es": "Noticia 3",
-            "fr": "Nouvelle 3",
-            "de": "Nachricht 3",
-            "zh": "新闻 3"
+    "introduction": {
+      "es": [
+        "Hay que destacar que cada redacción, organización, etc., posee sus propios galardones, pero los que se han consolidado como los “principales” son los <strong>The Game Awards,</strong> premios que anteriormente se denominaban <strong>Spike Video Game Awards.</strong> Para ser exactos, de 2003 a 2013 se llamaron Spike Video Game Awards, y a partir de 2014 cambió ya su denominación a The Game Awards.",
+        "Hecha esta pertinente puntualización, vamos a ir año a año con todos los nominados a juego del año y cuál título ganó."
+      ],
+      "en": ["f"],
+      "fr": ["f"],
+      "de": ["f"],
+      "zh": ["f"]
+    },
+    "sections": [
+      {
+        "title": "2003, Madden NFL 2004",
+        "content": {
+          "es": [
+            "El 2003 fue el primer año de estos galardones y lo ganó Madden NFL 2004. Sorprendente, cuando menos, si tenemos en cuenta que ese año había juegos como Splinter Cell, Wind Waker, KOTOR o el mismísimo GTA: Vice City:",
+            {
+              "list": [
+                "<strong>Madden NFL 2004</strong>",
+                "Freedom Fighters",
+                "Grand Theft Auto: Vice City",
+                "The Legend of Zelda: The Wind Waker",
+                "Socom II U.S. Navy SEALs",
+                "SSX 3",
+                "Star Wars Galaxies",
+                "Tom Clancy’s Splinter Cell",
+                "Tony Hawk’s Underground",
+                "Star Wars: Knights of the Old Republic"
+              ]
+            }
+          ],
+          "en": [
+            "g",
+            {
+              "list": [
+                "<strong>Madden NFL 2004</strong>",
+                "Freedom Fighters",
+                "Grand Theft Auto: Vice City",
+                "The Legend of Zelda: The Wind Waker",
+                "Socom II U.S. Navy SEALs",
+                "SSX 3",
+                "Star Wars Galaxies",
+                "Tom Clancy’s Splinter Cell",
+                "Tony Hawk’s Underground",
+                "Star Wars: Knights of the Old Republic"
+              ]
+            }
+          ],
+          "fr": [
+            "g",
+            {
+              "list": [
+                "<strong>Madden NFL 2004</strong>",
+                "Freedom Fighters",
+                "Grand Theft Auto: Vice City",
+                "The Legend of Zelda: The Wind Waker",
+                "Socom II U.S. Navy SEALs",
+                "SSX 3",
+                "Star Wars Galaxies",
+                "Tom Clancy’s Splinter Cell",
+                "Tony Hawk’s Underground",
+                "Star Wars: Knights of the Old Republic"
+              ]
+            }
+          ],
+          "de": [
+            "g",
+            {
+              "list": [
+                "<strong>Madden NFL 2004</strong>",
+                "Freedom Fighters",
+                "Grand Theft Auto: Vice City",
+                "The Legend of Zelda: The Wind Waker",
+                "Socom II U.S. Navy SEALs",
+                "SSX 3",
+                "Star Wars Galaxies",
+                "Tom Clancy’s Splinter Cell",
+                "Tony Hawk’s Underground",
+                "Star Wars: Knights of the Old Republic"
+              ]
+            }
+          ],
+          "zh": [
+            "g",
+            {
+              "list": [
+                "<strong>Madden NFL 2004</strong>",
+                "Freedom Fighters",
+                "Grand Theft Auto: Vice City",
+                "The Legend of Zelda: The Wind Waker",
+                "Socom II U.S. Navy SEALs",
+                "SSX 3",
+                "Star Wars Galaxies",
+                "Tom Clancy’s Splinter Cell",
+                "Tony Hawk’s Underground",
+                "Star Wars: Knights of the Old Republic"
+              ]
+            }
+          ]
         },
-        "text": {
-            "en": "Exciting Announcement: Nintendo Reveals Plans for a New 'The Legend of Zelda' Game. In a recent online presentation, Nintendo has announced exciting news for fans of the legendary 'The Legend of Zelda' series.",
-            "es": "Anuncio emocionante: Nintendo revela planes para un nuevo juego de la serie 'The Legend of Zelda'. En una reciente presentación en línea, Nintendo ha anunciado emocionantes novedades para los fanáticos de la legendaria serie 'The Legend of Zelda'.",
-            "fr": "Annonce passionnante: Nintendo dévoile des plans pour un nouveau jeu 'The Legend of Zelda'. Lors d'une récente présentation en ligne, Nintendo a annoncé des nouvelles excitantes pour les fans de la légendaire série 'The Legend of Zelda'.",
-            "de": "Aufregende Ankündigung: Nintendo enthüllt Pläne für ein neues 'The Legend of Zelda'-Spiel. In einer kürzlich erfolgten Online-Präsentation hat Nintendo aufregende Neuigkeiten für Fans der legendären 'The Legend of Zelda'-Serie bekannt gegeben.",
-            "zh": "令人兴奋的公告：任天堂公布了一款新的《塞尔达传说》游戏的计划。在最近的在线展示中，任天堂为传奇性的《塞尔达传说》系列的粉丝们宣布了令人兴奋的消息。"
+        "images": [
+          "https://areajugones.sport.es/wp-content/uploads/2021/12/nfl-2004-1024x612.jpg.webp"
+        ]
+      },
+      {
+        "title": "2004, Grand Theft Auto: San Andreas",
+        "content": {
+          "es": [
+            "Si a Vice City no se lo dieron en 2003, en 2004 no hubo duda alguna y se lo llevó un mastodonte como GTA: San Andreas. Y la competencia fue dura, sí:",
+            {
+              "list": [
+                "<strong>Grand Theft Auto: San Andreas</strong>",
+                "Burnout 3: Takedown",
+                "Half-Life 2",
+                "Halo 2",
+                "Metal Gear Solid 3: Snake Eater"
+              ]
+            }
+          ],
+          "en": [
+            "g",
+            {
+              "list": [
+                "<strong>Grand Theft Auto: San Andreas</strong>",
+                "Burnout 3: Takedown",
+                "Half-Life 2",
+                "Halo 2",
+                "Metal Gear Solid 3: Snake Eater"
+              ]
+            }
+          ],
+          "fr": [
+            "s",
+            {
+              "list": [
+                "<strong>Grand Theft Auto: San Andreas</strong>",
+                "Burnout 3: Takedown",
+                "Half-Life 2",
+                "Halo 2",
+                "Metal Gear Solid 3: Snake Eater"
+              ]
+            }
+          ],
+          "de": [
+            "s",
+            {
+              "list": [
+                "<strong>Grand Theft Auto: San Andreas</strong>",
+                "Burnout 3: Takedown",
+                "Half-Life 2",
+                "Halo 2",
+                "Metal Gear Solid 3: Snake Eater"
+              ]
+            }
+          ],
+          "zh": [
+            "s",
+            {
+              "list": [
+                "<strong>Grand Theft Auto: San Andreas</strong>",
+                "Burnout 3: Takedown",
+                "Half-Life 2",
+                "Halo 2",
+                "Metal Gear Solid 3: Snake Eater"
+              ]
+            }
+          ]
+        },
+        "images": [
+          "https://areajugones.sport.es/wp-content/uploads/2021/12/gta-sa-1024x576.jpg.webp"
+        ]
+      },
+      {
+        "title": "2005, Resident Evil 4",
+        "content": {
+          "es": [
+            "El año 2005 fue para Resident Evil 4, un juego que, curiosamente, también ha estado nominado para 2024 con su remake. Fue el estreno de God of War y un fenómeno mundial llamado World of Warcraft:",
+            {
+              "list": [
+                "<strong>Resident Evil 4</strong>",
+                "Call of Duty 2",
+                "F.E.A.R",
+                "God of War",
+                "World of Warcraft"
+              ]
+            }
+          ],
+          "en": [
+            "s",
+            {
+              "list": [
+                "<strong>Resident Evil 4</strong>",
+                "Call of Duty 2",
+                "F.E.A.R",
+                "God of War",
+                "World of Warcraft"
+              ]
+            }
+          ],
+          "fr": [
+            "s",
+            {
+              "list": [
+                "<strong>Resident Evil 4</strong>",
+                "Call of Duty 2",
+                "F.E.A.R",
+                "God of War",
+                "World of Warcraft"
+              ]
+            }
+          ],
+          "de": [
+            "s",
+            {
+              "list": [
+                "<strong>Resident Evil 4</strong>",
+                "Call of Duty 2",
+                "F.E.A.R",
+                "God of War",
+                "World of Warcraft"
+              ]
+            }
+          ],
+          "zh": [
+            "s",
+            {
+              "list": [
+                "<strong>Resident Evil 4</strong>",
+                "Call of Duty 2",
+                "F.E.A.R",
+                "God of War",
+                "World of Warcraft"
+              ]
+            }
+          ]
+        },
+        "images": [
+          "https://areajugones.sport.es/wp-content/uploads/2021/12/re4-1-1024x576.jpg.webp"
+        ]
+      },
+      {
+        "title": "2006, The Elder Scrolls IV: Oblivion",
+        "content": {
+          "es": [
+            "Bethesda tocó el cielo con un juegazo recordado por todos como Oblivion. Fue un año donde sagas como Gears of War salieron al mercado:",
+            {
+              "list": [
+                "<strong>The Elder Scrolls IV: Oblivion</strong>",
+                "Gears of War",
+                "Guitar Hero 2",
+                "Okami",
+                "Tom Clancy’s Ghost Recon Advanced Warfighter"
+              ]
+            }
+          ],
+          "en": [
+            "j",
+            {
+              "list": [
+                "<strong>The Elder Scrolls IV: Oblivion</strong>",
+                "Gears of War",
+                "Guitar Hero 2",
+                "Okami",
+                "Tom Clancy’s Ghost Recon Advanced Warfighter"
+              ]
+            }
+          ],
+          "fr": [
+            "j",
+            {
+              "list": [
+                "<strong>The Elder Scrolls IV: Oblivion</strong>",
+                "Gears of War",
+                "Guitar Hero 2",
+                "Okami",
+                "Tom Clancy’s Ghost Recon Advanced Warfighter"
+              ]
+            }
+          ],
+          "de": [
+            "j",
+            {
+              "list": [
+                "<strong>The Elder Scrolls IV: Oblivion</strong>",
+                "Gears of War",
+                "Guitar Hero 2",
+                "Okami",
+                "Tom Clancy’s Ghost Recon Advanced Warfighter"
+              ]
+            }
+          ],
+          "zh": [
+            "j",
+            {
+              "list": [
+                "<strong>The Elder Scrolls IV: Oblivion</strong>",
+                "Gears of War",
+                "Guitar Hero 2",
+                "Okami",
+                "Tom Clancy’s Ghost Recon Advanced Warfighter"
+              ]
+            }
+          ]
+        },
+        "images": [
+          "https://areajugones.sport.es/wp-content/uploads/2021/12/tes-iv-1024x576.jpg.webp"
+        ]
+      },
+      {
+        "title": "2007, BioShock",
+        "content": {
+          "es": [
+            "La primera entrega de BioShock llegó con mucha fuerza en 2007, un año donde también tuvimos la primera parte de Mass Effect o Twilight Princess:",
+            {
+              "list": [
+                "<strong>BioShock</strong>",
+                "Halo 3",
+                "Mass Effect",
+                "The Orange Box",
+                "The Legend of Zelda: Twilight Princess"
+              ]
+            }
+          ],
+          "en": [
+            "s",
+            {
+              "list": [
+                "<strong>BioShock</strong>",
+                "Halo 3",
+                "Mass Effect",
+                "The Orange Box",
+                "The Legend of Zelda: Twilight Princess"
+              ]
+            }
+          ],
+          "fr": [
+            "s",
+            {
+              "list": [
+                "<strong>BioShock</strong>",
+                "Halo 3",
+                "Mass Effect",
+                "The Orange Box",
+                "The Legend of Zelda: Twilight Princess"
+              ]
+            }
+          ],
+          "de": [
+            "s",
+            {
+              "list": [
+                "<strong>BioShock</strong>",
+                "Halo 3",
+                "Mass Effect",
+                "The Orange Box",
+                "The Legend of Zelda: Twilight Princess"
+              ]
+            }
+          ],
+          "zh": [
+            "s",
+            {
+              "list": [
+                "<strong>BioShock</strong>",
+                "Halo 3",
+                "Mass Effect",
+                "The Orange Box",
+                "The Legend of Zelda: Twilight Princess"
+              ]
+            }
+          ]
+        },
+        "images": [
+          "https://areajugones.sport.es/wp-content/uploads/2021/12/bioshock-1024x576.jpg.webp"
+        ]
+      },
+      {
+        "title": "2008, Grand Theft Auto IV",
+        "content": {
+          "es": [
+            "La cuarta parte de GTA se llevó el GOTY 2008 por delante de Fallout 3, Metal Gear Solid 4 o Gears of War 2. ¡Qué año!",
+            {
+              "list": [
+                "<strong>Grand Theft Auto IV</strong>",
+                "Fallout 3",
+                "Gears of War 2",
+                "Little Big Planet",
+                "Metal Gear Solid 4: Guns of the Patriots"
+              ]
+            }
+          ],
+          "en": [
+            "ad",
+            {
+              "list": [
+                "<strong>Grand Theft Auto IV</strong>",
+                "Fallout 3",
+                "Gears of War 2",
+                "Little Big Planet",
+                "Metal Gear Solid 4: Guns of the Patriots"
+              ]
+            }
+          ],
+          "fr": [
+            "da",
+            {
+              "list": [
+                "<strong>Grand Theft Auto IV</strong>",
+                "Fallout 3",
+                "Gears of War 2",
+                "Little Big Planet",
+                "Metal Gear Solid 4: Guns of the Patriots"
+              ]
+            }
+          ],
+          "de": [
+            "ad",
+            {
+              "list": [
+                "<strong>Grand Theft Auto IV</strong>",
+                "Fallout 3",
+                "Gears of War 2",
+                "Little Big Planet",
+                "Metal Gear Solid 4: Guns of the Patriots"
+              ]
+            }
+          ],
+          "zh": [
+            "ad",
+            {
+              "list": [
+                "<strong>Grand Theft Auto IV</strong>",
+                "Fallout 3",
+                "Gears of War 2",
+                "Little Big Planet",
+                "Metal Gear Solid 4: Guns of the Patriots"
+              ]
+            }
+          ]
+        },
+        "images": [
+          "https://areajugones.sport.es/wp-content/uploads/2021/12/gtai-v-1024x576.jpg.webp"
+        ]
+      },
+      {
+        "title": "2009, Uncharted 2: Among Thieves",
+        "content": {
+          "es": [
+            "Qué 2009 tuvimos, ¿eh? Es que ganó Uncharted 2, pero otros nominados fueron Assassin’s Creed 2, Batman: Arkham Asylum o Call of Duty: Modern Warfare 2:",
+            {
+              "list": [
+                "<strong>Uncharted 2: Among Thieves</strong>",
+                "Assassin’s Creed 2",
+                "Batman: Arkham Asylum",
+                "Call of Duty: Modern Warfare 2",
+                "Left 4 Dead 2"
+              ]
+            }
+          ],
+          "en": [
+            "sff",
+            {
+              "list": [
+                "<strong>Uncharted 2: Among Thieves</strong>",
+                "Assassin’s Creed 2",
+                "Batman: Arkham Asylum",
+                "Call of Duty: Modern Warfare 2",
+                "Left 4 Dead 2"
+              ]
+            }
+          ],
+          "fr": [
+            "fs",
+            {
+              "list": [
+                "<strong>Uncharted 2: Among Thieves</strong>",
+                "Assassin’s Creed 2",
+                "Batman: Arkham Asylum",
+                "Call of Duty: Modern Warfare 2",
+                "Left 4 Dead 2"
+              ]
+            }
+          ],
+          "de": [
+            "sf",
+            {
+              "list": [
+                "<strong>Uncharted 2: Among Thieves</strong>",
+                "Assassin’s Creed 2",
+                "Batman: Arkham Asylum",
+                "Call of Duty: Modern Warfare 2",
+                "Left 4 Dead 2"
+              ]
+            }
+          ],
+          "zh": [
+            "sf",
+            {
+              "list": [
+                "<strong>Uncharted 2: Among Thieves</strong>",
+                "Assassin’s Creed 2",
+                "Batman: Arkham Asylum",
+                "Call of Duty: Modern Warfare 2",
+                "Left 4 Dead 2"
+              ]
+            }
+          ]
+        },
+        "images": [
+          "https://areajugones.sport.es/wp-content/uploads/2021/12/u2-1024x576.jpg.webp"
+        ]
+      },
+      {
+        "title": "2010, Red Dead Redemption",
+        "content": {
+          "es": [
+            "Rockstar Games volvió a lo más alto con Red Dead Redemption en un año con un cierre de dos sagas (que luego se reabrieron) como Reach y GOW 3:",
+            {
+              "list": [
+                "<strong>Red Dead Redemption</strong>",
+                "Call of Duty: Black Ops",
+                "God of War 3",
+                "Halo: Reach",
+                "Mass Effect 2"
+              ]
+            }
+          ],
+          "en": [
+            "gdf",
+            {
+              "list": [
+                "<strong>Red Dead Redemption</strong>",
+                "Call of Duty: Black Ops",
+                "God of War 3",
+                "Halo: Reach",
+                "Mass Effect 2"
+              ]
+            }
+          ],
+          "fr": [
+            "fgd",
+            {
+              "list": [
+                "<strong>Red Dead Redemption</strong>",
+                "Call of Duty: Black Ops",
+                "God of War 3",
+                "Halo: Reach",
+                "Mass Effect 2"
+              ]
+            }
+          ],
+          "de": [
+            "gdf",
+            {
+              "list": [
+                "<strong>Red Dead Redemption</strong>",
+                "Call of Duty: Black Ops",
+                "God of War 3",
+                "Halo: Reach",
+                "Mass Effect 2"
+              ]
+            }
+          ],
+          "zh": [
+            "dfg",
+            {
+              "list": [
+                "<strong>Red Dead Redemption</strong>",
+                "Call of Duty: Black Ops",
+                "God of War 3",
+                "Halo: Reach",
+                "Mass Effect 2"
+              ]
+            }
+          ]
+        },
+        "images": [
+          "https://areajugones.sport.es/wp-content/uploads/2021/12/rdr-1024x576.jpg.webp"
+        ]
+      },
+      {
+        "title": "2011, The Elder Scrolls V: Skyrim",
+        "content": {
+          "es": [
+            "Lo ganó Oblivion y lo reventó Skyrim. La producción de Bethesda arrasó en un 2011 muy competido:",
+            {
+              "list": [
+                "<strong>The Elder Scrolls V: Skyrim</strong>",
+                "Batman: Arkham City",
+                "The Legend of Zelda: Skyward Sword",
+                "Portal 2",
+                "Uncharted 3: Drake’s Deception"
+              ]
+            }
+          ],
+          "en": [
+            "wer",
+            {
+              "list": [
+                "<strong>The Elder Scrolls V: Skyrim</strong>",
+                "Batman: Arkham City",
+                "The Legend of Zelda: Skyward Sword",
+                "Portal 2",
+                "Uncharted 3: Drake’s Deception"
+              ]
+            }
+          ],
+          "fr": [
+            "wer",
+            {
+              "list": [
+                "<strong>The Elder Scrolls V: Skyrim</strong>",
+                "Batman: Arkham City",
+                "The Legend of Zelda: Skyward Sword",
+                "Portal 2",
+                "Uncharted 3: Drake’s Deception"
+              ]
+            }
+          ],
+          "de": [
+            "re",
+            {
+              "list": [
+                "<strong>The Elder Scrolls V: Skyrim</strong>",
+                "Batman: Arkham City",
+                "The Legend of Zelda: Skyward Sword",
+                "Portal 2",
+                "Uncharted 3: Drake’s Deception"
+              ]
+            }
+          ],
+          "zh": [
+            "wer",
+            {
+              "list": [
+                "<strong>The Elder Scrolls V: Skyrim</strong>",
+                "Batman: Arkham City",
+                "The Legend of Zelda: Skyward Sword",
+                "Portal 2",
+                "Uncharted 3: Drake’s Deception"
+              ]
+            }
+          ]
+        },
+        "images": [
+          "https://areajugones.sport.es/wp-content/uploads/2021/12/tesv-1024x576.jpg.webp"
+        ]
+      },
+      {
+        "title": "2012, The Walking Dead: The Game",
+        "content": {
+          "es": [
+            "La obra de Telltale Games fue muy sonada en 2012 y por eso se le reconoció con este premio ante auténticos titanes:",
+            {
+              "list": [
+                "<strong>The Walking Dead: The Game</strong>",
+                "Assassin’s Creed 3",
+                "Dishonored",
+                "Journey",
+                "Mass Effect 3"
+              ]
+            }
+          ],
+          "en": [
+            "fds",
+            {
+              "list": [
+                "<strong>The Walking Dead: The Game</strong>",
+                "Assassin’s Creed 3",
+                "Dishonored",
+                "Journey",
+                "Mass Effect 3"
+              ]
+            }
+          ],
+          "fr": [
+            "aa",
+            {
+              "list": [
+                "<strong>The Walking Dead: The Game</strong>",
+                "Assassin’s Creed 3",
+                "Dishonored",
+                "Journey",
+                "Mass Effect 3"
+              ]
+            }
+          ],
+          "de": [
+            "aaa",
+            {
+              "list": [
+                "<strong>The Walking Dead: The Game</strong>",
+                "Assassin’s Creed 3",
+                "Dishonored",
+                "Journey",
+                "Mass Effect 3"
+              ]
+            }
+          ],
+          "zh": [
+            "aaa",
+            {
+              "list": [
+                "<strong>The Walking Dead: The Game</strong>",
+                "Assassin’s Creed 3",
+                "Dishonored",
+                "Journey",
+                "Mass Effect 3"
+              ]
+            }
+          ]
+        },
+        "images": [
+          "https://areajugones.sport.es/wp-content/uploads/2021/12/the-walking-dead-1024x576.jpg.webp"
+        ]
+      },
+      {
+        "title": "2013, Grand Theft Auto V",
+        "content": {
+          "es": [
+            "El último año para los Spike Awards fue de nuevo para Rockstar Games con GTA V, juego que, curiosamente, sigue siendo de lo más vendido incluso a día de hoy. Y vaya nominados tuvo:",
+            {
+              "list": [
+                "<strong>Grand Theft Auto V</strong>",
+                "BioShock Infinite",
+                "Super Mario 3D World",
+                "The Last of Us",
+                "Tomb Raider"
+              ]
+            }
+          ],
+          "en": [
+            "hh",
+            {
+              "list": [
+                "<strong>Grand Theft Auto V</strong>",
+                "BioShock Infinite",
+                "Super Mario 3D World",
+                "The Last of Us",
+                "Tomb Raider"
+              ]
+            }
+          ],
+          "fr": [
+            "hh",
+            {
+              "list": [
+                "<strong>Grand Theft Auto V</strong>",
+                "BioShock Infinite",
+                "Super Mario 3D World",
+                "The Last of Us",
+                "Tomb Raider"
+              ]
+            }
+          ],
+          "de": [
+            "hh",
+            {
+              "list": [
+                "<strong>Grand Theft Auto V</strong>",
+                "BioShock Infinite",
+                "Super Mario 3D World",
+                "The Last of Us",
+                "Tomb Raider"
+              ]
+            }
+          ],
+          "zh": [
+            "hhh",
+            {
+              "list": [
+                "<strong>Grand Theft Auto V</strong>",
+                "BioShock Infinite",
+                "Super Mario 3D World",
+                "The Last of Us",
+                "Tomb Raider"
+              ]
+            }
+          ]
+        },
+        "images": [
+          "https://areajugones.sport.es/wp-content/uploads/2021/12/gta-v-1024x576.jpg.webp"
+        ]
+      },
+      {
+        "title": "2014, Dragon Age: Inquisition",
+        "content": {
+          "es": [
+            "Dragon Age por fin tocó lo más alto con Inquisition en un 2014, un año que, para muchos, fue el más “sencillo” de la última década.",
+            {
+              "list": [
+                "<strong>Dragon Age: Inquisition</strong>",
+                "Bayonetta 2",
+                "Dark Souls 2",
+                "Hearthstone",
+                "La Tierra Media: Sombras de Mordor"
+              ]
+            }
+          ],
+          "en": [
+            "dhhd",
+            {
+              "list": [
+                "<strong>Dragon Age: Inquisition</strong>",
+                "Bayonetta 2",
+                "Dark Souls 2",
+                "Hearthstone",
+                "La Tierra Media: Sombras de Mordor"
+              ]
+            }
+          ],
+          "fr": [
+            "hdhd",
+            {
+              "list": [
+                "<strong>Dragon Age: Inquisition</strong>",
+                "Bayonetta 2",
+                "Dark Souls 2",
+                "Hearthstone",
+                "La Tierra Media: Sombras de Mordor"
+              ]
+            }
+          ],
+          "de": [
+            "dhh",
+            {
+              "list": [
+                "<strong>Dragon Age: Inquisition</strong>",
+                "Bayonetta 2",
+                "Dark Souls 2",
+                "Hearthstone",
+                "La Tierra Media: Sombras de Mordor"
+              ]
+            }
+          ],
+          "zh": [
+            "dhd",
+            {
+              "list": [
+                "<strong>Dragon Age: Inquisition</strong>",
+                "Bayonetta 2",
+                "Dark Souls 2",
+                "Hearthstone",
+                "La Tierra Media: Sombras de Mordor"
+              ]
+            }
+          ]
+        },
+        "images": [
+          "https://areajugones.sport.es/wp-content/uploads/2021/12/dai-1024x576.jpg.webp"
+        ]
+      },
+      {
+        "title": "2015, The Witcher 3: Wild Hunt",
+        "content": {
+          "es": [
+            "Y si el 2014 fue más asequible, el 2015 fue todo lo contrario. The Witcher 3 tuvo que sudar ante contrincantes impresionantes:",
+            {
+              "list": [
+                "<strong>The Witcher 3: Wild Hunt</strong>",
+                "Bloodborne",
+                "Fallout 4",
+                "Metal Gear Solid V: The Phantom Pain",
+                "Super Mario Maker"
+              ]
+            }
+          ],
+          "en": [
+            "dfgfd",
+            {
+              "list": [
+                "<strong>The Witcher 3: Wild Hunt</strong>",
+                "Bloodborne",
+                "Fallout 4",
+                "Metal Gear Solid V: The Phantom Pain",
+                "Super Mario Maker"
+              ]
+            }
+          ],
+          "fr": [
+            "dfgdf",
+            {
+              "list": [
+                "<strong>The Witcher 3: Wild Hunt</strong>",
+                "Bloodborne",
+                "Fallout 4",
+                "Metal Gear Solid V: The Phantom Pain",
+                "Super Mario Maker"
+              ]
+            }
+          ],
+          "de": [
+            "dfgdfg",
+            {
+              "list": [
+                "<strong>The Witcher 3: Wild Hunt</strong>",
+                "Bloodborne",
+                "Fallout 4",
+                "Metal Gear Solid V: The Phantom Pain",
+                "Super Mario Maker"
+              ]
+            }
+          ],
+          "zh": [
+            "gdfg",
+            {
+              "list": [
+                "<strong>The Witcher 3: Wild Hunt</strong>",
+                "Bloodborne",
+                "Fallout 4",
+                "Metal Gear Solid V: The Phantom Pain",
+                "Super Mario Maker"
+              ]
+            }
+          ]
+        },
+        "images": [
+          "https://areajugones.sport.es/wp-content/uploads/2021/12/tw3-1024x616.jpg.webp"
+        ]
+      },
+      {
+        "title": "2016, Overwatch",
+        "content": {
+          "es": [
+            "Todavía recordamos muchos lo controvertido que fue este GOTY 2016 para Overwatch, más con rivales de la talla de Uncharted 4, Doom o Titanfall 2 nominados:",
+            {
+              "list": [
+                "<strong>Overwatch</strong>",
+                "Doom",
+                "Inside",
+                "Titanfall 2",
+                "Uncharted 4: A Thief’s End"
+              ]
+            }
+          ],
+          "en": [
+            "sgsd",
+            {
+              "list": [
+                "<strong>Overwatch</strong>",
+                "Doom",
+                "Inside",
+                "Titanfall 2",
+                "Uncharted 4: A Thief’s End"
+              ]
+            }
+          ],
+          "fr": [
+            "sdf",
+            {
+              "list": [
+                "<strong>Overwatch</strong>",
+                "Doom",
+                "Inside",
+                "Titanfall 2",
+                "Uncharted 4: A Thief’s End"
+              ]
+            }
+          ],
+          "de": [
+            "sdfd",
+            {
+              "list": [
+                "<strong>Overwatch</strong>",
+                "Doom",
+                "Inside",
+                "Titanfall 2",
+                "Uncharted 4: A Thief’s End"
+              ]
+            }
+          ],
+          "zh": [
+            "sdfsdf",
+            {
+              "list": [
+                "<strong>Overwatch</strong>",
+                "Doom",
+                "Inside",
+                "Titanfall 2",
+                "Uncharted 4: A Thief’s End"
+              ]
+            }
+          ]
+        },
+        "images": [
+          "https://areajugones.sport.es/wp-content/uploads/2021/12/overwatch-1024x576.jpg.webp"
+        ]
+      },
+      {
+        "title": "2017, The Legend of Zelda: Breath of the Wild",
+        "content": {
+          "es": [
+            "Para muchos, uno de los mejores años de los videojuegos, y buena prueba de ello es que casi todos los nominados siguen siendo impresionantes, por no hablar del GOTY:",
+            {
+              "list": [
+                "<strong>The Legend of Zelda: Breath of the Wild</strong>",
+                "Horizon Zero Dawn",
+                "Persona 5",
+                "PlayerUnknow’s Battlegrounds",
+                "Super Mario Odyssey"
+              ]
+            }
+          ],
+          "en": [
+            "rte",
+            {
+              "list": [
+                "<strong>The Legend of Zelda: Breath of the Wild</strong>",
+                "Horizon Zero Dawn",
+                "Persona 5",
+                "PlayerUnknow’s Battlegrounds",
+                "Super Mario Odyssey"
+              ]
+            }
+          ],
+          "fr": [
+            "hterh",
+            {
+              "list": [
+                "<strong>The Legend of Zelda: Breath of the Wild</strong>",
+                "Horizon Zero Dawn",
+                "Persona 5",
+                "PlayerUnknow’s Battlegrounds",
+                "Super Mario Odyssey"
+              ]
+            }
+          ],
+          "de": [
+            "ereer",
+            {
+              "list": [
+                "<strong>The Legend of Zelda: Breath of the Wild</strong>",
+                "Horizon Zero Dawn",
+                "Persona 5",
+                "PlayerUnknow’s Battlegrounds",
+                "Super Mario Odyssey"
+              ]
+            }
+          ],
+          "zh": [
+            "ertetr",
+            {
+              "list": [
+                "<strong>The Legend of Zelda: Breath of the Wild</strong>",
+                "Horizon Zero Dawn",
+                "Persona 5",
+                "PlayerUnknow’s Battlegrounds",
+                "Super Mario Odyssey"
+              ]
+            }
+          ]
+        },
+        "images": [
+          "https://areajugones.sport.es/wp-content/uploads/2021/12/tloz-breath-of-the-wild-1024x538.jpg.webp"
+        ]
+      },
+      {
+        "title": "2018, God of War",
+        "content": {
+          "es": [
+            "El año 2018 fue para el reinicio de una saga ya cerrada, pero que volvió con mucha fuerza: God of War. Buenos rivales tuvo delante:",
+            {
+              "list": [
+                "<strong>God of War</strong>",
+                "Assassin’s Creed Odyssey",
+                "Celeste",
+                "Marvel’s Spider-Man",
+                "Monster Hunter: World",
+                "Red Dead Redemption 2"
+              ]
+            }
+          ],
+          "en": [
+            "werwererw",
+            {
+              "list": [
+                "<strong>God of War</strong>",
+                "Assassin’s Creed Odyssey",
+                "Celeste",
+                "Marvel’s Spider-Man",
+                "Monster Hunter: World",
+                "Red Dead Redemption 2"
+              ]
+            }
+          ],
+          "fr": [
+            "wererwwer",
+            {
+              "list": [
+                "<strong>God of War</strong>",
+                "Assassin’s Creed Odyssey",
+                "Celeste",
+                "Marvel’s Spider-Man",
+                "Monster Hunter: World",
+                "Red Dead Redemption 2"
+              ]
+            }
+          ],
+          "de": [
+            "fgfsgfg",
+            {
+              "list": [
+                "<strong>God of War</strong>",
+                "Assassin’s Creed Odyssey",
+                "Celeste",
+                "Marvel’s Spider-Man",
+                "Monster Hunter: World",
+                "Red Dead Redemption 2"
+              ]
+            }
+          ],
+          "zh": [
+            "sggg",
+            {
+              "list": [
+                "<strong>God of War</strong>",
+                "Assassin’s Creed Odyssey",
+                "Celeste",
+                "Marvel’s Spider-Man",
+                "Monster Hunter: World",
+                "Red Dead Redemption 2"
+              ]
+            }
+          ]
+        },
+        "images": [
+          "https://areajugones.sport.es/wp-content/uploads/2021/12/god-of-war-2-1024x576.jpg.webp"
+        ]
+      },
+      {
+        "title": "2019, Sekiro: Shadows Die Twice",
+        "content": {
+          "es": [
+            "Primer GOTY para la gente de From Software con Sekiro en un año de nuevo muy fuerte de nominados:",
+            {
+              "list": [
+                "<strong>Sekiro: Shadows Die Twice</strong>",
+                "Control",
+                "Death Stranding",
+                "Resident Evil 2",
+                "Super Smash Bros. Ultimate",
+                "The Outer Worlds"
+              ]
+            }
+          ],
+          "en": [
+            "hwrrhwr",
+            {
+              "list": [
+                "<strong>Sekiro: Shadows Die Twice</strong>",
+                "Control",
+                "Death Stranding",
+                "Resident Evil 2",
+                "Super Smash Bros. Ultimate",
+                "The Outer Worlds"
+              ]
+            }
+          ],
+          "fr": [
+            "wrhwhr",
+            {
+              "list": [
+                "<strong>Sekiro: Shadows Die Twice</strong>",
+                "Control",
+                "Death Stranding",
+                "Resident Evil 2",
+                "Super Smash Bros. Ultimate",
+                "The Outer Worlds"
+              ]
+            }
+          ],
+          "de": [
+            "sdgssdg",
+            {
+              "list": [
+                "<strong>Sekiro: Shadows Die Twice</strong>",
+                "Control",
+                "Death Stranding",
+                "Resident Evil 2",
+                "Super Smash Bros. Ultimate",
+                "The Outer Worlds"
+              ]
+            }
+          ],
+          "zh": [
+            "sdfgsdf",
+            {
+              "list": [
+                "<strong>Sekiro: Shadows Die Twice</strong>",
+                "Control",
+                "Death Stranding",
+                "Resident Evil 2",
+                "Super Smash Bros. Ultimate",
+                "The Outer Worlds"
+              ]
+            }
+          ]
+        },
+        "images": [
+          "https://areajugones.sport.es/wp-content/uploads/2021/12/sekiro-1024x576.jpg.webp"
+        ]
+      },
+      {
+        "title": "2020, The Last of Us Parte 2",
+        "content": {
+          "es": [
+            "La segunda parte de The Last of Us se convirtió en el juego con más premios a “Juego del Año” hasta que llegó Elden Ring, buena prueba de cómo impactó durante ese 2020:",
+            {
+              "list": [
+                "<strong>The Last of Us Parte 2</strong>",
+                "Animal Crossing: New Horizons",
+                "Doom Eternal",
+                "Final Fantasy VII Remake",
+                "Ghost of Tsushima",
+                "Hades"
+              ]
+            }
+          ],
+          "en": [
+            "sdgsdggsd",
+            {
+              "list": [
+                "<strong>The Last of Us Parte 2</strong>",
+                "Animal Crossing: New Horizons",
+                "Doom Eternal",
+                "Final Fantasy VII Remake",
+                "Ghost of Tsushima",
+                "Hades"
+              ]
+            }
+          ],
+          "fr": [
+            "fdssdfg",
+            {
+              "list": [
+                "<strong>The Last of Us Parte 2</strong>",
+                "Animal Crossing: New Horizons",
+                "Doom Eternal",
+                "Final Fantasy VII Remake",
+                "Ghost of Tsushima",
+                "Hades"
+              ]
+            }
+          ],
+          "de": [
+            "sdgsdsdg",
+            {
+              "list": [
+                "<strong>The Last of Us Parte 2</strong>",
+                "Animal Crossing: New Horizons",
+                "Doom Eternal",
+                "Final Fantasy VII Remake",
+                "Ghost of Tsushima",
+                "Hades"
+              ]
+            }
+          ],
+          "zh": [
+            "hhsfgfg",
+            {
+              "list": [
+                "<strong>The Last of Us Parte 2</strong>",
+                "Animal Crossing: New Horizons",
+                "Doom Eternal",
+                "Final Fantasy VII Remake",
+                "Ghost of Tsushima",
+                "Hades"
+              ]
+            }
+          ]
+        },
+        "images": [
+          "https://areajugones.sport.es/wp-content/uploads/2021/12/tlou-2-1024x576.jpg.webp"
+        ]
+      },
+      {
+        "title": "2021, It Takes Two",
+        "content": {
+          "es": [
+            "Josef Fares se llevó con su estudio el premio a GOTY 2021 gracias al genial It Takes Two, una aventura que todavía nos hace echar una lagrimilla cuando la recordamos:",
+            {
+              "list": [
+                "<strong>It Takes Two</strong>",
+                "Deathloop",
+                "Metroid Dread",
+                "Psychonauts 2",
+                "Ratchet and Clank: Rift Apart",
+                "Resident Evil Village"
+              ]
+            }
+          ],
+          "en": [
+            "gwg",
+            {
+              "list": [
+                "<strong>It Takes Two</strong>",
+                "Deathloop",
+                "Metroid Dread",
+                "Psychonauts 2",
+                "Ratchet and Clank: Rift Apart",
+                "Resident Evil Village"
+              ]
+            }
+          ],
+          "fr": [
+            "ftftda",
+            {
+              "list": [
+                "<strong>It Takes Two</strong>",
+                "Deathloop",
+                "Metroid Dread",
+                "Psychonauts 2",
+                "Ratchet and Clank: Rift Apart",
+                "Resident Evil Village"
+              ]
+            }
+          ],
+          "de": [
+            "gsgsg",
+            {
+              "list": [
+                "<strong>It Takes Two</strong>",
+                "Deathloop",
+                "Metroid Dread",
+                "Psychonauts 2",
+                "Ratchet and Clank: Rift Apart",
+                "Resident Evil Village"
+              ]
+            }
+          ],
+          "zh": [
+            "gsggs",
+            {
+              "list": [
+                "<strong>It Takes Two</strong>",
+                "Deathloop",
+                "Metroid Dread",
+                "Psychonauts 2",
+                "Ratchet and Clank: Rift Apart",
+                "Resident Evil Village"
+              ]
+            }
+          ]
+        },
+        "images": [
+          "https://areajugones.sport.es/wp-content/uploads/2021/10/it-takes-two-1024x576.jpg.webp"
+        ]
+      },
+      {
+        "title": "2022, Elden Ring",
+        "content": {
+          "es": [
+            "Miyazaki y su estudio volvieron a tocar el TOP 1 con Elden Ring. Ahora mismo, el juego con más GOTY de toda la historia del sector. Prácticamente se lo llevó en todas y cada una de las cabeceras u organizaciones existentes.",
+            {
+              "list": [
+                "<strong>Elden Ring</strong>",
+                "A Plague Tale: Requiem",
+                "God of War: Ragnarok",
+                "Horizon Forbidden West",
+                "Stray",
+                "Xenoblade Chronicles 3"
+              ]
+            }
+          ],
+          "en": [
+            "jj",
+            {
+              "list": [
+                "<strong>Elden Ring</strong>",
+                "A Plague Tale: Requiem",
+                "God of War: Ragnarok",
+                "Horizon Forbidden West",
+                "Stray",
+                "Xenoblade Chronicles 3"
+              ]
+            }
+          ],
+          "fr": [
+            "jj",
+            {
+              "list": [
+                "<strong>Elden Ring</strong>",
+                "A Plague Tale: Requiem",
+                "God of War: Ragnarok",
+                "Horizon Forbidden West",
+                "Stray",
+                "Xenoblade Chronicles 3"
+              ]
+            }
+          ],
+          "de": [
+            "jj",
+            {
+              "list": [
+                "<strong>Elden Ring</strong>",
+                "A Plague Tale: Requiem",
+                "God of War: Ragnarok",
+                "Horizon Forbidden West",
+                "Stray",
+                "Xenoblade Chronicles 3"
+              ]
+            }
+          ],
+          "zh": [
+            "jjj",
+            {
+              "list": [
+                "<strong>Elden Ring</strong>",
+                "A Plague Tale: Requiem",
+                "God of War: Ragnarok",
+                "Horizon Forbidden West",
+                "Stray",
+                "Xenoblade Chronicles 3"
+              ]
+            }
+          ]
+        },
+        "images": [
+          "https://areajugones.sport.es/wp-content/uploads/2022/12/goty2022eldenring-1024x576.jpg.webp"
+        ]
+      },
+      {
+        "title": "2023, Baldur’s Gate 3",
+        "content": {
+          "es": [
+            "Y llegamos al último año, el que para muchos ha sido uno de los mejores de la industria. Baldur’s Gate 3 ha obtenido el cetro entre una competencia feroz:",
+            {
+              "list": [
+                "<strong>Baldur’s Gate 3</strong>",
+                "Alan Wake 2",
+                "The Legend of Zelda: Tears of the Kingdom",
+                "Marvel’s Spider-Man 2",
+                "Resident Evil 4",
+                "Super Mario Bros. Wonder"
+              ]
+            }
+          ],
+          "en": [
+            "ll",
+            {
+              "list": [
+                "<strong>Baldur’s Gate 3</strong>",
+                "Alan Wake 2",
+                "The Legend of Zelda: Tears of the Kingdom",
+                "Marvel’s Spider-Man 2",
+                "Resident Evil 4",
+                "Super Mario Bros. Wonder"
+              ]
+            }
+          ],
+          "fr": [
+            "ll",
+            {
+              "list": [
+                "<strong>Baldur’s Gate 3</strong>",
+                "Alan Wake 2",
+                "The Legend of Zelda: Tears of the Kingdom",
+                "Marvel’s Spider-Man 2",
+                "Resident Evil 4",
+                "Super Mario Bros. Wonder"
+              ]
+            }
+          ],
+          "de": [
+            "ll",
+            {
+              "list": [
+                "<strong>Baldur’s Gate 3</strong>",
+                "Alan Wake 2",
+                "The Legend of Zelda: Tears of the Kingdom",
+                "Marvel’s Spider-Man 2",
+                "Resident Evil 4",
+                "Super Mario Bros. Wonder"
+              ]
+            }
+          ],
+          "zh": [
+            "ll",
+            {
+              "list": [
+                "<strong>Baldur’s Gate 3</strong>",
+                "Alan Wake 2",
+                "The Legend of Zelda: Tears of the Kingdom",
+                "Marvel’s Spider-Man 2",
+                "Resident Evil 4",
+                "Super Mario Bros. Wonder"
+              ]
+            }
+          ]
+        },
+        "images": [
+          "https://areajugones.sport.es/wp-content/uploads/2023/08/baldurs-gate-3-2-1024x576.jpg.webp"
+        ]
+      }
+    ]
+  },
+  {
+    "img": "https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2023/12/gta-6-3243960.jpg?tf=1200x",
+    "title": {
+      "es": "Todo lo que sabemos de GTA VI, el regreso a Vice City por parte de Rockstar Games",
+      "en": "e",
+      "fr": "e",
+      "de": "e",
+      "zh": "e"
+    },
+    "subtitle": {
+      "es": "Novedades sobre su desarrollo, rumores, mapa y más...",
+      "en": "e",
+      "fr": "e",
+      "de": "e",
+      "zh": "e"
+    },
+    "introduction": {
+      "es": [
+        "Si hay una compañía que está sacándole el mayor provecho posible a sus juegos, esa es Rockstar con GTA V, sobre todo tratándose de un título que, si bien tiene un online enorme y que sigue creciendo después de años y años, no es un juego como servicio. Pero eh, nada dura para siempre y <strong>GTA 6</strong> está en camino.",
+        "La compañía suele tomárselo con mucha calma entre cada entrega de su saga principal, con periodos de entre cuatro y cinco años, como sucedió con los últimos GTA IV en 2008 y el citado GTA V en 2013, pero en esta ocasión han decidido dedicarle mucho, mucho más tiempo."
+      ],
+      "en": ["f"],
+      "fr": ["f"],
+      "de": ["f"],
+      "zh": ["f"]
+    },
+    "sections": [
+      {
+        "title": "GTA 6: lanzamiento en PC, PS5 y Xbox Series",
+        "content": {
+          "es": [
+            "El 5 de diciembre de 2023, Rockstar lanzó <a href='https://www.youtube.com/watch?v=QdBZY2fkU-0el' target='_blank'>el primer tráiler oficial de GTA 6</a> y confirmó que <strong>el juego saldrá en otoño de 2025.</strong> No hay una fecha concreta y, por ahora, lo que sabemos es que llegará primero a consolas de última generación."
+          ],
+          "en": ["g"],
+          "fr": ["g"],
+          "de": ["g"],
+          "zh": ["g"]
         }
-    }    
+      },
+      {
+        "title": "Novedades en relación a su desarrollo",
+        "content": {
+          "es": [
+            "Como descubrimos en abril de 2020, este <strong>GTA 6</strong> será más comedido en cuanto a su contenido e irá creciendo con el tiempo a través de actualizaciones regulares. El objetivo principal parece ser mitigar el estrés y el crunch que sufrieron los empleados del estudio con el enorme <a href='https://www.rockstargames.com/reddeadredemption2/' target='_blank'>Red Dead Redemption 2</a>.",
+            "No quiere decir que no vaya a ser un <strong>GTA</strong> de grandes dimensiones, sino que probablemente no será tan ambicioso como su quinta entrega, donde había tres protagonistas y, por lo tanto, tres historias entrelazadas. Y con un contenido que no ha parado de renovarse durante todos estos años, con ventas millonarias.",
+            "Conviene recordar, por otro lado, que Dan Houser, uno de los fundadores del estudio y guionista de la saga <strong>GTA</strong> y otras producciones de Rockstar Games, abandonó el barco el 11 de marzo de 2020, tras más de 20 años de trabajo.",
+            "El 18 de septiembre de 2022 se produjo una filtración tras un hackeo que derivó en la publicación de 90 vídeos e imágenes de <strong>GTA 6</strong> en una fase de desarrollo poco avanzada (se estima que esos materiales podrían pertenecer a una versión alfa del año 2019)."
+          ],
+          "en": ["g"],
+          "fr": ["g"],
+          "de": ["g"],
+          "zh": ["g"]
+        }
+      },
+      {
+        "title": "Lo que han ido diciendo las filtraciones y lo que se ha confirmado",
+        "content": {
+          "es": [
+            "Una de las supuestas filtraciones más extensas tuvo lugar a inicios de 2018, donde se dejó caer que su nombre en clave sería <strong>Project Americas.</strong> Nuestro rol sería el de un aspirante a narcotraficante llamado Ricardo, moviéndonos por la icónica Vice City del inolvidable <a href='https://www.rockstargames.com/games/vicecity' target='_blank'>Grand Theft Auto: Vice City</a> estrenado en 2002. En realidad se ha confirmado que el protagonista masculino se llamará Jason, no Ricardo, así como el retorno a Vice City, ciudad perteneciente al estado de Leonida.",
+            "Los rumores aseguraban que habría una protagonista femenina, algo que también se ha confirmado. En esta ocasión tendremos <strong>dos personajes a nuestra disposición:</strong> Lucía y el mencionado Jason.",
+            "Por otro lado, en 4chan se filtró un fragmento muy pequeño de su mapa, con dos islas prácticamente unidas. No sabremos si acabará formando parte del juego, pero conviene recordar que de <strong>Red Dead Redemption 2</strong> se filtró su mapa antes de su lanzamiento... Todo es posible."
+          ],
+          "en": ["g"],
+          "fr": ["g"],
+          "de": ["g"],
+          "zh": ["g"]
+        },
+        "images": [
+          "https://i.blogs.es/a1220d/181120-gtavi/1366_2000.webp",
+          "https://i.blogs.es/5452e5/gtavi-map/1366_2000.webp"
+        ]
+      },
+      {
+        "title": "Jugabilidad: ¿cómo se jugará al nuevo GTA?",
+        "content": {
+          "es": [
+            "Hay un detalle importante en esa supuesta filtración, al asegurar que el juego no será tan realista como <strong>Red Dead Redemption 2,</strong> sino que estará a medio camino, con retazos más arcade. Ahora bien, lo curioso es que gozaríamos de un vehículo similar al caballo en este juego del Salvaje Oeste, al almacenar todas nuestras pertenencias en su maletero. Es como si tuviésemos una base portátil.",
+            "Las condiciones climáticas adversas tendrán un mayor peso en este <strong>GTA 6,</strong> al parecer, sufriendo todo tipo de inclemencias como huracanes, inundaciones y más.",
+            "Por otro lado, se rumorea que tendrá un modo construcción parecido al de <strong>GTA: Vice City Stories,</strong> pero potenciado, donde crear nuestro imperio de la droga desde cero y llevarlo a su apogeo. Y seguro que esto consumirá muchas horas.",
+            "Y sí, se menciona también que habrá una prisión gigantesca que tendrá un papel especial durante un buen tramo del juego. Es lo que más encaja, sin duda alguna."
+          ],
+          "en": ["g"],
+          "fr": ["g"],
+          "de": ["g"],
+          "zh": ["g"]
+        }
+      },
+      {
+        "title": "¿Y qué pasará con GTA Online? ¿Habrá otro nuevo?",
+        "content": {
+          "es": [
+            "Viendo esa máquina de amasar dinero que es <a href='https://www.rockstargames.com/gta-online/' target='_blank'>GTA Online</a>, toda una jungla sin ley, parece improbable que Rockstar Games vaya a dejar de lado ese complemento del actual <strong>GTA V</strong>. Queda por ver si será un nuevo modo totalmente nuevo o se aprovechará todo lo que ya existe de alguna forma.",
+            "Se habla, por otro lado, de que su mapa sufrirá cambios mucho más pronunciados a lo largo de las diferentes temporadas siguiendo el estilo del enorme <a href='https://www.fortnite.com/?lang=es-ES' target='_blank'>Fortnite</a>."
+          ],
+          "en": ["g"],
+          "fr": ["g"],
+          "de": ["g"],
+          "zh": ["g"]
+        },
+        "images": [
+          "https://i.blogs.es/2baa36/051020-gtavi-tlqns-03/1366_2000.webp"
+        ]
+      },
+      {
+        "title": "¿Cuál será el precio de GTA 6?",
+        "content": {
+          "es": [
+            "Por el momento no se ha dado a conocer el precio oficial de GTA 6, pero el precio mínimo habitual de los nuevos lanzamientos está entre los 69,99 euros y los 79,99 euros en consolas y los 59,99 euros en PC."
+          ],
+          "en": ["g"],
+          "fr": ["g"],
+          "de": ["g"],
+          "zh": ["g"]
+        }
+      },
+      {
+        "title": "Claves del mapa de GTA 6",
+        "content": {
+          "es": [
+            "El mapa de <strong>GTA 6</strong> tendrá lugar en Vice City, aunque también hay datos que sugieren la posibilidad de que exista más de una ciudad en el mapa."
+          ],
+          "en": ["g"],
+          "fr": ["g"],
+          "de": ["g"],
+          "zh": ["g"]
+        }
+      }
+    ]
+  },
+  {
+    "img": "assets/images/news/LogoPS6.png",
+    "title": {
+      "es": "Playstation 6: fecha de salida, modelos, precios y todo lo que creemos saber sobre ella",
+      "en": "e",
+      "fr": "e",
+      "de": "e",
+      "zh": "e"
+    },
+    "subtitle": {
+      "es": "Todos los detalles a tomar en cuenta sobre PlayStation 6. Echa un vistazo a las filtraciones recientes.",
+      "en": "e",
+      "fr": "e",
+      "de": "e",
+      "zh": "e"
+    },
+    "introduction": {
+      "es": [
+        "La reciente filtración de que Playstation 6 existe como proyecto en Sony y que hay una fecha más o menos tentativa para el lanzamiento ha desatado la rumorología, los cálculos y toda suerte de vistazos a un futuro más o menos cercano. <strong>Hemos recopilado en este post todo lo que se sabe (o más bien se intuye) acerca de la próxima consola de Sony.</strong> Todo parece indicar que el hardware físico está lejos de morir, y estas son las no-pruebas que tenemos hasta el momento."
+      ],
+      "en": ["f"],
+      "fr": ["f"],
+      "de": ["f"],
+      "zh": ["f"]
+    },
+    "sections": [
+      {
+        "title": "¿Cuándo sale la Playstation 6?",
+        "content": {
+          "es": [
+            "Los rumores apuntan a que en 2028. Es una información que viene <strong>avalada nada menos que por Microsoft.</strong> Son precisamente los grandes competidores de Sony los que han desvelado en la Competition Markets Authority del Reino Unido la guerra que ambas compañías llevan manteniendo unos meses por culpa de la compra de Activision.",
+            "En uno de los documentos presentados se puede leer: <em>\"Microsoft se ha ofrecido a continuar haciendo los juegos de Activision que están disponibles en la PlayStation solo hasta 2027... que será el momento en el que SIE (Sony Interactive Entertainment) lance la próxima generación de su consola PlayStation (que se espera que ocurra a lo largo de [dato tachado]\"</em>.",
+            "Ese año tachado sería 2028, y tiene sentido porque en ese caso la PS5 habría durado siete años, que es el tiempo aproximado que Sony y Microsoft tardan en renovar sus consolas: Sony lanzó la PS1 en 1994, la PS2 en 2000, la PS3 en 2006, la <a href='https://www.playstation.com/es-es/ps4/' target='_blank'>PS4</a> en 2013 y la <a href='https://www.playstation.com/es-es/ps5/' target='_blank'>PS5</a> en 2020. Microsoft, por otro lado, lanzó la Xbox en 2001, la Xbox 360 en 2005, la Xbox One en 2013 y la <a href='https://www.xbox.com/es-ES/consoles' target='_blank'>Xbox Series S/X</a> en 2020. Además, Sony publicó en 2021 una <a href='https://x.com/Zuby_Tech/status/1435225403128492033?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1435225403128492033%7Ctwgr%5Ef4bd1e5eec8fa399819886141e7e666f2b1b05fd%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Fwww.lifewire.com%2Fembed%3Furl%3Dhttps3A2F2Ftwitter.com2FZuby_Tech2Fstatus2F1435225403128492033id%3Dmntl-sc-block_1-0-17-iframeoptions%3De303DdocId%3D5115532' target='_blank'>oferta de trabajo</a> que sugería el desarrollo de una nueva consola para las oficinas de Sony en Tokio, San Mateo con vistas \"a investigar y crear prototipos de tecnología de vanguardia y formas de aplicarla a nuestra plataforma y servicios\"."
+          ],
+          "en": ["g"],
+          "fr": ["g"],
+          "de": ["g"],
+          "zh": ["g"]
+        }
+      },
+      {
+        "title": "¿Qué pasa con el juego en la nube?",
+        "content": {
+          "es": [
+            "Esa parecía ser la <strong>apuesta de futuro,</strong> e incluso se habló en su momento de que PS4 y Xbox Series X/S podrían ser las últimas consolas físicas que veríamos. Sin embargo, y aunque los progresos de Xbox con su Game Pass en la nube, en ese sentido, son muy prometedores, y <strong>fue Microsoft la primera en dar un paso adelante,</strong> no han tenido más remedio que desdecirse y reconocer que aún no es el momento. El <a href='https://stadia.google.com/gg/index-en-GB.html' target='_blank'>fracaso de Stadia</a> tampoco ha servido para mejorar la situación, así que todo parece indicar que viviremos, como mínimo, una generación más de consolas físicas."
+          ],
+          "en": ["g"],
+          "fr": ["g"],
+          "de": ["g"],
+          "zh": ["g"]
+        }
+      },
+      {
+        "title": "¿Qué precio tendrá?",
+        "content": {
+          "es": [
+            "Este es uno de los secretos mejor guardados de cualquier nuevo proyecto y <strong>nada se sabe a ciencia cierta, como nada se puede estimar mientras no haya detalles</strong> sobre las características técnicas del hardware. Lo que sí se puede afirmar con cierta seguridad es que dada la escalada de precios que siempre han vivido las consolas en sus sucesivas encarnaciones, salvo un volantazo imprevisto y un cambio en las reglas del juego, el precio de Playstation 6 será similar o superior al de Playstation 5, en torno a los 500 euros.",
+            "Algunos rumores hablan también de dos consolas distintas, derivados de la filtración de que actualmente <a href='https://www.neogaf.com/threads/kepler-theres-two-socs-in-development-for-next-gen-playstation-not-sure-if-its-a-series-x-s-situation-or-home-console-handheld.1675176/' target='_blank'>Sony tiene dos sistemas en chip en desarrollo.</a> Esto podría querer decir que tendremos una consola sensiblemente más económica que otra, al estilo de Xbox Series X y Series S o incluso más allá: que Sony prepara una consola de sobremesa y, además, una portátil. No es ninguna locura: en Microsoft ya han expresado sus deseos de moverse en esta dirección en un futuro, atraidos por el éxito de dispositivos como la Steam Deck."
+          ],
+          "en": ["g"],
+          "fr": ["g"],
+          "de": ["g"],
+          "zh": ["g"]
+        },
+        "images": ["assets/images/news/SteamDeck.png"]
+      },
+      {
+        "title": "¿Qué características técnicas traerá?",
+        "content": {
+          "es": [
+            "A estas alturas, cualquier apuesta es eso, una apuesta a futuro. Pero vale la pena, dado lo que ha sido la evolución de las consolas hasta ahora, hacer unas cuantas conjeturas:",
+            {
+              "list": [
+                "<strong>Características técnicas:</strong> Un rumor de noviembre de 2024 filtrado por el <a href='https://www.chiphell.com/thread-2652187-1-1.html' target='_blank'>leaker chino zhangzhonghao</a>, afirma que la PS6 empleará la arquitectura next-gen UDNA de AMD para su GPU. Es la misma arquitectura que AMD utilizará en sus GPU de la serie Radeon 9000, que llegarán en 2026. También se hablaba de una CPU Zen4 o Zen5. Estos mismos rumores hablaban de que el uso de tecnología de AMD por encima de la de Intel serviría para conservar la retrocompatibilidad.",
+                "<strong>Mejoras en el almacenamiento:</strong> Ese ha sido el gran salto que han dado las consolas de esta generación, por encima de cualquier otra consideración técnica, mejorando los tiempos de carga y el acceso a los juegos. Con toda seguridad, la nueva consola de Sony se moverá también en esa dirección. ¿Y qué tal un disco duro extraible con más facilidad que el actual?",
+                "<strong>Apuesta decidida por el wireless:</strong> Por supuesto, las consolas actuales ya se conectan a internet sin necesidad de cables, pero sería estupenda la carga de los dispositivos sin necesidad de enchufarlos. Quizás con un área de carga en la zona superior de la consola que permitiera cargar <strong>mandos,</strong> cascos y otros dispositivos, ganando también así el consiguiente espacio para puertos.",
+                "<strong>Retrocompatibilidad absoluta:</strong> Aunque Sony no es exactamente la cabeza del pelotón en lo que respecta a la implementación de forma sencilla y directa de sus avances técnicos, lo cierto es que <a href='https://www.playstation.com/es-es/ps-plus/' target='_blank'>con su nuevo PS Plus</a> ha demostrado que la retrocompatibilidad es posible (si bien no la están gestionando de la forma más atractiva). Lo ideal: una consola en la que poder jugar a títulos de las generaciones anteriores de Playstation.",
+                "<strong>La consola no tendrá disco:</strong> Las ediciones digitales de PS5 y Xbox Series S han demostrado que las consolas pueden subsistir sin unidad de disco. El lanzamiento de <a href='https://www.playstation.com/es-es/ps5/ps5-pro/' target='_blank'>PS5 Pro</a> sin disco parece corroborar este punto. Los coleccionistas de plástico pueden rabiar, pero si esta generación ha demostrado algo es que las plataformas tipo <a href='https://www.xbox.com/es-ES/xbox-game-pass?msockid=3575ac45f9246e83317eb8c2f8536f4f' target='_blank'>Game Pass</a> pueden convertirse en un método generalizado para jugar, ahora que la velocidad de las conexiones a internet garantizan un buen rendimiento.",
+                "<strong>Estética más discreta:</strong> Tanto Playstation 5 como Xbox Series X nos han demostrado que la alta potencia técnica conlleva tamaños desmesurados, pero lo cierto es que sus sobredimensionados tamaños han estado entre los aspectos más criticados de ambas. Es muy posible que Sony haga un esfuerzo extra para rebajar el tamaño de su hardware.",
+                "<strong>Aprovechamiento de las infraestructuras online de PlayStation:</strong> Es decir, el esperado impulso de una plataforma a lo Game Pass que Playstation está trabajando desde junio de 2022 con el relanzamiento de Playstation Plus.",
+                "<strong>Compatibilidad con Playstation VR2:</strong> Esto es, sin necesidad de adaptadores o hardware adicional."
+              ]
+            }
+          ],
+          "en": [
+            "g",
+            {
+              "list": [
+                "<strong>BioShock</strong>",
+                "Halo 3",
+                "Mass Effect",
+                "The Orange Box",
+                "The Legend of Zelda: Twilight Princess"
+              ]
+            }
+          ],
+          "fr": [
+            "g",
+            {
+              "list": [
+                "<strong>BioShock</strong>",
+                "Halo 3",
+                "Mass Effect",
+                "The Orange Box",
+                "The Legend of Zelda: Twilight Princess"
+              ]
+            }
+          ],
+          "de": [
+            "g",
+            {
+              "list": [
+                "<strong>BioShock</strong>",
+                "Halo 3",
+                "Mass Effect",
+                "The Orange Box",
+                "The Legend of Zelda: Twilight Princess"
+              ]
+            }
+          ],
+          "zh": [
+            "g",
+            {
+              "list": [
+                "<strong>BioShock</strong>",
+                "Halo 3",
+                "Mass Effect",
+                "The Orange Box",
+                "The Legend of Zelda: Twilight Princess"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "title": "¿Hay algún juego anunciado?",
+        "content": {
+          "es": [
+            "Contra todo pronóstico... sí. En el primer State of Play de 2024, en un epílogo protagonizado por Hideo Kojima se anunció que volvía al género de la acción y espionaje con un juego que definió como  \"el Metal Gear Solid de Playstation 6\": <a href='https://www.youtube.com/watch?v=WEpK67JDLu8&t=2s' target='_blank'>'PHYSINT'</a> (título de trabajo). En su línea, Kojima habló de llevar el entretenimiento digital \"al próximo nivel\", y será la tercera IP original que arranca desde Kojima Productions. Según dijo, \"se creará utilizando tecnología punta y los mejores talentos de todo el mundo, tanto del cine como de los videojuegos\". Por supuesto, se trata de un \"juego\" interactivo, pero el aspecto, la historia, el tema, el reparto, la actuación, la moda, el sonido, etc... están todos al siguiente nivel de \"Entretenimiento Digital\" que podría denominarse \"película\"."
+          ],
+          "en": ["g"],
+          "fr": ["g"],
+          "de": ["g"],
+          "zh": ["g"]
+        },
+        "images": [
+          "https://gaming-cdn.com/images/products/15850/orig-fallback-v1/physint-pc-juego-cover.jpg?v=1706775949"
+        ]
+      }
+    ]
+  },
+  {
+    "img": "https://www.mundodeportivo.com/alfabeta/hero/2024/10/untildawn.png?width=1200&aspect_ratio=16:9",
+    "title": {
+      "es": "Análisis de Until Dawn, un remake con mejoras y alguna que otra decisión cuestionable",
+      "en": "g",
+      "fr": "z",
+      "de": "f",
+      "zh": "g"
+    },
+    "subtitle": {
+      "es": "Ballistic Moon recupera la obra de Supermassive Games y la adapta a las máquinas actuales con Unreal Engine 5.",
+      "en": "e",
+      "fr": "e",
+      "de": "e",
+      "zh": "e"
+    },
+    "introduction": {
+      "es": [
+        "Supermassive Games da el relevo a Ballistic Moon para <strong>llevar de nuevo Until Dawn al catálogo de PC y PS5.</strong> Con un montón de mejoras visuales y con un trabajo que parece estar a caballo entre la remasterización y el remake gráfico, nuestro psicólogo favorito vuelve a la montaña Blackwood para 'ayudarnos' a disfrutar de nuestro particular juego. Una propuesta a la que es imposible decir que no, aunque sigue teniendo algunos problemillas en su desarrollo."
+      ],
+      "en": ["f"],
+      "fr": ["f"],
+      "de": ["f"],
+      "zh": ["f"]
+    },
+    "sections": [
+      {
+        "title": "Un slasher en el que tú decides el destino de sus protagonistas",
+        "content": {
+          "es": [
+            "Como muchos slashers estrenados en la gran pantalla, el punto de partida de Until Dawn es bastante típico, con un grupo de jóvenes de fiesta encerrados en un casoplón de <strong>Blackwood Pines,</strong> una solitaria zona montañosa donde una extraña sombra empieza a acecharlos.",
+            "Una broma de mal gusto, que aquí es <strong>una escena que ha sido \"regrabada\" de nuevo para el remake,</strong> se va de madre, y es el detonante para que dos de las chicas salgan pitando de la casa y se internen en la oscuridad, perseguidas por la misteriosa sombra.",
+            "Unos primeros instantes que sirven para que experimentemos el tipo de tensión que va a ir planteando el juego, al tiempo que nos explica algunas de sus mecánicas, como los quick time events, persecuciones o sustos.",
+            "Como recordará el jugador que disfrutó del juego en su versión para PS4, <strong>en Until Dawn nos esperan 10 capítulos en los que iremos alternando el control entre todos los personajes,</strong> con los que nos enfrentaremos a distintos peligros y amenazas, desde un asesino en serie con máscara de payaso a un tipo con lanzallamas y otras más \"sobrenaturales\".",
+            "El papel del jugador, aparte de guiar a los personajes, será <strong>tomar las decisiones correctas para que el mayor número protagonistas lleguen vivos al amanecer,</strong> una tarea que de primeras puede parecer fácil, pero que en una primera partida no lo es, invitando a rejugar la aventura para conseguirlo."
+          ],
+          "en": ["g"],
+          "fr": ["g"],
+          "de": ["g"],
+          "zh": ["g"]
+        },
+        "images": ["assets/images/news/PsicólogoUntilDawn.png"]
+      },
+      {
+        "title": "Exploración, decisiones, Quick Time Events, así es la jugabilidad de Until Dawn Remake",
+        "content": {
+          "es": [
+            "<strong>Si la historia es un calco del juego original, con la jugabilidad pasa algo parecido, aunque con algunos matices.</strong> Es un juego sencillo, diseñado para que cualquiera pueda coger el mando y completar la aventura de principio al fin.",
+            "Esto se debe a que <strong>los momentos de exploración son bastante sencillos y lineales,</strong> y los objetos con los que podemos interactuar nos lo hacen saber con un haz brillante. Se ha revisado el sistema de cámaras, y ahora hay menos tomas con cámara fija, que se reservan para momentos puntuales, y más zonas con un control propio de las aventuras y juegos de acción con cámara al hombro.",
+            "Por su parte, <strong>los momentos de acción son pequeños quick time events,</strong> momentos en los que debemos pulsar los botones indicados en pantalla para evitar obstáculos, encadenar una serie de saltos o trepar por una pared rápido. Si fallas en algún momento, un personaje puede morir, por ejemplo. El interfaz se ha actualizado respecto al juego de PS4."
+          ],
+          "en": ["g"],
+          "fr": ["g"],
+          "de": ["g"],
+          "zh": ["g"]
+        },
+        "images": ["assets/images/news/ExploraciónUntilDawn.png"]
+      },
+      {
+        "title": "Diferencias de Until Dawn en PS5 y PC frente a la versión de PS4",
+        "content": {
+          "es": [
+            "Aparte de un nuevo final, hay ciertos detalles que marcan las <strong>diferencias con la versión de Until Dawn para PS4.</strong> La primera y más evidente, es el salto a <strong>Unreal Engine 5.</strong> El cambio de motor beneficia al juego con un acabado sensiblemente más vistoso, aunque con algunos cuestionables cambios en la dirección de arte (el juego empieza ahora al anochecer, no de noche cerrada, por ejemplo).",
+            "El doblaje en castellano es exactamente el mismo, aunque remasterizado para la ocasión. Eso sí, aquí <strong>es claramente apreciable la desincronización de la voz con los gestos y labios de los personajes.</strong>",
+            "<strong>Sigue habiendo problemas con las animaciones faciales, que tienden a ser extremadamente exageradas.</strong> Eso es especialmente evidente en los momentos de risas, en los que los gestos casi parecen indicar más que <i>van puestos hasta las cejas</i> (meme que nació con el primer juego), y que se erradica por completo cuando los rostros son de terror. En los momentos felices son inquietantes, pero no por motivos de guión. El resto del tiempo, son muy realistas.",
+            "También <strong>se han añadido nuevos coleccionables, y se han mejorado los que ya existían,</strong> como los Totems, que ahora tienen una parte interactiva (debemos girarlos y localizar un punto exacto en el que se abrirá una pequeña boca de luz y nos mostrará una \"premonición\" de lo que puede pasar con un personaje muy pronto).",
+            "Mención aparte merecen los ajustes, entre los que <strong>es posible jugar en 16:9 eliminando las cinematográficas bandas negras,</strong> así como desactivar el efecto de grano (como si fuera una película) o la aberración cromática, junto con opciones de accesibilidad, como eliminar los momentos en los que no debemos mover el mando. ",
+            "Otro de los cambios, en materia jugable, es <strong>la posibilidad de salvar a Josh,</strong> algo que en el juego original no era posible y que ha disparado los rumores de una posible secuela en desarrollo."
+          ],
+          "en": ["g"],
+          "fr": ["g"],
+          "de": ["g"],
+          "zh": ["g"]
+        },
+        "images": ["assets/images/news/ExpresionesUntilDawn.png"]
+      },
+      {
+        "title": "¿Cuánto dura Until Dawn Remake?",
+        "content": {
+          "es": [
+            "<strong>Terminar Until Dawn Remake lleva unas 8-10 horas,</strong> dependiendo de tu forma de jugar, si te desvias o exploras los entornos a fondo para encontrar los coleccionables... pero una partida normal, dejará esa duración aproximadamente.",
+            "Luego están los completistas que quieran todos los trofeos y secretos, o los que quieran ver todos los finales, con los que la duración se puede duplicar o incluso triplicar."
+          ],
+          "en": ["g"],
+          "fr": ["g"],
+          "de": ["g"],
+          "zh": ["g"]
+        },
+        "images": ["assets/images/news/BlackwoodUntilDawn.png"]
+      },
+      {
+        "title": "Precio y ediciones de Until Dawn Remake en PS5 y PC",
+        "content": {
+          "es": [
+            "El remake de Until Dawn esta disponible desde el 4 de octubre tanto en formato físico como digital, con precios que varían según la plataforma. En PC solo es posible encontrarlo en digital, en plataformas como Steam, a un precio de 69,99 euros.",
+            "En PS5 es posible encontrar la edición digital al mismo precio, así como <strong>la edición física, que de lanzamiento también cuesta 69,99 euros.</strong> No hay edición coleccionista, ni Deluxe con contenido digital extra, ni nada parecido.",
+            "Esta razón lo convierte en un hueso duro de roer, ya que <strong>el precio, es elevado para un juego que ha cumplido 10 años,</strong> y cuya versión original de PS4 es retrocompatible con PS5."
+          ],
+          "en": ["g"],
+          "fr": ["g"],
+          "de": ["g"],
+          "zh": ["g"]
+        },
+        "images": ["assets/images/news/Exploración(2)UntilDawn.png"]
+      }
+    ]
+  },
+  {
+    "img": "assets/images/news/PSVR2.png",
+    "title": {
+      "es": "Ya está a la venta el adaptador de PC para PlayStation VR2, con el que puedes usar la VR de Sony en ordenador",
+      "en": "e",
+      "fr": "e",
+      "de": "e",
+      "zh": "e"
+    },
+    "subtitle": {
+      "es": "Con este adaptador, y si tu ordenador cumple con los requisitos, puedes usar la realidad virtual de PS5 también en PC, y disfrutar de los juegos de Steam que sean compatibles con la VR.",
+      "en": "e",
+      "fr": "e",
+      "de": "e",
+      "zh": "e"
+    },
+    "introduction": {
+      "es": [
+        "Como se anunció a princnipios de junio, <strong>ya está disponible</strong> el <strong>adaptador de PC para PlayStation VR2.</strong> el dispositivo de realidad virtual que se lanzó en exclusiva para PS5 en febrero de 2023, y que ahora se puede disfrutar también en tu ordenador si te haces con este accesorio.",
+        "Este adaptador tiene un precio de <strong>59,99 euros</strong> y se puede comprar en algunos distribuidores y la <a href='https://direct.playstation.com/es-es/buy-accessories/playstationvr2-pc-adaptor' target='_blank'>Tienda oficial de PlayStation</a>, que tiene envíos gratis en todos los pedidos."
+      ],
+      "en": ["f"],
+      "fr": ["f"],
+      "de": ["f"],
+      "zh": ["f"]
+    },
+    "sections": [
+      {
+        "title": "Los requisitos para usar PlayStation VR2 en PC",
+        "content": {
+          "es": [
+            "Además de este accesorio, para poder disfrutar de PS VR2 en PC tienes que descargar <strong>la aplicación de Steam PlayStation VR2 App,</strong> ya disponible de manera completamente gratuita, y que permite aprovechar el dispositivo en ordenador junto a los mandos PS VR2 Sense y configurar el dispositivo, con parámetros como el área de juego y el brillo de pantalla.",
+            "Sin embargo, PlayStation VR2 en PC pierde algunas de sus características disponibles con PS5, como HDR, retroalimentación del headset, gatillos adaptativos, respuesta háptica y reconocimiento de la mirada. Estos son los <strong>requisitos</strong> que necesita tu ordenador para poder disfrutar de PS VR2:",
+            {
+              "list": [
+                "Procesador y un sistema operativo de 64 bits",
+                "<strong>Sistema operativo</strong>: Windows 10/11",
+                "<strong>Procesador</strong>: Intel Core i5 7600 / AMD Ryzen 3 3100 (arquitectura de Zen 2 o posterior)",
+                "<strong>Memoria</strong>: 8GB de RAM",
+                "<strong>Gráficos</strong>: NVIDIA GeForce GTX 1650 o superior (arquitectura de Turing o posterior) / NVIDIA serie RTX / AMD Radeon RX 5500XT o posterior / Radeon RX 6500XT o posterior ",
+                "<strong>Almacenamiento</strong>: 700MB de espacio disponible"
+              ]
+            },
+            "<strong>Los requisitos recomendados</strong> son los mismos, excepto una gráfica NVIDIA GeForce RTX 3060 o posterior, o AMD Radeon RX 6600XT o posterior.",
+            "Como nos recuerdan, para jugar a juegos y aplicaciones de VR en Steam con PlayStation VR2, es necesario tener instalada PlayStation VR2 App en tu ordenador, así que no la desinstales incluso después de haber finalizado la configuración inicial."
+          ],
+          "en": ["g"],
+          "fr": ["g"],
+          "de": ["g"],
+          "zh": ["g"]
+        },
+        "images": ["assets/images/news/Adaptador PSVR2.png"]
+      }
+    ]
+  },
+  {
+    "img": "assets/images/news/SUPERVIVE.png",
+    "title": {
+      "es": "SUPERVIVE: La revolución del Battle Royale con estilo MOBA ya tiene su beta abierta",
+      "en": "e",
+      "fr": "e",
+      "de": "e",
+      "zh": "e"
+    },
+    "subtitle": {
+      "es": "Descubre SUPERVIVE, el nuevo juego que combina la estrategia de los MOBA con la adrenalina de los battle royale.",
+      "en": "e",
+      "fr": "e",
+      "de": "e",
+      "zh": "e"
+    },
+    "introduction": {
+      "es": [
+        "La industria de los videojuegos sigue evolucionando y reinventándose, ofreciendo combinaciones de géneros que logran captar la atención de los jugadores. Supervive es un claro ejemplo de esta tendencia, fusionando dos de los géneros más populares: los <strong>MOBA</strong> <i>(Multiplayer Online Battle Arena)</i> y los <strong>Battle Royale.</strong> Esta mezcla podría convertirlo en el próximo gran éxito del mercado. Si te preguntas cómo es este juego y qué lo hace tan especial, sigue leyendo para descubrir todo sobre Supervive.",
+        "Supervive se presenta como un juego que podría describirse <strong>como si el LoL (League of Legends) fuera un battle royale.</strong> La premisa es sencilla: las partidas consisten en sobrevivir el máximo tiempo posible hasta ser el último jugador en pie. Sin embargo, cada jugador controlará un personaje con habilidades y roles únicos, muy al estilo de los héroes en cualquier MOBA."
+      ],
+      "en": ["f"],
+      "fr": ["f"],
+      "de": ["f"],
+      "zh": ["f"]
+    },
+    "sections": [
+      {
+        "title": "Personajes y habilidades únicos",
+        "content": {
+          "es": [
+            "Los jugadores no solo pelean por sobrevivir, sino que lo hacen con personajes que poseen habilidades únicas y desempeñan roles específicos. Esto añade una capa estratégica a la típica <strong>experiencia de battle royale.</strong> ¿Prefieres ser un tanque que absorbe daño, un asesino ágil que puede eliminar enemigos rápidamente, o un soporte que mantiene a su equipo vivo? La elección del personaje influirá significativamente en cómo juegas y en tu estrategia para ganar.",
+            "Con la ayuda de dos de los creadores de contenido principales del juego, <i>TomKick</i> y <i>KingNidhogg,</i> la <a href='https://x.com/playSUPERVIVE/status/1859010458277331162' target='_blank'>cuenta oficial de X de SUPERVIVE</a> ha mostrado cuáles son los mejores personajes tanto para novatos como para jugadores más serios. Veamos, pues, los que mejor funcionan para <strong>jugadores primerizos:</strong>",
+            {
+              "list": [
+                "<strong>Tier S:</strong> Shrike, Elluna, Jin y Bishop.",
+                "<strong>Tier A:</strong> Felix, Hudson, Celeste, Kingpin y Ghost",
+                "<strong>Tier B:</strong> Joule, Myth y Zeph.",
+                "<strong>Tier F:</strong> Oath, Brall, Void y Shiv."
+              ]
+            },
+            "Cabe destacar que esto no significa que los personajes de tiers más bajas sean malos, pero sí que <strong>no son recomendables para aquellos que acaben de entrar</strong> al juego por la compolejidad de su rol y el conocimiento de juego necesario para poder sacarles partido.",
+            "Por otro lado, si ya entiendes cómo funcionan las mecánicas del juego y no temes <strong>adentrarte en terrenos más complicados,</strong> los cazadores que recomiendan son los siguientes:",
+            {
+              "list": [
+                "<strong>Tier S:</strong> Oath, Void, Bishop y Joule.",
+                "<strong>Tier A:</strong> Zeph, Felix, Celeste, Kingpin y Brall.",
+                "<strong>Tier B:</strong> Myth, Hudson, Ghost y Shiv.",
+                "<strong>Tier F:</strong> Jin, Shrike y Elluna."
+              ]
+            },
+            "Aun así, ten en cuenta que, como todos los juegos como servicio, estamos ante un título cambiante. Una de las mejores herramientas para saber cuáles son los personajes más populares y que más victorias están trayendo lo puedes encontrar en la web  <a href='https://supervive.io/' target='_blank'>Supervive.io.</a>"
+          ],
+          "en": ["g"],
+          "fr": ["g"],
+          "de": ["g"],
+          "zh": ["g"]
+        },
+        "images": ["assets/images/news/Personajes SUPERVIVE.png"]
+      },
+      {
+        "title": "Estilo visual, diseño y mapa",
+        "content": {
+          "es": [
+            "<strong>El diseño artístico de Supervive</strong> recuerda mucho al de League of Legends, con una vista isométrica y una paleta de colores vibrante. Los modelados de los personajes y los entornos son detallados y atractivos, ofreciendo una experiencia visual que combina lo mejor de ambos mundos. Esto no solo hace que el juego sea visualmente atractivo, sino que también facilita a los jugadores de MOBA adaptarse rápidamente.",
+            "<strong>El mapa está diseñado para fomentar encuentros y batallas constantes.</strong> A diferencia de muchos juegos de battle royale donde los jugadores pueden pasar mucho tiempo sin encontrarse con otros, Supervive asegura que siempre haya acción. Con áreas diseñadas para favorecer diferentes estilos de juego y personajes, cada partida será única y emocionante."
+          ],
+          "en": ["g"],
+          "fr": ["g"],
+          "de": ["g"],
+          "zh": ["g"]
+        },
+        "images": ["assets/images/news/Mapa SUPERVIVE.png"]
+      },
+      {
+        "title": "Cómo jugar gratis a SUPERVIVE",
+        "content": {
+          "es": [
+            "Si queréis probar gratis Supervive antes de su lanzamiento definitivo, <strong>podéis hacerlo desde ya mismo.</strong> Para hacerlo tan solo tenéis que acceder a su página oficial de Steam y darle al botón de descargar. No es necesario realizar ningún paso intermedio adicional ni nada extraño, pues está abierto a todo el mundo.",
+            "Pero, ¿y cuándo salga? Supervive será un juego completamente gratuito cuando llegue su versión definitiva. Eso sí, todavía no tenemos su fecha final, pero se estima que llegará durante este último cuatrimestre. Es decir, que como muy tarde, <strong>el juego completo debería llegar en diciembre de 2024.</strong> Viendo el estado en el que se encuentra mediante esta nueva demo, lo cierto es que nos encaja muchísimo, pues se nota que está muy avanzado, por no decir prácticamente terminado."
+          ],
+          "en": ["g"],
+          "fr": ["g"],
+          "de": ["g"],
+          "zh": ["g"]
+        }
+      }
+    ]
+  },
+  {
+    "img": "assets/images/news/PortadaTheLastOfUs3.png",
+    "title": {
+      "es": "The Last of Us: Parte III ya habría encontrado a los actores para sus personajes, según rumores",
+      "en": "e",
+      "fr": "e",
+      "de": "e",
+      "zh": "e"
+    },
+    "subtitle": {
+      "es": "Se especula con que PlayStation hizo un casting este año para uno de sus juegos más importantes",
+      "en": "e",
+      "fr": "e",
+      "de": "e",
+      "zh": "e"
+    },
+    "introduction": {
+      "es": [
+        "Ya han pasado más de cuatro años desde el lanzamiento de <strong>The Last of Us: Parte II.</strong> Y desde entonces, lo único que ha lanzado Naughty Dog <strong>ha sido un remake y una remasterización,</strong> y el único proyecto nuevo que tenía entre manos, <strong>The Last of Us: Factions, fue cancelado.</strong> Así que lo único que se espera por el momento es que lancen una nueva IP o, en su defecto, <strong>el tan esperado The Last of Us: Parte III, que está confirmado.</strong>",
+        "Lo que se especula sobre <strong>The Last of Us: Parte III</strong> es que, aunque esté confirmado, su desarrollo como tal todavía no ha comenzado y que aún nos esperan varios años por delante para verlo. Sin embargo, si el nuevo rumor que se ha iniciado recientemente en redes sociales es cierto, <strong>igual no habría que esperar tanto como se piensa,</strong> ya que se está especulando con que <strong>ya ha habido un casting y tienen los actores para el juego.</strong> Os cuento los detalles a continuación."
+      ],
+      "en": ["f"],
+      "fr": ["f"],
+      "de": ["f"],
+      "zh": ["f"]
+    },
+    "sections": [
+      {
+        "title": "The Last of Us: Parte III ya habría hecho casting de actores",
+        "content": {
+          "es": [
+            "El rumor ha sido compartido por <a href='https://x.com/TCMF2/status/1814787798563512515' target='_blank'>TCMFGames</a> en redes sociales, tras lo cual se ha viralizado. Se especula con que <strong>PlayStation llevó a cabo un casting en busca de actores para un futuro juego importante</strong> y que dicho casting tuvo lugar este mismo año. Luego, no se sabe para qué proyecto sería, pero la mayor parte de los fans tienen como hipótesis que <strong>se trataría de The Last of Us: Parte III</strong> y que los actores buscados serían para los nuevos personajes que aparecen en el juego. Este pensamiento se debe a que se dice que <strong>los personajes cuyos actores se estaban buscando iban a formar parte de un juego de acción muy violento.</strong>",
+            "El hecho de que sea verdad o no este rumor es un misterio total. Por el momento, una vez más, sólo queda seguir esperando a que <strong>The Last of Us: Parte III</strong> sea anunciado, algo que, francamente, creo que <strong>no pasará ni en 2024 ni tampoco en 2025.</strong>"
+          ],
+          "en": ["g"],
+          "fr": ["g"],
+          "de": ["g"],
+          "zh": ["g"]
+        },
+        "images": ["assets/images/news/TheLastOfUs 3.png"]
+      }
+    ]
+  },
+  {
+    "img": "https://www.cnet.com/a/img/resize/e83289d547012c1274bb4d57f0acdb85e9d8f9e0/2021/10/05/d72786d1-4917-476b-a4ea-708b448aa18c/switch-family-oled.jpg?auto=webp&fit=crop&height=675&width=1200",
+    "title": {
+      "es": "Filtran precio y posible fecha de lanzamiento de Nintendo Switch 2, que llegaría a mitad de 2025",
+      "en": "e",
+      "fr": "e",
+      "de": "e",
+      "zh": "e"
+    },
+    "subtitle": {
+      "es": "Los rumores siguen dando pistas sobre los aspectos más importantes de la sucesora de Switch a falta de información oficial.",
+      "en": "e",
+      "fr": "e",
+      "de": "e",
+      "zh": "e"
+    },
+    "introduction": {
+      "es": [
+        "A falta de presentación oficial de <strong>Nintendo Switch 2,</strong> cada semana tenemos un nuevo rumor de la próxima consola de <strong>Nintendo.</strong> Si hace unos días se filtraron las supuestas imágenes de accesorios de la sucesora de Switch, ahora tenemos los <strong>rumores sobre la ventana de lanzamiento y los precios en los que se movería.</strong>",
+        "La fuente de esta información es el medio <i>Nintendúo</i>, que asegura que Switch 2 <strong>se lanzaría en verano de 2025, junio o julio,</strong> según al menos seis estudios que están desarrollando lanzamientos para el sistema. Oficialmente se sabe que será presentada antes de abril de 2025, pero algunos <i>insiders</i> hablan de un ritmo de fabricación algo reducido para el primer trimestre del próximo año, y que por tanto apunta más a mitad de año."
+      ],
+      "en": ["f"],
+      "fr": ["f"],
+      "de": ["f"],
+      "zh": ["f"]
+    },
+    "sections": [
+      {
+        "title": "Costaría más de 400 euros",
+        "content": {
+          "es": [
+            "Otras de las grandes incógnitas es el precio de lanzamiento. Anteriormente se había hablado de <strong>una horquilla entre 400 y 500 euros.</strong> El <i>insider</i> <a href='https://x.com/SamusHunter2/status/1863968537754116524?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1863968537754116524%7Ctwgr%5Ebe70eed4bc2f2a606edc0e264ebfc0a843c9c738%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Fvandal.elespanol.com%2Fnoticia%2F1350776329%2Ffiltran-precio-y-posible-fecha-de-lanzamiento-de-nintendo-switch-2-que-llegaria-a-mitad-de-2025%2F' target='_blank'>Samus Hunter dice</a> que estas informaciones van en línea con lo que ha escuchado y concreta <strong>entre 400 y 450 euros</strong> dependiendo de la región y los impuestos, y un lanzamiento a finales de primavera."
+          ],
+          "en": ["g"],
+          "fr": ["g"],
+          "de": ["g"],
+          "zh": ["g"]
+        }
+      },
+      {
+        "title": "Novedades en los analógicos de los joycon",
+        "content": {
+          "es": [
+            "Todo apunta a que los analógicos de la nueva Switch pueden ser muy diferentes y aquí se abren muchas posibilidades, como optar por analógicos planos más integrados en el mando para evitar la entrada de polvo, trackpads al estilo Steam Controller u otras sorpresas que podría preparar Nintendo.",
+            "Se rumorea que estos <strong>nuevos joycon son magnéticos y que al mismo tiempo tienen un sistema de bloqueo</strong> para que queden bien agarrados a las consolas, por lo que <strong>el diseño no sería exactamente tal y como estamos acostumbrados</strong>."
+          ],
+          "en": ["g"],
+          "fr": ["g"],
+          "de": ["g"],
+          "zh": ["g"]
+        }
+      },
+      {
+        "title": "Un lanzamiento mundial con muchas unidades para evitar la especulación",
+        "content": {
+          "es": [
+            "Nintendo tiene muy claro que va a hacer un <strong>lanzamiento mundial simultáneo</strong> (misma fecha para todo el mundo) y que <strong>quiere abastecer con suficientes consolas a todos los territorios</strong> en los que se lance para poder suministrar toda esa demanda y que se acabe así un poco con la especulación que ha venido protagonizando el lanzamiento de las últimas consolas.",
+            "A falta de noticias por vía oficial que aclaren precio, fecha, catálogo de lanzamiento y características técnicas, <strong>los rumores serán una constante durante los próximos meses.</strong> Por el momento sólo hay algo seguro: Shuntaro Furukawa, presidente de Nintendo, comentó que no hay cambios en el plan para presentar Nintendo Switch 2 dentro de este año fiscal, que termina el 31 de marzo de 2025."
+          ],
+          "en": ["g"],
+          "fr": ["g"],
+          "de": ["g"],
+          "zh": ["g"]
+        },
+        "images": ["assets/images/news/Switch2.png"]
+      }
+    ]
+  },
+  {
+    "img": "assets/images/news/PulsacionesPlayStation.png",
+    "title": {
+      "es": "PlayStation patenta un sensor que mide tus latidos para ajustar la dificultad y otros aspectos de los juegos",
+      "en": "e",
+      "fr": "e",
+      "de": "e",
+      "zh": "e"
+    },
+    "subtitle": {
+      "es": "La compañía ha registrado una curiosa herramienta que podría cambiar su filosofía de diseño en el futuro",
+      "en": "e",
+      "fr": "e",
+      "de": "e",
+      "zh": "e"
+    },
+    "introduction": {
+      "es": [
+        "Han sido muchas las patentes que PlayStation ha ido registrando en los últimos años que hacen referencia a tecnologías que la compañía estaría desarrollando para sus futuras generaciones de consolas, pero lo cierto es que hay algunas que son más inusuales que otras. Y, precisamente, en este artículo quiero hablaros de una nueva que ha salido a la luz y que pertenecería a este último grupo. Básicamente, se trata de una patente que, según han recogido los compañeros del portal  <a href='https://thegamepost.com/sony-patent-biometric-sensors-heart-rate-game-difficulty/' target='_blank'>TheGamePost</a>, consiste <strong>en un dispositivo que mediría nuestras constantes vitales.</strong> A continuación, os dejo con todos los detalles."
+      ],
+      "en": ["f"],
+      "fr": ["f"],
+      "de": ["f"],
+      "zh": ["f"]
+    },
+    "sections": [
+      {
+        "title": "¿En qué consiste esta patente de PlayStation?",
+        "content": {
+          "es": [
+            "La patente en cuestión está ligada a un dispositivo de carácter biométrico. Es decir, se utilizaría para <strong>medir algunas de nuestras constantes vitales como, por ejemplo, los latidos del corazón.</strong> De hecho y según se puede ver en la imagen que se encuentra adjunta a la patente, este periférico contaría con una forma muy similar a esos relojes que cumplen con una función similar. Os dejo con la captura a continuación para que podáis echarle un vistazo con vuestros propios ojos.",
+            "La cosa es que este dispositivo se encargaría de utilizar la información recogida para <strong>ir ajustando algunos parámetros del juego al que estuviéramos jugando en tiempo real,</strong> haciendo que los apartados de este se adaptasen a cómo reaccionaría nuestro cuerpo momento a momento."
+          ],
+          "en": ["g"],
+          "fr": ["g"],
+          "de": ["g"],
+          "zh": ["g"]
+        },
+        "images": ["assets/images/news/SensorPlayStation.png"]
+      },
+      {
+        "title": "¿Qué funciones tendría este periférico?",
+        "content": {
+          "es": [
+            "La patente ofrece una descripción bastante detallada de <strong>qué parámetros se modificarían gracias a este dispositivo,</strong> yendo desde ajustar la propia dificultad del juego hasta otros más específicos como la sensibilidad a la hora de apuntar en un videojuego estilo shooter:",
+            "\"Como ejemplo, aquellas escenas que produzcan un aumento en las pulsaciones del jugador, se limitaría la cantidad de personajes que entran a la habitación donde esté su avatar. <strong>Otro aspecto tendría que ver con modificar la dificultad a la hora de apuntar con armas,</strong> la cual dependería de las señales biométricas captadas por el dispositivo. Por ejemplo: esta última aumentará si el periférico detecta unas pulsaciones más bajas de la cuenta en el momento de disparar\".",
+            "Otra de las funciones que se registra en la patente tiene que ver con que este dispositivo dará la orden a la consola de grabar el último minuto de partida del juego en el momento <strong>en el que detecte que tus pulsaciones han superado una marca concreta.</strong> Algo que se haría con el objetivo de retratar aquellos momentos que más intensamente has vivido con un juego concreto."
+          ],
+          "en": ["g"],
+          "fr": ["g"],
+          "de": ["g"],
+          "zh": ["g"]
+        },
+        "images": ["assets/images/news/SensorPlayStation(2).png"]
+      }
+    ]
+  }
 ]

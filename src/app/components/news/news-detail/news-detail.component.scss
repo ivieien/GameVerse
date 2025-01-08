@@ -1,0 +1,161 @@
+.newsContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.newsHeader {
+  margin: 2.5rem auto 0;
+}
+
+.newsHeader h1 {
+  max-width: 48rem;
+  margin: 0 auto;
+  font-size: 3rem;
+  line-height: 4.063rem;
+  font-weight: 700;
+  letter-spacing: -0.031rem;
+  color: #333;
+}
+
+.newsHeader p {
+  margin: 1rem auto 0;
+  max-width: 48rem;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  font-weight: 700;
+  color: #333;
+}
+
+.mainImage {
+  margin: 3rem auto;
+}
+
+.introduction {
+  padding: 0 2rem;
+  margin: 0 auto;
+  max-width: 50rem;
+  font-size: 1.0625rem;
+  line-height: 1.5rem;
+}
+
+.section {
+  padding: 0 2rem;
+  margin: 4rem auto;
+  max-width: 50rem;
+  font-size: 1.0625rem;
+  line-height: 1.5rem;
+}
+
+.section h2 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 700;
+}
+
+.sectionContent {
+  margin: 1rem auto;
+}
+
+.sectionContent li {
+  margin: 1rem 1.5rem;
+}
+
+.sectionImage {
+  display: flex;
+  flex-direction: column; 
+  gap: 3rem;               
+}
+
+.sectionImage img {
+  max-width: 100%;
+  cursor: pointer;
+}
+
+.lightboxContainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  overflow: hidden;
+}
+
+.lightboxContent {
+  position: relative;
+  max-width: 90%;
+  max-height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lightboxContent img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  transition: transform 0.3s ease-in-out;
+}
+
+.lightboxNav {
+  position: fixed;
+  top: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-50%);
+  pointer-events: none;
+  z-index: 1001;
+}
+
+.lightboxNav button {
+  background-color: rgba(0, 0, 0, 0.7);
+  border: none;
+  color: #fff;
+  font-size: 32px;
+  cursor: pointer;
+  padding: 15px;
+  pointer-events: all;
+  border-radius: 50%;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.lightboxNav button:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+  transform: scale(1.1);
+}
+
+.lightboxNav button.left {
+  position: absolute;
+  left: 20px;
+}
+
+.lightboxNav button.right {
+  position: absolute;
+  right: 20px;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 10px 15px;
+  border-radius: 50%;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  z-index: 1002;
+}
+
+.close:hover {
+  background-color: rgba(255, 255, 255, 0.9);
+  transform: scale(1.2);
+}
+
+.close:before {
+  content: "\00d7";
+}

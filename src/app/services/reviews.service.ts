@@ -9,12 +9,11 @@ export class ReviewsService {
 
   constructor(private http: HttpClient) { }
 
-
   getChartData(): Observable<any> {
     return this.http.get('assets/jsons/chartsData.json');
   }
 
-  getGamesAndColumns(): Observable<any> {
-    return this.http.get<any>('assets/jsons/reviews.json');
+  getReviews(): Observable<any> {
+    return this.http.get('assets/jsons/reviews.json');
   }
 }

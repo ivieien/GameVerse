@@ -1,0 +1,212 @@
+.carouselHeader {
+  display: flex;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.sectionTitle {
+  font-size: 28px;
+  font-weight: bold;
+  color: var(--color-primary);
+  margin-right: auto;
+}
+
+hr {
+  height: 1px;
+  background-color: var(--color-primary);
+  width: 90%;
+  margin: -0.5% 0 1.5rem;
+  border: none;
+}
+
+.carouselControls {
+  display: flex;
+  align-items: center;
+}
+
+.carousel-control-circle {
+  width: 36px;
+  height: 36px;
+  border: 2px solid var(--color-primary);
+  border-radius: 50%;
+  position: relative;
+  margin-right: 8px;
+  cursor: pointer;
+  transition: background-color 0.1s ease-in-out;
+}
+
+.carousel-control-circle:hover {
+  background-color: var(--color-primary);
+}
+
+.buttonDisabled {
+  border: none;
+  cursor: default;
+}
+
+.buttonDisabled:hover {
+  background-color: transparent;
+}
+
+.buttonDisabled .carousel-control-prev .arrow-icon,
+.buttonDisabled .carousel-control-next .arrow-icon {
+  color: #999;
+  cursor: default;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  display: contents;
+}
+
+.carousel-control-prev .arrow-icon,
+.carousel-control-next .arrow-icon {
+  color: var(--color-primary);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.carousel-control-circle:hover .arrow-icon {
+  color: var(--color-secondary);
+}
+
+.divGames {
+  margin-right: 1%;
+}
+
+.gameLink {
+  display: block; 
+  text-decoration: none;
+  color: black;
+}
+
+.gameContainer {
+  width: 167px;
+  height: 250px;
+  margin: 2% 2% 2% 0;
+  border-radius: 5%;
+  cursor: pointer;
+}
+
+.overlay {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+}
+
+.gameTitle {
+  text-decoration: underline;
+  margin-top: 8px;
+  font-size: 14px;
+}
+
+.gameTitle:hover {
+  color: gray;
+  text-decoration: none;
+}
+
+.ratingContainer {
+  display: flex;
+  flex-direction: row; 
+  gap: 8px; 
+}
+
+.ratingBox {
+  margin-top: 8px;
+  padding: 13px 13px;
+  font-size: 12px;
+  border-radius: 2px;
+  height: 24px;
+  width: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ratingBox:hover{
+  color: gray;
+}
+
+.ratingText {
+  font-size: 12px;
+  color: #666; 
+  margin-top: 12px;
+}
+
+.ratingText:hover {
+  color: gray; 
+}
+
+.quizContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 16px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+  width: 85%;
+  margin: 3rem auto;
+}
+
+.quizQuestion {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.questionText {
+  font-size: 1.2rem;
+  font-weight: bold; 
+}
+
+.optionsContainer {
+  display: flex;
+  gap: 10px;
+  flex: 2;
+}
+
+.optionLabel {
+  padding: 14px;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  border: 1px solid rgba(187, 187, 187, 0.2);
+  min-width: 150px;
+  text-align: center;
+}
+
+.optionLabel:hover {
+  background-color: rgba(24, 24, 24, 0.1);
+  border: 1px solid #bbb;
+}
+
+.optionLabel.correct {
+  border: 2px solid green;
+  color: green;
+}
+
+.optionLabel.incorrect {
+  border: 2px solid red;
+  color: red;
+}
+
+.goodRating {
+  background-color: rgb(0, 206, 122);
+}
+
+.mediumRating {
+  background-color: rgb(255, 189, 63);
+}
+
+.badRating {
+  background-color: #ff6874;
+}
+
+.tbdRating {
+  border: 2px solid gray;
+  display: flex;
+  justify-content: center;
+}

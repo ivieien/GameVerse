@@ -1,32 +1,26 @@
 <div class="homeGameVerse">
-  
+
   <!--NEWS-->
-  <div id="newsCarousel" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-inner">
-      <div class="carousel-item" *ngFor="let news of newsItems; index as i"
-        [class]="i === currentNewsIndex ? 'active' : 'inactive'">
-        <img src="{{ news.img }}" />
-        <div class="carousel-caption">
-          <h3>{{ news.title[currentLanguage] }}</h3>
-          <p>{{ news.text[currentLanguage] | truncateText: 200  }}</p>
-          <a routerLink="" class="btn btn-primary">{{ 'HOME.READ_MORE' | i18next }}</a>
-        </div>
+  <div class="newsSection">
+    <div class="newsTitleWrapper">
+      <h2 class="newsTitle">{{ 'HOME.TITLE_NEWS' | i18next }}</h2>
+    </div>
+    <div class="newsGrid">
+      <div class="newsCard" *ngFor="let news of newsItems">
+        <a [routerLink]="['/news', formatURL(news.title['es'])]">
+          <div class="newsImage" [ngStyle]="{'background-image': 'url(' + news.img + ')'}"></div>
+          <div class="newsContent">
+            <h3>{{ news.title[currentLanguage] }}</h3>
+          </div>
+        </a>
       </div>
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#newsCarousel" data-bs-slide="prev"
-      (click)="prevNews()">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#newsCarousel" data-bs-slide="next"
-      (click)="nextNews()">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    </button>
   </div>
 
   <!--TOP GAMES-->
   <div class="topGamesSection">
-    <h2 class="sectionTitle">{{'HOME.TITLE' | i18next }}</h2>
-    <p class="sectionDescription">{{ 'HOME.DESCRIPTION' | i18next  }}</p>
+    <h2 class="sectionTitle">{{'HOME.TITLE_GAMES' | i18next }}</h2>
+    <p class="sectionDescription">{{ 'HOME.DESCRIPTION' | i18next }}</p>
 
     <div id="topGamesCarousel" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
@@ -34,7 +28,7 @@
           [class]="i === currentGameIndex ? 'active' : 'inactive'" data-bs-interval="1000">
           <div *ngIf="i % 4 === 0" class="group-container d-flex">
             <div *ngFor="let innerGame of top100Games?.slice(i, i + 4); index as j" class="divTopGames">
-              <a [routerLink]="['/game', formatURL(innerGame.title)]">
+              <a [routerLink]="['/games', formatURL(innerGame.title)]">
                 <div class="gameContainer">
                   <span class="gameIndex">{{ i + j + 1 }}</span>
                   <img src="{{ innerGame.img }}" />
@@ -59,20 +53,18 @@
       <button class="carousel-control-prev" type="button" data-bs-target="#topGamesCarousel" data-bs-slide="prev"
         (click)="prevGames()">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">{{'PREVIOUS' | i18next}}</span>
       </button>
       <button class="carousel-control-next" type="button" data-bs-target="#topGamesCarousel" data-bs-slide="next"
         (click)="nextGames()">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
       </button>
     </div>
   </div>
 
   <!--BUTTONS-->
   <div class="boxContainer">
-    <div class="box" *ngFor="let button of buttonsHome">
-      <a routerLink="{{ button.url }}">
+    <div class="box" *ngFor="let button of buttonsHome; let i = index">
+      <a [routerLink]="i === 0 ? '/tables' : button.url">
         <h2>{{ button.title[currentLanguage] }}</h2>
         <div class="content">
           <img src="{{ button.img }}" class="circleImage" />

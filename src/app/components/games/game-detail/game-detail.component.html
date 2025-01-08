@@ -1,18 +1,47 @@
-<div class="gameDetailContainer">
+<div class="gameContainer">
   <div class="videoContainer" *ngIf="game?.video">
-    <iframe [src]="game?.video + '?autoplay=1&mute=1' | safeResourceUrl" frameborder="0" allowfullscreen allow="autoplay"></iframe>
+    <iframe [src]="game?.video + '?autoplay=1&mute=1' | safeResourceUrl" frameborder="0" allowfullscreen
+      allow="autoplay" loading="lazy"></iframe>
   </div>
-  <div class="detailsContainer">
+
+  <div class="gameDetailsContainer">
     <h1>{{ game?.title }}</h1>
-    <p>{{ game?.text[currentLanguage] }}</p>
-    <p class="qualificationContainer" [class]="getRatingClass(game?.qualification)">Nota: {{ game?.qualification }}</p>
-    <p>Lanzamiento: {{ game?.release }}</p>
-    <p>Consolas:</p> 
+    <p [innerHTML]="game?.text[currentLanguage]"></p>
+    <p class="highlight">Lanzamiento: {{ game?.release }}</p>
+    <div class="consolesContainer">
+      <p class="highlight">Plataformas:</p>
       <div *ngFor="let console of game?.consoles" class="d-flex">
-        <p> {{ console }}</p>
-        <i  class="fa-brands fa-{{console.toString() | lowercase}}"></i>
+        <p class="highlight">{{ console }}</p>
+        <i class="fa-brands fa-{{ console.toString() | lowercase }}"></i>
         <i *ngIf="console == 'PC'" class="fa-solid fa-desktop"></i>
+        <i *ngIf="console == 'Switch'" class="fa-solid fa-gamepad"></i>
       </div>
-    <button class="shopButton">Comprar Ahora</button>
+    </div>
+    <p class="qualificationContainer" [class]="getRatingClass(game?.qualification)">
+      Nota: {{ game?.qualification != null ? game?.qualification : "tbd" }}
+    </p>
+    <button class="shopButton" (click)="redirectToPurchase()">
+      Comprar Ahora
+    </button>
+  </div>
+</div>
+
+<div class="imagesContainer" *ngIf="game?.screenshots.length > 0">
+  <h2 class="sectionTitle"><i class="fa-solid fa-images"></i> Imágenes</h2>
+  <hr />
+  <div class="images">
+    <img *ngFor="let image of game?.screenshots; let i = index" [src]="image" alt="{{ game?.title }} screenshot"
+      (click)="openLightbox(i)" />
+  </div>
+</div>
+
+<div class="lightboxContainer" *ngIf="showLightbox">
+  <div class="lightboxContent">
+    <span class="close" (click)="closeLightbox()"></span>
+    <img [src]="game?.screenshots[currentImage]" alt="Image" />
+    <div class="lightboxNav">
+      <button (click)="prevImage()">&#10094;</button>
+      <button (click)="nextImage()">&#10095;</button>
+    </div>
   </div>
 </div>

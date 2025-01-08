@@ -11,6 +11,8 @@ interface Game {
   qualification: number;
   release: string;
   consoles: string[];
+  screenshots: string[];
+  purchaseUrl: string;
 }
 
 @Component({
@@ -21,6 +23,8 @@ interface Game {
 export class GameDetailComponent implements OnInit {
   game: Game | null = null;
   currentLanguage: string = 'es';
+  showLightbox: boolean = false;
+  currentImage: number = 0;
 
   constructor(
     private route: ActivatedRoute,
@@ -32,33 +36,78 @@ export class GameDetailComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    this.currentLanguage = i18next.language; 
-    
+    this.currentLanguage = i18next.language;
+
     this.route.paramMap.subscribe(params => {
       const title = params.get('title');
       if (title) {
-        this.gamesService.getNewReleases().subscribe((newReleasesData: Game[]) => {
+        this.gamesService.getNewReleasesGames().subscribe((newReleasesData: Game[]) => {
           const gameFromNewReleases = newReleasesData.find(game => this.formatURL(game.title) === title);
           if (gameFromNewReleases) {
             this.game = gameFromNewReleases;
-          } else { 
-            this.gamesService.getTop100Games().subscribe((top100Data: Game[]) => {
-              const gameFromTop100 = top100Data.find(game => this.formatURL(game.title) === title);
-              this.game = gameFromTop100 || null;
+          } else {
+            this.gamesService.getUpcomingReleasesGames().subscribe((upcomingReleasesData: Game[]) => {
+              const gameFromUpcomingReleases = upcomingReleasesData.find(game => this.formatURL(game.title) === title);
+              if (gameFromUpcomingReleases) {
+                this.game = gameFromUpcomingReleases;
+              } else {
+                this.gamesService.getTop100Games().subscribe((top100Data: Game[]) => {
+                  const gameFromTop100 = top100Data.find(game => this.formatURL(game.title) === title);
+                  if (gameFromTop100) {
+                    this.game = gameFromTop100;
+                  } else {
+                    this.gamesService.getPsPlusGames().subscribe((psPlusData: Game[]) => {
+                      const gameFromPsPlus = psPlusData.find(game => this.formatURL(game.title) === title);
+                      this.game = gameFromPsPlus || null;
+                    });
+                  }
+                });
+              }
             });
           }
         });
       }
-    }); 
+    });
   }
 
-  getRatingClass(qualification: number): string {
-    if (qualification >= 8.0) {
+  getRatingClass(qualification: number | null | undefined): string {
+    if (qualification == null) {
+      return 'tbdRating';
+    } else if (qualification >= 7.5) {
       return 'goodRating';
     } else if (qualification >= 6.0) {
       return 'mediumRating';
     } else {
       return 'badRating';
+    }
+  }
+
+  redirectToPurchase(): void {
+    if (this.game && this.game.purchaseUrl) {
+      window.open(this.game.purchaseUrl);
+    } else {
+      console.error('No se encontró una URL de compra para este juego.');
+    }
+  }
+
+  openLightbox(index: number): void {
+    this.currentImage = index;
+    this.showLightbox = true;
+  }
+
+  closeLightbox(): void {
+    this.showLightbox = false;
+  }
+
+  prevImage(): void {
+    if (this.game && this.game.screenshots.length > 0) {
+      this.currentImage = (this.currentImage - 1 + this.game.screenshots.length) % this.game.screenshots.length;
+    }
+  }
+
+  nextImage(): void {
+    if (this.game && this.game.screenshots.length > 0) {
+      this.currentImage = (this.currentImage + 1) % this.game.screenshots.length;
     }
   }
 }

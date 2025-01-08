@@ -1,0 +1,245 @@
+.tableContainer {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 30px;
+}
+
+.tableTitle {
+  font-size: 32px;
+  font-weight: bold;
+  color: #1E385D;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.filtersContainer {
+  display: flex;
+  margin-top: 1em;
+}
+
+.dropdown {
+  position: relative;
+  width: 14%;
+  padding: 0.9%;
+  margin-right: 0.85%;
+}
+
+.dropdown:before {
+  content: '\25BC';
+  position: relative;
+  font-size: 14px;
+  float: right;
+}
+
+.dropdown.selected {
+  background-color: #1E385D;
+  color: #fff;
+}
+
+.dropdownContent {
+  position: absolute;
+  display: none;
+  top: 52px;
+  left: 0;
+  width: 312%;
+  z-index: 1;
+}
+
+.show {
+  display: block;
+}
+
+.dropdown,
+.dropdownContent {
+  cursor: pointer;
+  background-color: #efefef;
+  border-radius: 0.8em;
+}
+
+.positionF2 {
+  left: -105.5%;
+}
+
+.positionF3 {
+  right: 0;
+  left: inherit;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  line-height: 1.5em;
+  margin-bottom: 0.35em;
+}
+
+.ulItem {
+  list-style: none;
+  padding-top: 10px;
+  margin: 0;
+}
+
+.liItem {
+  width: 33%;
+  text-align: center;
+  float: left;
+}
+
+.liItem a {
+  text-decoration: none;
+  color: #000;
+  display: block;
+  padding: 1%;
+  border-radius: 0.5em;
+}
+
+.liItem a:hover,
+.liItem a.selected {
+  background-color: #1E385D;
+  color: #fff;
+}
+
+table {
+  width: 100%;
+  margin-top: 20px;
+}
+
+th {
+  background-color: #1E385D;
+  color: #fff;
+  padding: 10px;
+}
+
+td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+  background-color: #f1f1f1;
+}
+
+.tableFooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.columnSelection {
+  display: flex;
+  padding: 10px;
+}
+
+.columnCheckbox {
+  margin-right: 15px;
+  margin-bottom: 0px;
+  display: flex;
+  font-size: 14px;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.columnCheckbox:hover {
+  background-color: #e1e1e1;
+}
+
+.columnCheckbox input {
+  margin-right: 8px;
+}
+
+.paginationControls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.paginationControls button {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s;
+  font-size: 14px;
+}
+
+.paginationControls button:disabled {
+  background: #ddd;
+}
+
+.paginationControls button:hover:not(:disabled) {
+  background: #ddd;
+}
+
+.paginationControls span {
+  font-size: 14px;
+}
+
+.excel {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #1E385D;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.excel:hover {
+  background-color: #12263A;
+}
+
+// Specific Table Styles 
+.secondTable .tableTitle {
+  color: #2C6B5F;
+}
+
+.secondTable .dropdown.selected {
+  background-color: #2C6B5F;
+}
+
+.secondTable a:hover,
+.secondTable a.selected {
+  background-color: #2C6B5F;
+}
+
+.secondTable th {
+  background-color: #2C6B5F;
+}
+
+.secondTable .excel {
+  background-color: #2C6B5F;
+}
+
+.secondTable .excel:hover {
+  background-color: #1D4F4E;
+}
+
+.thirdTable .tableTitle {
+  color: #6A1B9A;
+}
+
+.thirdTable .dropdown.selected {
+  background-color: #6A1B9A; 
+}
+
+.thirdTable a:hover,
+.thirdTable a.selected {
+  background-color: #6A1B9A;
+}
+
+.thirdTable th {
+  background-color: #6A1B9A;
+}
+
+.thirdTable .excel {
+  background-color: #6A1B9A;
+}
+
+.thirdTable .excel:hover {
+  background-color: #4A0072;
+}

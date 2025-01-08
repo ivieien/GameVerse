@@ -1,0 +1,282 @@
+{
+  "columns": [
+    "Título",
+    "Precio",
+    "Plataforma",
+    "Género",
+    "PEGI",
+    "Mes de salida"
+  ],
+  "games": [
+    {
+      "id": 1,
+      "title": "Avatar: Frontiers of Pandora",
+      "price": 69.99,
+      "platform": "PS5, Xbox, PC",
+      "genre": "Acción, Aventura",
+      "pegi": 12,
+      "releaseDate": "Enero"
+    },
+    {
+      "id": 2,
+      "title": "THE FINALS",
+      "price": 0.0,
+      "platform": "PC",
+      "genre": "Acción, Supervivencia",
+      "pegi": 16,
+      "releaseDate": "Enero"
+    },
+    {
+      "id": 3,
+      "title": "Tekken 8",
+      "price": 69.99,
+      "platform": "PS5, Xbox, PC",
+      "genre": "Lucha",
+      "pegi": 16,
+      "releaseDate": "Enero"
+    },
+    {
+      "id": 4,
+      "title": "Palworld",
+      "price": 28.99,
+      "platform": "PC",
+      "genre": "Aventura, Supervivencia",
+      "pegi": 12,
+      "releaseDate": "Enero"
+    },
+    {
+      "id": 5,
+      "title": "Suicide Squad: Kill the Justice League",
+      "price": 69.99,
+      "platform": "PS5, Xbox, PC",
+      "genre": "Aventura, Acción",
+      "pegi": 16,
+      "releaseDate": "Febrero"
+    },
+    {
+      "id": 6,
+      "title": "Mario vs Donkey Kong",
+      "price": 49.99,
+      "platform": "Switch",
+      "genre": "Puzles",
+      "pegi": 3,
+      "releaseDate": "Febrero"
+    },
+    {
+      "id": 7,
+      "title": "Helldivers 2",
+      "price": 39.99,
+      "platform": "PS5, PC",
+      "genre": "Acción",
+      "pegi": 18,
+      "releaseDate": "Febrero"
+    },
+    {
+      "id": 8,
+      "title": "Inazuma Eleven: Victory Road",
+      "price": 59.99,
+      "platform": "Switch, PS5",
+      "genre": "Deportes",
+      "pegi": 7,
+      "releaseDate": "Marzo"
+    },
+    {
+      "id": 9,
+      "title": "Rise of the Ronin",
+      "price": 79.99,
+      "platform": "PS5",
+      "genre": "Acción",
+      "pegi": 18,
+      "releaseDate": "Marzo"
+    },
+    {
+      "id": 10,
+      "title": "Midnight Ghost Hunt",
+      "price": 19.99,
+      "platform": "PC",
+      "genre": "Acción",
+      "pegi": 16,
+      "releaseDate": "Marzo"
+    },
+    {
+      "id": 11,
+      "title": "Content Warning",
+      "price": 7.79,
+      "platform": "PC",
+      "genre": "Terror",
+      "pegi": 16,
+      "releaseDate": "Abril"
+    },
+    {
+      "id": 12,
+      "title": "TopSpin 2K25",
+      "price": 69.99,
+      "platform": "PS5, Xbox, PC",
+      "genre": "Deportes",
+      "pegi": 12,
+      "releaseDate": "Abril"
+    },
+    {
+      "id": 13,
+      "title": "MotoGP 24",
+      "price": 69.99,
+      "platform": "PS5, Xbox, PC, Switch",
+      "genre": "Deportes",
+      "pegi": 3,
+      "releaseDate": "Mayo"
+    },
+    {
+      "id": 14,
+      "title": "XDefiant",
+      "price": 0.0,
+      "platform": "PS5, Xbox, PC",
+      "genre": "Acción",
+      "pegi": 16,
+      "releaseDate": "Mayo"
+    },
+    {
+      "id": 15,
+      "title": "F1 24",
+      "price": 79.99,
+      "platform": "PS5, Xbox, PC",
+      "genre": "Deportes",
+      "pegi": 3,
+      "releaseDate": "Mayo"
+    },
+    {
+      "id": 16,
+      "title": "Journey",
+      "price": 0.0,
+      "platform": "PC",
+      "genre": "Terror",
+      "pegi": 16,
+      "releaseDate": "Junio"
+    },
+    {
+      "id": 17,
+      "title": "Mannequin",
+      "price": 19.99,
+      "platform": "PC",
+      "genre": "VR, Acción",
+      "pegi": 16,
+      "releaseDate": "Junio"
+    },
+    {
+      "id": 18,
+      "title": "Nobody Wants to Die",
+      "price": 24.99,
+      "platform": "PS5, Xbox, PC",
+      "genre": "Acción, Aventura",
+      "pegi": 18,
+      "releaseDate": "Julio"
+    },
+    {
+      "id": 19,
+      "title": "Once Human",
+      "price": 0.0,
+      "platform": "PC",
+      "genre": "Acción, Aventura",
+      "pegi": 16,
+      "releaseDate": "Julio"
+    },
+    {
+      "id": 20,
+      "title": "Star Wars Outlaws",
+      "price": 69.99,
+      "platform": "PS5, Xbox, PC",
+      "genre": "Acción, Aventura",
+      "pegi": 16,
+      "releaseDate": "Agosto"
+    },
+    {
+      "id": 21,
+      "title": "Concord",
+      "price": 39.99,
+      "platform": "PS5, PC",
+      "genre": "Acción",
+      "pegi": 16,
+      "releaseDate": "Agosto"
+    },
+    {
+      "id": 22,
+      "title": "The Casting of Frank Stone",
+      "price": 39.99,
+      "platform": "PS5, Xbox, PC",
+      "genre": "Terror",
+      "pegi": 18,
+      "releaseDate": "Septiembre"
+    },
+    {
+      "id": 23,
+      "title": "Astro Bot",
+      "price": 59.99,
+      "platform": "PS5",
+      "genre": "Puzles, Aventura",
+      "pegi": 7,
+      "releaseDate": "Septiembre"
+    },
+    {
+      "id": 24,
+      "title": "The Legend of Zelda: Echoes of Wisdom",
+      "price": 59.99,
+      "platform": "Switch",
+      "genre": "Aventura, Puzles",
+      "pegi": 7,
+      "releaseDate": "Septiembre"
+    },
+    {
+      "id": 25,
+      "title": "Silent Hill 2 Remake",
+      "price": 69.99,
+      "platform": "PS5, PC",
+      "genre": "Terror, Acción",
+      "pegi": 18,
+      "releaseDate": "Octubre"
+    },
+    {
+      "id": 26,
+      "title": "Super Mario Party Jamboree",
+      "price": 59.99,
+      "platform": "Switch",
+      "genre": "Puzles",
+      "pegi": 3,
+      "releaseDate": "Octubre"
+    },
+    {
+      "id": 27,
+      "title": "Mario y Luigi: Conexión Fraternal",
+      "price": 59.99,
+      "platform": "Switch",
+      "genre": "Puzles",
+      "pegi": 7,
+      "releaseDate": "Noviembre"
+    },
+    {
+      "id": 28,
+      "title": "Assassin's Creed Shadows",
+      "price": 69.99,
+      "platform": "PS5, Xbox, PC",
+      "genre": "Acción, Aventura",
+      "pegi": 18,
+      "releaseDate": "Noviembre"
+    },
+    {
+      "id": 29,
+      "title": "Stick It to the Stickman",
+      "price": 14.99,
+      "platform": "PC",
+      "genre": "Acción, Puzles",
+      "pegi": 12,
+      "releaseDate": "Diciembre"
+    },
+    {
+      "id": 30,
+      "title": "Battle Aces",
+      "price": 0.0,
+      "platform": "PC",
+      "genre": "Acción",
+      "pegi": 12,
+      "releaseDate": "Diciembre"
+    }
+  ]
+}

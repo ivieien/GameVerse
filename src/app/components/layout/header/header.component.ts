@@ -19,14 +19,9 @@ export class HeaderComponent {
       this.language = selectedLanguage;
     }
   }
-
+  
   searchExpanded: boolean = false;
-  sidebarOpen: boolean = false;
-  
-  
-  openSidebar() {
-    this.sidebarOpen = !this.sidebarOpen;
-  }
+
   toggleSearch() {
     this.searchExpanded = !this.searchExpanded;
   }  
@@ -46,8 +41,8 @@ export class HeaderComponent {
       });
     }
   } 
+  
   isAdmin() {
-    console.log('Ha entrado', this.loginService.getRole());
     return this.loginService.getRole() === 'admin';
   }
 }

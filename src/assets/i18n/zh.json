@@ -2,12 +2,13 @@
   "GAMEVERSE_TITLE": "GameVerse",
   "HOME": {
     "BUTTON": "首页",
-    "READ_MORE": "阅读更多",
     "TITLE": "发现最佳游戏",
     "DESCRIPTION": "探索我们精选的前100款最受好评的游戏。"
   },
   "GAMES": {
-    "BUTTON": "游戏"
+    "BUTTON": "游戏",
+    "RELEASES": "新发行",
+    "TOP100": "前100佳游戏"
   },
   "NEWS": {
     "BUTTON": "新闻"
@@ -21,10 +22,7 @@
     "BARCHART_TITLE": "2017年至2024年当前世代游戏机年销量",
     "PIECHART_TITLE": "2023年西班牙每周各设备游戏时间分布（小时）"
   },
-  "THE_LATEST": {
-    "BUTTON": "最新内容",
-    "RELEASES": "新发行",
-    "TOP100": "前100佳游戏"
-  },
-  "PREVIOUS": "前一页"
+  "TABLES": {
+    "BUTTON": "表格"
+  }
 }

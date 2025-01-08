@@ -10,19 +10,35 @@ interface Game {
   qualification: number;
   release: string;
   consoles: string[];
+  screenshots: string[];
+  purchaseUrl: string;
+}
+
+interface Quiz {
+  question: string;
+  options: string[];
+  answer: string;
 }
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
 export class GamesService {
+  constructor(private http: HttpClient) {}
 
-  constructor(private http: HttpClient) { }
-
-  getTop100Games(): Observable<Game[]> {
-    return this.http.get<any[]>('assets/jsons/top100.json');
+  getNewReleasesGames(): Observable<Game[]> {
+    return this.http.get<Game[]>('assets/jsons/newReleasesGames.json');
   }
-  getNewReleases(): Observable<Game[]> {
-    return this.http.get<any[]>('assets/jsons/newReleases.json');
+  getUpcomingReleasesGames(): Observable<Game[]> {
+    return this.http.get<Game[]>('assets/jsons/upcomingReleasesGames.json');
+  }
+  getTop100Games(): Observable<Game[]> {
+    return this.http.get<Game[]>('assets/jsons/top100Games.json');
+  }
+  getPsPlusGames(): Observable<Game[]> {
+    return this.http.get<Game[]>('assets/jsons/newPsPlusGames.json');
+  }
+  getQuizGames(): Observable<Quiz[]> {
+    return this.http.get<Quiz[]>('assets/jsons/quizGames.json');
   }
 }

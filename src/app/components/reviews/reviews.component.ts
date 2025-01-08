@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { Chart, ChartEvent, LegendElement, LegendItem } from 'chart.js/auto';
-import * as XLSX from 'xlsx';
 import { FormGroup, FormControl, Validators } from '@angular/forms';
 import { ReviewsService } from 'src/app/services/reviews.service';
 
@@ -11,11 +10,15 @@ import { ReviewsService } from 'src/app/services/reviews.service';
 })
 
 export class ReviewsComponent implements OnInit {
+  
+  constructor(private reviewsService: ReviewsService) { }
+
   //CHARTS
+   private originalBackgroundColors: string[] = [];
   lineChart: any
   barChart: any
   pieChart: any;
-
+  
   private handlehoover(e: ChartEvent, legendItem: LegendItem, legend: LegendElement<'pie'>) {
     const backgroundColor = legend.chart.data.datasets[0].backgroundColor;
 
@@ -42,39 +45,12 @@ export class ReviewsComponent implements OnInit {
     }
   }
 
-  //FILTERS
-  dropdownStates: { [key: string]: boolean } = {};
-  letters: string[] = ['#', ...'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('').filter(letter => letter !== 'Ñ')];
-  priceRanges: string[] = ['0 - 20€', '20 - 50€', '50 - 80€'];
-  platforms = ['Todas', 'PS5', 'PC', 'Xbox', 'Switch'];
-  genres: string [] =  ['Todos', 'Acción', 'Aventura', 'Lucha', 'Supervivencia', 'Deportes', 'Puzles', 'Terror', 'VR'];
-  pegiRatings: string[] = ['Todos', '3', '7', '12', '16', '18'];
-  months: string[] = ['Todos', 'Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'];
-  selectedLetter: string = '';
-  selectedPriceRange: string = '';
-  selectedPlatform: string = 'Todas';
-  selectedGenre: string = 'Todos';
-  selectedPegi: string = 'Todos';
-  selectedMonth: string = 'Todos';
-
-  //TABLE
-  columns: string[] = [];
-  games: any[] = [];
-  filteredGames: any[] = [];
-  currentPage = 1;
-  itemsPerPage = 5;
-  searchTerm: string = '';
-
   //REVIEWS
   reviewForm: FormGroup = new FormGroup({});
   reviews: any[] = [];
-  private originalBackgroundColors: string[] = [];
-
-  constructor(private reviewsService: ReviewsService) { }
 
   ngOnInit() {
     this.initializeCharts();
-    this.initializeTable();
     this.initializeReviews();
   }
 
@@ -171,108 +147,23 @@ export class ReviewsComponent implements OnInit {
     });
   }
 
-  initializeTable() {
-    this.reviewsService.getGamesAndColumns().subscribe(data => {
-      this.columns = data.columns;
-      this.games = data.games;
-      this.filteredGames = this.games;
-    });
-  }
-
   initializeReviews() {
     this.reviewForm = new FormGroup({
       gameTitle: new FormControl('', Validators.required),
       userName: new FormControl('', Validators.required),
       userReview: new FormControl('', Validators.required)
     });
-  }
 
-  //FILTERS FUNCTIONS (TABLE)
-  toggleDropdown(dropdown: string) {
-    this.dropdownStates[dropdown] = !this.dropdownStates[dropdown];
-
-    Object.keys(this.dropdownStates).forEach(key => {
-      if (key !== dropdown) {
-        this.dropdownStates[key] = false;
-      }
+    this.reviewsService.getReviews().subscribe(data => {
+      this.reviews = data.reviews; 
     });
   }
 
-  isDropdownOpen(dropdown: string): boolean {
-    return this.dropdownStates[dropdown];
-  }
-
-  selectLetter(letter: string, event: Event) {
-    event.stopPropagation();
-    this.selectedLetter = letter;
-    this.dropdownStates['letter'] = false;  
-    this.applyFilters();
-  }
-
-  selectPriceRange(priceRange: string, event: Event) {
-    event.stopPropagation();
-    this.selectedPriceRange = priceRange;
-    this.dropdownStates['price'] = false;
-    this.applyFilters();
-  }
-
-  matchesPriceRange(price: number): boolean {
-    if (this.selectedPriceRange === '') return true;
-    const [min, max] = this.selectedPriceRange.split(' - ').map(val => parseFloat(val.replace('€', '')));
-    return price >= min && price <= max;
-  }
-
-  selectPlatform(platform: string, event: Event) {
-    event.stopPropagation();
-    this.selectedPlatform = platform;
-    this.dropdownStates['platform'] = false;
-    this.applyFilters();
-  }
-
-  selectGenre(genre: string, event: Event) {
-    event.stopPropagation();
-    this.selectedGenre = genre;
-    this.dropdownStates['genre'] = false;
-    this.applyFilters();
-  }
-
-  selectPegi(pegi: string, event: Event) {
-    event.stopPropagation();
-    this.selectedPegi = pegi; 
-    this.dropdownStates['pegi'] = false; 
-    this.applyFilters(); 
-  }
-
-  selectMonth(month: string, event: Event) {
-    event.stopPropagation();
-    this.selectedMonth = month;
-    this.dropdownStates['month'] = false;
-    this.applyFilters();
-  }
-
-  applyFilters() {
-  this.filteredGames = this.games.filter(game => {
-    const matchesLetter = this.selectedLetter === '' || (this.selectedLetter === '#' ? /^[0-9]/.test(game.title) : game.title.startsWith(this.selectedLetter));
-    const matchesPrice = this.matchesPriceRange(game.price);
-    const matchesPlatform = this.selectedPlatform === 'Todas' || game.platform.includes(this.selectedPlatform);
-    const matchesGenre = this.selectedGenre === 'Todos' || game.genre.includes(this.selectedGenre);
-    const matchesPegi = this.selectedPegi === 'Todos' || game.pegi.toString() === this.selectedPegi;
-    const matchesMonth = this.selectedMonth === 'Todos' || game.releaseDate === this.selectedMonth;
-
-    return matchesLetter && matchesPrice && matchesPlatform && matchesGenre && matchesPegi && matchesMonth;
-  });
-}
-
-  //CHANGE TABLE PAGE
-  pageChanged(page: number) {
-    this.currentPage = page;
-  }
-
-  exportToExcel(): void {
-    const table = document.getElementById('gamesTable');
-    const ws: XLSX.WorkSheet = XLSX.utils.table_to_sheet(table);
-    const wb: XLSX.WorkBook = XLSX.utils.book_new();
-    XLSX.utils.book_append_sheet(wb, ws, 'Sheet1');
-    XLSX.writeFile(wb, 'SheetJS.xlsx');
+  onSubmit() {
+    if (this.reviewForm.valid) {
+      const newReview = this.reviewForm.value;
+      this.reviews.push(newReview);
+      this.reviewForm.reset();
+    }
   }
 }

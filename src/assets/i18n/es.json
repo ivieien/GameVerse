@@ -2,12 +2,16 @@
   "GAMEVERSE_TITLE": "GameVerse",
   "HOME": {
     "BUTTON": "Inicio",
-    "READ_MORE": "Leer más",
-    "TITLE": "Descubre los Mejores Juegos",
+    "TITLE_NEWS":"Lo Más Relevante",
+    "TITLE_GAMES": "Descubre los Mejores Juegos",
     "DESCRIPTION": "Explora nuestra selección de los TOP 100 juegos mejor valorados."
   },
   "GAMES": {
-    "BUTTON": "Juegos"
+    "BUTTON": "Juegos",
+    "NEW_RELEASES": "Nuevos Lanzamientos",
+    "UPCOMING_RELEASES": "Próximos Lanzamientos",
+    "TOP100": "Top 100 Mejores juegos",
+    "PS_PLUS": "Nuevo en PlayStation Plus"
   },
   "NEWS": {
     "BUTTON": "Noticias"
@@ -21,23 +25,42 @@
     "BARCHART_TITLE": "Ventas Anuales de Consolas de Actual Generación (2017 - 2024)",
     "PIECHART_TITLE": "Tiempo semanal dedicado a jugar videojuegos en España en 2023, por dispositivo (en horas)"
   },
-  "THE_LATEST": {
-    "BUTTON": "Lo ultimo",
-    "RELEASES": "Nuevos Lanzamientos",
-    "TOP100": "Top 100 Mejores juegos"
+  "TABLES": {
+    "BUTTON": "Tablas"
   },
   "LOGIN": {
     "TITLE": "Iniciar Sesión",
-    "EMAIL": "Email",
-    "EMAIL_REQUIRED": "El correo electrónico es requerido.",
-    "EMAIL_ERROR": "El correo electrónico no es válido.",
+    "ERROR_MESSAGE": "<strong>Error:</strong> Correo electrónico o contraseña incorrectos. Por favor, inténtalo de nuevo.",
+    "EMAIL": "Correo electrónico",
     "PASSWORD": "Contraseña",
-    "PASSWORD_REQUIRED": "La contraseña es requerida.",
-    "PASSWORD_ERROR": "La contraseña debe tener al menos 6 caracteres.",
     "REMEMBER_ME": "Recuérdame",
     "LOGIN": "Entrar",
-    "SIGN_IN":"Registrarse",
+    "SIGN_UP": "Registrate gratis",
     "FORGOTTEN_PASSWORD": "¿Has olvidado tu contraseña?"
   },
-  "PREVIOUS": "Anterior"
+  "REGISTER": {
+    "TITLE": "Regístrate en GameVerse",
+    "EMAIL": "Correo electrónico",
+    "PASSWORD": "Contraseña",
+    "REPEAT_PASSWORD": "Repetir contraseña",
+    "USERNAME": "Nombre de usuario (solo letras y números)",
+    "REGISTER": "Registrarse",
+    "SUCCESS_MESSAGE": "Gracias por registrarte en GameVerse.",
+    "ERROR_MESSAGE": "<strong>Error:</strong> Revisa que los datos estén en el formato correcto y que todos los campos estén completos.",
+    "PRE_TERMS": "Al unirte a GameVerse, aceptas los ",
+    "TERMS": "Términos de Uso",
+    "PRE_PRIVACY": "y la",
+    "PRIVACY": "Política de Privacidad",
+    "AFTER_PRIVACY": "de GameVerse.",
+    "ACCOUNT_PROMPT": "¿Ya tienes cuenta?",
+    "LOGIN": "Entra en GameVerse"
+  },
+  "RECOVERY": {
+    "TITLE": "Recuperar Contraseña",
+    "ERROR_MESSAGE": "<strong>Error:</strong> Este correo electrónico no corresponde a ninguna cuenta registrada en GameVerse.",
+    "SUCCESS_MESSAGE": "Comprueba tu correo y haz click en el enlace que te hemos enviado para elegir tu nueva contraseña. Si no encuentras nuestro mensaje, comprueba también en <em>spam</em>, por favor.",
+    "EMAIL": "Correo electrónico",
+    "RECOVERY_PASSWORD": "Recuperar Contraseña",
+    "CANCEL": "Cancelar"
+  }
 }

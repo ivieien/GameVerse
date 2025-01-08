@@ -1,0 +1,54 @@
+<div class="tableContainer" [ngClass]="getTableClass(year)" *ngFor="let year of years">
+  <h2 class="tableTitle">Juegos Destacados en {{ year }}</h2>
+  
+  <div class="filtersContainer">
+    <div *ngFor="let filter of filters" class="dropdown" (click)="toggleDropdown(filter.key, year)"
+      [ngClass]="{'selected': isDropdownOpen(filter.key, year)}">
+      <div class="dropdownHeader">
+        {{ selectedFilter[year][filter.key] === '' || selectedFilter[year][filter.key] === 'Todos' || selectedFilter[year][filter.key] === 'Todas' ? filter.label : selectedFilter[year][filter.key] }}
+      </div>
+      <div class="dropdownContent" [ngClass]="getDropdownClasses(filter, year)">
+        <ul class="ulItem">
+          <li class="liItem" *ngFor="let option of filter.options" (click)="selectFilter(filter.key, option, $event, year)">
+            <a [ngClass]="{'selected': selectedFilter[year][filter.key] === option}">{{ option }}</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <table [id]="'gamesTable' + year">
+    <thead>
+      <tr>
+        <th *ngFor="let column of visibleColumns[year]">{{ column }}</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let game of getFilteredGames(year)">
+        <td *ngIf="isColumnVisible('Título', year)">{{ game.title }}</td>
+        <td *ngIf="isColumnVisible('Precio', year)">{{ game.price }}</td>
+        <td *ngIf="isColumnVisible('Plataforma', year)">{{ game.platform }}</td>
+        <td *ngIf="isColumnVisible('Género', year)">{{ game.genre }}</td>
+        <td *ngIf="isColumnVisible('PEGI', year)">{{ game.pegi }}</td>
+        <td *ngIf="isColumnVisible('Mes de salida', year)">{{ game.releaseDate }}</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="tableFooter">
+    <div class="columnSelection">
+      <label *ngFor="let column of allColumns[year]" class="columnCheckbox">
+        <input type="checkbox" [checked]="isColumnVisible(column, year)" (change)="toggleColumn(column, year)" />
+        {{ column }}
+      </label>
+    </div>
+
+    <div class="paginationControls">
+      <button (click)="changePage(year, currentPage[year] - 1)" [disabled]="currentPage[year] === 1">Anterior</button>
+      <span>Página {{ currentPage[year] }} de {{ totalPages[year] }}</span>
+      <button (click)="changePage(year, currentPage[year] + 1)" [disabled]="currentPage[year] === totalPages[year]">Siguiente</button>
+    </div>
+  </div>
+
+  <button class="excel" (click)="exportToExcel('gamesTable' + year)">Exportar a Excel</button>
+</div>

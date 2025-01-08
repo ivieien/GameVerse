@@ -1,0 +1,53 @@
+[
+    {
+      "question": "¿Cuál de estos juegos es considerado uno de los primeros en popularizar la mecánica de mundo abierto con una narrativa dinámica?",
+      "options": ["The Elder Scrolls III: Morrowind", "GTA III", "Red Dead Redemption", "The Witcher 3"],
+      "answer": "The Elder Scrolls III: Morrowind"
+    },
+    {
+      "question": "¿En qué año se lanzó la primera consola PlayStation?",
+      "options": ["1992", "1994", "1995", "1998"],
+      "answer": "1994"
+    },
+    {
+      "question": "¿Qué juego de la Wii se convirtió en uno de los más vendidos de todos los tiempos, con más de 40 millones de copias vendidas?",
+      "options": ["Super Mario Galaxy", "The Legend of Zelda: Twilight Princess", "Wii Sports", "Mario Kart Wii"],
+      "answer": "Wii Sports"
+    },
+    {
+      "question": "En el primer God of War (2005), ¿qué es lo que Kratos debe obtener de Ares para vengarse de él?",
+      "options": ["La Caja de Pandora", "El Cinturón de Hades", "La Espada del Olimpo", "El Escudo de Kratos"],
+      "answer": "La Caja de Pandora"
+    },
+    {
+      "question": "¿Qué estudio desarrolló el juego \"Overwatch\"?",
+      "options": ["Bungie", "Valve", "Blizzard Entertainment", "Epic Games"],
+      "answer": "Blizzard Entertainment"
+    },
+    {
+      "question": "¿Cuál es el nombre del protagonista de The Last of Us?",
+      "options": ["Ellie", "Joel", "Nathan Drake", "Kratos"],
+      "answer": "Joel"
+    },
+    {
+      "question": "¿En qué año se lanzó el primer Minecraft?",
+      "options": ["2008", "2010", "2011", "2012"],
+      "answer": "2011"
+    },
+    {
+      "question": "¿En qué consola se lanzó por primera vez el juego Super Mario 64?",
+      "options": ["Nintendo 64", "Nintendo DS", "Wii", "GameCube"],
+      "answer": "Nintendo 64"
+    },
+    {
+      "question": "¿En qué juego de la saga The Legend of Zelda se introduce por primera vez la mecánica de viajes en el tiempo?",
+      "options": ["Ocarina of Time", "A Link to the Past", "Majora's Mask", "Breath of the Wild"],
+      "answer": "Ocarina of Time"
+    },
+    {
+      "question": "¿Cuál de estas consolas de videojuegos es la más vendida de todos los tiempos?",
+      "options": ["PlayStation 4", "Nintendo DS", "Xbox 360", "PlayStation 2"],
+      "answer":  "PlayStation 2"
+    }
+  ]
+  

@@ -2,12 +2,13 @@
   "GAMEVERSE_TITLE": "GameVerse",
   "HOME": {
     "BUTTON": "Startseite",
-    "READ_MORE": "Weiterlesen",
     "TITLE": "Entdecken Sie die besten Spiele",
     "DESCRIPTION": "Erkunden Sie unsere Auswahl der 100 bestbewerteten Spiele."
   },
   "GAMES": {
-    "BUTTON": "Spiele"
+    "BUTTON": "Spiele",
+    "RELEASES": "Neue Veröffentlichungen",
+    "TOP100": "Top 100 Beste Spiele"
   },
   "NEWS": {
     "BUTTON": "Nachrichten"
@@ -21,10 +22,7 @@
     "BARCHART_TITLE": "Jährliche Verkäufe der aktuellen Konsolengeneration (2017 - 2024)",
     "PIECHART_TITLE": "Wöchentliche Spielzeit für Videospiele in Spanien im Jahr 2023, nach Gerät (in Stunden)"
   },
-  "THE_LATEST": {
-    "BUTTON": "Die neuesten",
-    "RELEASES": "Neue Veröffentlichungen",
-    "TOP100": "Top 100 Beste Spiele"
-  },
-  "PREVIOUS": "Vorherige"
+  "TABLES": {
+    "BUTTON": "Tabellen"
+  }
 }
